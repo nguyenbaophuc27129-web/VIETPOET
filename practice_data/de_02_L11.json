@@ -1,0 +1,75 @@
+{
+  "test_id": "de_02_L11_viet_thuong_khong_dau",
+  "test_title": "Đề số 2 Lớp 11",
+  "reading_section": {
+    "passage": "KHÓI BẾP CHIỀU BA MƯƠI (Nguyễn Trọng Hoàn) Con đi xa vẫn nhớ nao lòng / Khói bếp nồng thơm mái rạ / Chiều ba mươi quây quần bên bếp / Nồi bánh chưng nghi ngút trước giao thừa / Ba mươi này mẹ gói bánh chưng chưa / Mâm cỗ tất niên hương toả ấm / Ba mươi này mẹ vào ra trông ngóng / Khói bếp xanh quấn quyện trước hiên nhà / Ba mươi này mẹ biết đứa con xa / Lòng canh cánh nhớ quê biết mấy / Khói bếp của chiều xưa thức dậy / Thuở ấu thơ vĩnh viễn đã qua rồi / Khói bếp chiều thơ phất ba mươi / Cứ ám ảnh và thiêng liêng gợi nhớ / Vòng tay mẹ ...và chúng con bé nhỏ / Mà tháng năm vời vợi khôn nguôi / Quê hương và dáng mẹ* / Khói bếp, chiều ba mươi.. (Theo Tạp chí Văn học tuổi trẻ, số 12, năm 2019, trang 35)",
+    "questions": [
+      {
+        "question_id": "I.1",
+        "question_text": "Xác định thể thơ.",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: Tự do"],
+        "barem_keywords": ["tự do"]
+      },
+      {
+        "question_id": "I.2",
+        "question_text": "Tìm những từ ngữ miêu tả tâm trạng của nhân vật trữ tình trong bài thơ.",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: nhớ, canh cánh, ám ảnh, thiêng liêng, khôn nguôi"],
+        "barem_keywords": ["nhớ", "canh cánh", "ám ảnh", "thiêng liêng", "khôn nguôi"]
+      },
+      {
+        "question_id": "I.3",
+        "question_text": "Phân tích tác dụng của biện pháp lặp cấu trúc trong khổ 2 của bài thơ.",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Biện pháp lặp cấu trúc: \"Ba mươi này...\"",
+          "Tác dụng: Nhấn mạnh nostalgia, nỗi nhớ nhà, nhớ mẹ của người con xa quê trong dịp Tết",
+          "Tạo nhịp điệu, âm hưởng cho bài thơ"
+        ],
+        "barem_keywords": ["ba mươi này", "lặp cấu trúc", "nhấn mạnh", "nỗi nhớ", "tết"]
+      },
+      {
+        "question_id": "I.4",
+        "question_text": "Nêu ý nghĩa của hình ảnh \"Khói bếp chiều ba mươi\".",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Khói bếp là biểu tượng của sự ấm áp, đoàn viên gia đình trong dịp Tết",
+          "Khói bếp gợi nhớ về tuổi thơ, về hình ảnh người mẹ",
+          "Khói bếp là sợi dây liên kết giữa người con xa quê với quê hương, gia đình"
+        ],
+        "barem_keywords": ["khói bếp", "biểu tượng", "ấm áp", "đoàn viên", "tết", "tuổi thơ", "người mẹ", "sợi dây liên kết"]
+      },
+      {
+        "question_id": "I.5",
+        "question_text": "Qua văn bản, em hãy rút ra một thông điệp ý nghĩa nhất với bản thân và lý giải. (Trình bày khoảng 5 đến 7 dòng).",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Thông điệp: Tình yêu gia đình, lòng hiếu thảo, giá trị của sự đoàn viên",
+          "Lí giải phù hợp với đạo đức và truyền thống gia đình Việt Nam"
+        ],
+        "barem_keywords": ["tình yêu gia đình", "hiếu thảo", "đoàn viên", "truyền thống"]
+      }
+    ]
+  },
+  "writing_section": {
+    "questions": [
+      {
+        "question_id": "II.1",
+        "question_type": "Nghị luận văn học",
+        "question_text": "Viết bài văn nghị luận cảm nhận về cảm xúc của nhân vật trữ tình trong bài thơ \"Khói bếp chiều ba mươi\" của Nguyễn Trọng Hoàn. Chú thích: Nhà thơ Nguyễn Trọng Hoàn (1963 - 2020) quê ở Hưng Yên, là tiến sĩ Ngữ văn, từng là giảng viên khoa Ngữ văn Trường ĐH Sư phạm Hà Nội 2, rồi công tác tại báo \"Giáo dục Thời đại\", sau đó giữ chức Phó Vụ trưởng Vụ Trung học phổ thông, Bộ Giáo dục và Đào tạo. Ông là hội viên Hội Nhà văn Việt Nam, uỷ viên Hội đồng thơ của Hội Nhà văn Hà Nội. Sáng tác của ông thường viết về tình yêu quê hương, đất nước và biển đảo với giọng điệu duy mỹ, trong sáng, giàu cảm xúc nội tâm và ưu tư.",
+        "max_score": 6.0,
+        "detailed_rubric": [
+          "Đảm bảo cấu trúc bài nghị luận văn học: Mở bài nêu được vấn đề, thân bài triển khai được vấn đề, kết bài khái quát được vấn đề",
+          "Xác định đúng vấn đề cần nghị luận: Cảm xúc của nhân vật trữ tình trong bài thơ Khói bếp chiều ba mươi",
+          "Phân tích được cảm xúc nhớ nhà, nhớ mẹ của người con xa quê",
+          "Phân tích được hình ảnh khối bếp, chiều ba mươi như biểu tượng của sự ấm áp, đoàn viên",
+          "Đánh giá được giá trị nhân văn của bài thơ: ca ngợi tình mẹ, tình quê",
+          "Chính tả, ngữ pháp: Đảm bảo chuẩn chính tả, ngữ pháp Tiếng Việt",
+          "Sáng tạo: Thể hiện suy nghĩ sâu sắc, có cách diễn đạt mới mẻ"
+        ],
+        "barem_keywords": ["khói bếp chiều ba mươi", "nguyễn trọng hoàn", "cảm xúc", "nhớ nhà nhớ mẹ", "người con xa quê", "biểu tượng", "tết", "đoàn viên", "tình mẹ", "tình quê", "giá trị nhân văn", "duy mỹ"]
+      }
+    ]
+  }
+}

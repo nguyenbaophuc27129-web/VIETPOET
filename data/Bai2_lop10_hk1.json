@@ -1,0 +1,364 @@
+{
+  "document_id": "thu_hung_cam_xuc_mua_thu_do_phu",
+  "general_knowledge": {
+    "author_and_work": "TÁC GIẢ: Đỗ Phủ (712 – 770), tên chữ là Tử Mỹ, người tỉnh Hà Nam, Trung Quốc. Những biến cố chính trị dội dào thời đại, cảnh li tán, khốn khó của gia đình, tình trạng bệnh tật liên miên đã tác động mạnh đến nhận thức và cảm hứng của Đỗ Phủ, khiến âm điệu thơ ông có phần bi thương. Thơ Đỗ Phủ nổi lên ba chủ đề lớn: nhiệt huyết yêu nước, phản kháng cường quyền, cảm thông với số phận dân đen. Ông sáng tác ở nhiều thể thơ, cả cổ thể và cận thể. Đỗ Phủ được người đời sau tôn làm Thi thánh (Thánh thơ). Thơ ông hiện còn trên 1.000 bài.\n\nHOÀN CẢNH SÁNG TÁC: Năm 763, loạn An – Sử tới hồi kết thúc nhưng tình hình xã hội vẫn chưa yên. Mùa thu năm 766, Đỗ Phủ vẫn đang sống những tháng ngày phiêu bạt, đau ốm, khốn khó tại Quỳ Châu (nay thuộc tỉnh Tứ Xuyên, Trung Quốc) nên cảm hứng thế và viết một chùm tám bài thơ thất ngôn bát cú nổi tiếng có nhan đề chung là Thu hứng. Văn bản được học là bài đầu tiên của chùm thơ này.\n\nTHỂ LOẠI: Thơ Đường luật - Thất ngôn bát cú Đường luật. Về bố cục, một bài thơ thất ngôn bát cú Đường luật gồm bốn cặp câu thơ (liên thơ), tương ứng với bốn phần: đề – thực – luận – kết. Bài thơ chia làm một vần (thường là vần bằng) ở các câu 1 – 2 – 4 – 6 – 8. Về luật bằng trắc, thơ Đường luật có quy định về sự hòa thanh trong từng câu và trong cả bài để đảm bảo sự cân bằng, hài hòa cho âm hưởng của toàn bộ bài thơ. Về đối, thơ Đường luật bắt buộc yêu cầu đối ở câu thực và câu luận."
+  },
+  "detailed_analysis": [
+    {
+      "section_name": "1. Hai câu đề: Bức tranh mùa thu xơ xác, tiêu điều, lạnh lẽo",
+      "original_text": [
+        "Ngô: Lỗ diên thương phong phong lạc lâm,",
+        "Vu sơn, Vu giáp khí tiêu sâm.",
+        "Dịch nghĩa:",
+        "Sương móc trắng xóa làm tiêu điều cả rừng cây phong,",
+        "Núi Vu, khe Vu hắt hiu hơi thu lạnh.",
+        "Dịch thơ (Bản dịch 1 - Ngụy Công Trứ):",
+        "Lác đác rừng phong hạt móc sa,",
+        "Ngàn non hiu hắt, khí thu lòa."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Ngọc lộ (Lỗ diên thương)",
+          "art_type": "Điển tích, điển cố - Hình ảnh ước lệ",
+          "effect": "Hạt sương móc trắng xóa, dầy đặc làm tiêu điều, hoang vu cả một rừng phong - hình ảnh cổ điển dùng để miêu tả mùa thu ở Trung Quốc"
+        },
+        {
+          "target_words": "Phong thụ lâm (phong phong lạc lâm)",
+          "art_type": "Hình ảnh ước lệ cổ điển",
+          "effect": "Hình ảnh được dùng để miêu tả mùa thu - rừng phong hoang vu, tiêu điều"
+        },
+        {
+          "target_words": "Vu sơn, Vu giáp",
+          "art_type": "Điển tích - Tên địa danh",
+          "effect": "Tên những địa danh nổi tiếng ở vùng Quỳ Châu, Trung Quốc, vào mùa thu, khí trời âm u, mù mịt"
+        },
+        {
+          "target_words": "Khí tiêu sâm",
+          "art_type": "Từ láy gợi hình, gợi cảm",
+          "effect": "Hơi thu hiu hắt, ảm đạm, lạnh lẽo"
+        },
+        {
+          "target_words": "Lác đác, hiu hắt",
+          "art_type": "Từ láy gợi hình, biểu cảm",
+          "effect": "Nhấn mạnh vẻ đẹp hoang vu, mênh mông rợn ngợp - nhuốm màu đau thương, lạnh lẽo, xơ xác đến tàn tạ"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "a) Hai câu đề:",
+          "details": [
+            "Hình ảnh thơ cổ điển, là những hình ảnh được dùng để miêu tả mùa thu ở Trung Quốc: ngọc lộ, phong thụ lâm",
+            "Ngọc lộ: Miêu tả hạt sương móc trắng xóa, dầy đặc làm tiêu điều, hoang vu cả một rừng phong",
+            "Phong thụ lâm: hình ảnh được dùng để miêu tả mùa thu",
+            "Vu sơn, Vu giáp: tên những địa danh nổi tiếng ở vùng Quỳ Châu, Trung Quốc, vào mùa thu, khí trời âm u, mù mịt",
+            "Khí tiêu sâm: hơi thu hiu hắt, ảm đạm"
+          ],
+          "conclusion": "⇒ Bức tranh thu ở vùng rừng núi lạnh lẽo, xơ xác, tiêu điều, hiu hắt."
+        }
+      ],
+      "section_full_essay": [
+        "Mở đầu bài thơ là khung cảnh rừng phong hoang vu, lạnh lẽo, thậm chí điêu tàn và xơ xác. Ngàn núi đều nhuốm màu đau thương, lạnh lẽo, xơ xác đến tàn tạ, những từ láy gợi hình, biểu cảm như hiu hắt, lác đác một lần nữa nhấn mạnh vẻ đẹp hoang vu, mênh mông rợn ngợp nơi đây.",
+        "Đỗ Phủ đã sử dụng thành công những thi liệu cổ điển, hình ảnh ước lệ, nhắc tới mùa thu là nhớ tới rừng phong, hạt móc sương sa. Cả rừng phong và sương đều là những dấu hiệu báo mùa thu ở Trung Quốc. Trước đây, trong Truyện Kiều, Nguyễn Du cũng đã sử dụng thi liệu cổ ấy như một biểu tượng cho mùa thu, cho sự xa cách, cô đơn và hoang vu:",
+        "Rừng phong thu đã nhuốm màu quan san",
+        "Sương trắng cũng tượng trưng cho mùa thu, cho sự lạnh lẽo. Sương móc sa dày đặc làm xơ xác cả rừng phong. Nét tiêu điều của cảnh vật hiện lên rất rõ qua cái nhìn đầy tâm trạng của nhà thơ, ảm đạm, lạnh lẽo."
+      ],
+      "barem_keywords": [
+        "Bức tranh mùa thu xơ xác tiêu điều lạnh lẽo",
+        "Hình ảnh ước lệ ngọc lộ phong thụ lâm",
+        "Từ láy hiu hắt lác đác",
+        "Khí tiêu sâm hơi thu hiu hắt",
+        "Tả cảnh ngụ tình tâm trạng bi thương",
+        "Điển tích điển cố cổ điển",
+        "Vu sơn Vu giáp địa danh Quỳ Châu",
+        "Màu sắc đau thương ảm đạm lạnh lẽo",
+        "Không gian hoang vu rợn ngợp"
+      ]
+    },
+    {
+      "section_name": "2. Hai câu thực: Không gian hoành tráng, dữ dội",
+      "original_text": [
+        "Giang gian ba lãng kiêm thiên dũng,",
+        "Tái thượng phong vân tiếp địa âm.",
+        "Dịch nghĩa:",
+        "Giữa lòng sông, sóng tung vọt trùm bầu trời,",
+        "Từ trên cửa ải, gió mây sa xuống kín mặt đất âm u.",
+        "Dịch thơ (Bản dịch 1 - Ngụy Công Trứ):",
+        "Lưng trời sóng rợn lòng sông thẳm,",
+        "Mặt đất mây đùn cửa ải xa."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Sóng – vọt lên tận trời (ba lãng kiêm thiên dũng)",
+          "art_type": "Phóng đại - Đối lập",
+          "effect": "Sóng vọt lên lưng trời - chiều cao, chiều sâu thẳm, mở rộng không gian nhiều chiều"
+        },
+        {
+          "target_words": "Mây – sa sầm xuống mặt đất (phong vân tiếp địa âm)",
+          "art_type": "Phóng đại - Đối lập",
+          "effect": "Mây sa sầm xuống mặt đất, từ cao xuống thấp, chiều xa cửa ải, tạo cảm giác ngột ngạt bức bách"
+        },
+        {
+          "target_words": "Lưng trời sóng gợn, Mặt đất mây đùn",
+          "art_type": "Đối lập chiều cao/thấp - Phóng đại",
+          "effect": "Không gian mênh mông hoang vu được tô đậm, tạo cảm giác ngột ngạt khó thở bức bách"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "b) Hai câu thực",
+          "details": [
+            "Hướng nhìn của bức tranh của nhà thơ di chuyển từ vùng rừng núi xuống lòng sông và bao quát theo chiều rộng",
+            "Hình ảnh đối lập, phóng đại: sóng – vọt lên tận trời (thấp – cao), mây – sa sầm xuống mặt đất (cao – thấp), qua đó không gian được mở rộng ra nhiều chiều",
+            "Chiều cao: sóng vọt lên lưng trời, mây sa sầm xuống mặt đất",
+            "Chiều sâu: sâu thẳm",
+            "Chiều xa: cửa ải"
+          ],
+          "conclusion": "⇒ Không gian hoành tráng, mĩ lệ. Bốn câu thơ vẽ nên bức tranh mùa thu xơ xác, tiêu điều, hoành tráng, dữ dội. Tâm trạng buồn lo và sự bất an của nhà thơ trước hiện thực tiêu điều, âm u."
+        }
+      ],
+      "section_full_essay": [
+        "Bức tranh mùa thu tiếp tục được khắc họa với những nét đặc tả đầy ấn tượng:",
+        "Lưng trời sóng gợn lòng sông thẳm",
+        "Mặt đất mây đùn cửa ải xa",
+        "Không gian mênh mông, hoang vu lại được tô đậm bởi hình ảnh sóng gợn lưng trời. Cái cao rộng và sâu hun hút của lòng sông và bầu trời kết hợp tạo cho người đọc cảm giác ngột ngạt, khó thở đến bức bách. Mây đùn cửa ải xa là một cách diễn đạt tinh tế của nhà thơ khi những đám mây đang xâm lấn và bao trùm vạn vật, càng gia tăng sự trống trải, cô đơn.",
+        "Nếu ở hai câu trên, cảnh sắc nhuốm màu bi thương tàn tạ thì ở đây, cảnh sắc lại có phần vừa hoành tráng vừa dữ dội. Hai cặp câu như bổ xung cho nhau, lột tả được hai nét đặc sắc của phong cảnh vùng Vu sơn, Vu giáp âm u hùng vĩ."
+      ],
+      "barem_keywords": [
+        "Không gian hoành tráng dữ dội",
+        "Hình ảnh đối lập sóng mây",
+        "Phóng đại sóng vọt trời mây sa đất",
+        "Chiều cao chiều sâu chiều xa",
+        "Người đọc cảm giác ngột ngạt bức bách",
+        "Mây đùn xâm lấn bao trùm",
+        "Sóng gợn lưng trời mặt đất mây đùn",
+        "Cửa ải xa lòng sông thẳm",
+        "Hoành tráng mĩ lệ hùng vĩ",
+        "Hai cặp câu bổ xung lột tả"
+      ]
+    },
+    {
+      "section_name": "3. Hai câu luận: Nỗi nhớ quê hương da diết, dồn nén",
+      "original_text": [
+        "Tùng cúc lưỡng khai tha nhật lệ,",
+        "Cô chu nhất hệ cố viên tâm.",
+        "Dịch nghĩa:",
+        "Khóm cúc nở hoa đã hai lần tuôn rơi nước mắt ngày trước,",
+        "Con thuyền lẻ loi thắt chặt mãi tấm lòng nhớ về vườn cũ.",
+        "Dịch thơ (Bản dịch 1 - Ngụy Công Trứ):",
+        "Khóm cúc tuôn thêm dòng lệ cũ,",
+        "Con thuyền buộc chặt mối tình nhà."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Hoa cúc (Tùng cúc)",
+          "art_type": "Ẩn dụ - Tượng trưng - Hình ảnh ước lệ",
+          "effect": "Hình ảnh ước lệ chỉ mùa thu, gợi sự buồn bã, cô đơn và xa xăm"
+        },
+        {
+          "target_words": "Khóm cúc đã hai lần nở hoa (lưỡng khai)",
+          "art_type": "Ẩn dụ - Từ ngữ hàm súc",
+          "effect": "Có hai cách hiểu: khóm cúc nở ra làm rơi giọt nước mắt, hoặc khóm cúc nở ra giọt nước mắt - Dù hiểu theo cách nào thì cũng giúp thấy được tâm sự buồn của tác giả"
+        },
+        {
+          "target_words": "Lưỡng khai",
+          "art_type": "Từ ngữ hàm súc, cô đọng",
+          "effect": "Nỗi buồn lưu cữu trải dài từ quá khứ đến hiện tại - hai lần nở, hai lần rơi lệ"
+        },
+        {
+          "target_words": "Cô chu (con thuyền lẻ loi)",
+          "art_type": "Ẩn dụ - Tượng trưng",
+          "effect": "Phương tiện đưa tác giả trở về cố viên, đồng thời gợi thân phận lẻ loi, cô đơn, trôi nổi của tác giả"
+        },
+        {
+          "target_words": "Nhất hệ (dây buộc thuyền)",
+          "art_type": "Ẩn dụ - Tượng trưng",
+          "effect": "Dây buộc thuyền cũng là sợi dây buộc mối tình nhà của tác giả - thắt chặt mối tình nhà"
+        },
+        {
+          "target_words": "Cố viên tâm (tấm lòng hướng về quê cũ)",
+          "art_type": "Từ ngữ hàm súc, biểu cảm",
+          "effect": "Tấm lòng hướng về quê cũ - Thân phận của kẻ tha hương, li hương luôn khiến lòng nhà thơ thắt lại vì nỗi nhớ quê"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "a) Hai câu luận",
+          "details": [
+            "Hình ảnh ẩn dụ, tượng trưng:",
+            "Hoa cúc: hình ảnh ước lệ chỉ mùa thu",
+            "Khóm cúc đã hai lần nở hoa: Có hai cách hiểu khóm cúc nở ra làm rơi giọt nước mắt, khóm cúc nở ra giọt nước mắt",
+            "Dù hiểu theo cách nào thì cũng giúp chúng ta thấy được tâm sự buồn của tác giả",
+            "Cô phàm: là phương tiện đưa tác giả trở về cố viên, đồng thời gợi thân phận lẻ loi, cô đơn, trôi nổi của tác giả",
+            "Cách sử dụng từ ngữ độc đáo, hàm súc, cô đọng:",
+            "Lưỡng khai: Nỗi buồn lưu cữu trải dài từ quá khứ đến hiện tại",
+            "Nhất hệ: Dây buộc thuyền cũng là sợi dây buộc mối tình nhà của tác giả",
+            "Cố viên tâm: Tấm lòng hướng về quê cũ. Thân phận của kẻ tha hương, li hương luôn khiến lòng nhà thơ thắt lại vì nỗi nhớ quê",
+            "Tác giả đã đồng nhất giữ tình và cảnh trong hai câu thơ"
+          ],
+          "conclusion": "⇒ Hai câu thơ diễn tả nỗi lòng da diết, dồn nén nỗi nhớ quê hương của tác giả."
+        }
+      ],
+      "section_full_essay": [
+        "Đến những câu thơ tiếp theo, nỗi lòng của nhà thơ càng được bộc lộ rõ nét:",
+        "Khóm cúc tuôn thêm dòng lệ cũ",
+        "Con thuyền buộc chặt mối tình quê",
+        "Hình ảnh khóm cúc tuôn dòng lệ hay chính là đôi mắt buồn bã cô đơn và xa xăm của nhà thơ đang rơi những giọt lệ. Những giọt lệ của nỗi nhớ nhà, nhớ quê hương, xứ sở giống như những cánh hoa cúc nhỏ thầm lặng.",
+        "Hình ảnh con thuyền cũng là một biểu tượng quen thuộc trong thi ca cổ. Con thuyền ấy chính là phương tiện chuyên chở cho cái khát vọng được quay trở về quê hương, xứ sở, được đoàn viên hạnh phúc đang chơi vơi trong không gian mênh mông, rợn ngợp của sông nước nơi đây.",
+        "Nhưng con thuyền ấy cũng chỉ là cô chu, con thuyền cô đơn, lẻ loi đơn chiếc một mình trôi dạt, vô định nơi phương trời mà thôi. Câu thơ giống như dòng lệ xót của Đỗ Phủ đang tuôn chảy trên từng từ, từng chữ."
+      ],
+      "barem_keywords": [
+        "Nỗi nhớ quê hương da diết dồn nén",
+        "Hình ảnh ẩn dụ hoa cúc mùa thu",
+        "Lưỡng khai nỗi buồn lưu cữu",
+        "Cô chu con thuyền lẻ loi cô đơn",
+        "Nhất hệ dây buộc mối tình nhà",
+        "Cố viên tâm tấm lòng nhớ quê",
+        "Đồng nhất tình cảnh tả cảnh ngụ tình",
+        "Dòng lệ cũ khóm cúc tuôn",
+        "Thuyền buộc chặt mối tình nhà",
+        "Nỗi lòng da diết dồn nén"
+      ]
+    },
+    {
+      "section_name": "4. Hai câu kết: Âm thanh báo hiệu mùa đông, nỗi lòng thổn thức mong ngóng",
+      "original_text": [
+        "Hàn y xứ xứ thôi đao xích,",
+        "Bạch Đế thành cao cấp mộ châm.",
+        "Dịch nghĩa:",
+        "Chỗ nào cũng rộn ràng dao thước để may áo rét,",
+        "Về chiều, từ trên thành Bạch Đế cao, tiếng chày nện vải nghe càng dồn dập.",
+        "Dịch thơ (Bản dịch 1 - Ngụy Công Trứ):",
+        "Lạnh lùng giục kẻ tay dao thước,",
+        "Thành Bạch, chày vang bóng ác tà."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Hàn y (áo rét)",
+          "art_type": "Hình ảnh ước lệ - Tượng trưng",
+          "effect": "Áo rét tượng trưng cho mùa đông sắp đến, sự chuẩn bị cho cái lạnh lẽo"
+        },
+        {
+          "target_words": "Dao thước (dao kéo)",
+          "art_type": "Hình ảnh cụ thể",
+          "effect": "Mọi người nhộn nhịp may áo rét - giặt áo rét chuẩn bị cho mùa đông"
+        },
+        {
+          "target_words": "Xứ xứ (chỗ nào cũng)",
+          "art_type": "Lặp từ - Nhấn mạnh",
+          "effect": "Nhấn mạnh sự nhộn nhịp, rộn ràng ở mọi nơi"
+        },
+        {
+          "target_words": "Mộ châm (tiếng chày nện vải về chiều)",
+          "art_type": "Hình ảnh - Âm thanh",
+          "effect": "Âm thanh báo hiệu mùa đông đến, đồng thời đó là âm thanh của tiếng lòng, diễn tả sự thổn thức, mong ngóng, chờ đợi ngày được trở về quê"
+        },
+        {
+          "target_words": "Bạch Đế thành cao (thành Bạch Đế cao)",
+          "art_type": "Điển tích - Địa danh",
+          "effect": "Thành cao quắt lạnh lẽo, bao trùm màn đêm - gợi không gian cô đơn, thê lương"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "b) Hai câu kết",
+          "details": [
+            "Hình ảnh:",
+            "Mọi người nhộn nhịp may áo rét",
+            "Giặt áo rét chuẩn bị cho mùa đông",
+            "Âm thanh: tiếng chày đập vải"
+          ],
+          "conclusion": "⇒ Âm thanh báo hiệu mùa đông đến, đồng thời đó là âm thanh của tiếng lòng, diễn tả sự thổn thức, mong ngóng, chờ đợi ngày được trở về quê. Bốn câu thơ diễn tả nỗi buồn của người xa quê, ngậm ngùi, mong ngóng ngày trở về quê hương."
+        }
+      ],
+      "section_full_essay": [
+        "Và đến câu thơ cuối, có sự xuất hiện của hình ảnh con người, của âm thanh xôn xao. Nhưng liệu đó có phải là âm thanh tươi vui của sự sống không, hay đó chỉ là một cách để Đỗ Phủ bày tỏ sự buồn bã, thê lương của khung cảnh nơi đây.",
+        "Lạnh lùng giục kẻ tay dao thước",
+        "Thành bạch chày vang bóng ác tà.",
+        "Khí thu lạnh lẽo như nhắc nhở mọi người rằng mùa đông sắp đến, phải chuẩn bị nhanh hơn cho việc may áo ấm. Lúc này, Loạn An Lộc Sơn đã dẹp xong nhưng đất nước chưa yên, chồng con của bao người còn trấn giữ nơi ải xa, nỗi lo còn đó.",
+        "Trời tối rồi (mộ), không nhìn thấy gì nữa, nhà thơ chỉ nghe thấy tiếng chày đập vải và chạnh lòng nghĩ tới những người lính thú nơi quan ải. Âm thanh của mùa thu may áo vừa kết thúc bài thơ, vừa mở ra nỗi buồn nhớ mênh mang."
+      ],
+      "barem_keywords": [
+        "Âm thanh báo hiệu mùa đông",
+        "Hình ảnh con người xôn xao",
+        "Tiếng chày đập vải mộ châm",
+        "Sự thổn thức mong ngóng chờ đợi",
+        "Nỗi buồn người xa quê ngậm ngùi",
+        "Mùa đông sắp đến lạnh lẽo",
+        "May áo rét giặt áo rét",
+        "Thành Bạch Đế cao lạnh lẽo",
+        "Loạn An Lộc Sơn dẹp xong chưa yên",
+        "Chồng con trấn giữ nơi ải xa"
+      ]
+    },
+    {
+      "section_name": "5. Giá trị nghệ thuật và nội dung - Bài mẫu phổ quan",
+      "original_text": [
+        "Toàn bộ bài thơ Thu hứng (8 câu thơ thất ngôn bát cú)"
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Thủ pháp tả cảnh ngụ tình",
+          "art_type": "Phương thức biểu đạt",
+          "effect": "Bức tranh ngoại cảnh chính là tâm cảnh: nỗi lòng buồn bã, cô đơn của nhà thơ"
+        },
+        {
+          "target_words": "Biện pháp ẩn dụ, tượng trưng",
+          "art_type": "Nghệ thuật",
+          "effect": "Từ ngữ giàu sức gợi, hàm súc, cô đọng"
+        },
+        {
+          "target_words": "Thi liệu cổ điển, hình ảnh ước lệ",
+          "art_type": "Điển tích, điển cố",
+          "effect": "Vận dụng biện pháp nghệ thuật linh hoạt, sáng tạo"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Nội dung chính:",
+          "details": [
+            "Bức tranh mùa thu hoang vu, lạnh lẽo, tiêu điều",
+            "Khung cảnh thiên nhiên hùng vĩ nhưng mênh mông đến rợn ngợp",
+            "Bức tranh ngoại cảnh chính là tâm cảnh: nỗi lòng buồn bã, cô đơn của nhà thơ"
+          ],
+          "conclusion": "⇒ Bài thơ là nỗi lòng riêng tư của Đỗ Phủ nhưng cũng chan chứa tâm sự yêu nước, thương đời."
+        },
+        {
+          "point": "Nghệ thuật:",
+          "details": [
+            "Từ ngữ giàu sức gợi, hàm súc, cô đọng",
+            "Vận dụng biện pháp nghệ thuật linh hoạt, sáng tạo",
+            "Cách sử dụng các điển tích, điển cố",
+            "Nhịp thơ chậm, đều đặn",
+            "Giọng buồn bã, chua xót, cô đơn"
+          ],
+          "conclusion": "⇒ Đỗ Phủ được mệnh danh là bậc thi thánh trong nền văn học Trung Hoa. Thơ của ông chất chứa một nỗi sầu tâm sự, một tấm lòng nhân đạo bao la đồng cảm."
+        }
+      ],
+      "section_full_essay": [
+        "Đỗ Phủ được mệnh danh là bậc thi thánh trong nền văn học Trung Hoa. Thơ của ông chất chứa một nỗi sầu tâm sự, một tấm lòng nhân đạo bao la đồng cảm, bởi sự thấu hiểu và thương cảm cho những số phận bất hạnh. Cùng viết về đề tài mùa thu, với giọng điệu buồn bã, sầu muôn thuở thì Thu hứng của Đỗ Phủ đã góp thêm một tiếng nói sâu sắc, phong phú cho mùa thu của thiên nhiên.",
+        "Bài thơ giống như một khúc ca thu não nề và buồn bã cả một tấm lòng cô đơn:",
+        "Ngọc lộ điêu thương phong thụ lâm,",
+        "Vu sơn, Vu giáp khí tiêu sâm.",
+        "Giang gian ba lãng kiêm thiên dũng,",
+        "Tái thượng phong vân tiếp địa âm.",
+        "Tùng cúc lưỡng khai tha nhật lệ,",
+        "Có chu nhất hệ cố viên tâm.",
+        "Hàn y xứ xứ thôi đao xích,",
+        "Bạch Đế thành cao cấp mộ châm.",
+        "Bằng một tâm hồn thu buồn mênh mang, cô đơn, những vần thơ của Đỗ Phủ đã gây ám ảnh, gieo vào tâm trí người đọc cảnh tượng mùa thu buồn, cô đơn và lạnh lẽo. Sự kết hợp tài tình của các từ láy gợi cảm những hình ảnh ẩn dụ, những chất liệu cổ điển và hình ảnh ước lệ, Đỗ Phủ đã một lần nữa mở ra một không gian nghệ thuật đầy thu cho độc giả, một lần nữa góp thêm vào cho bản tình ca mùa thu của văn học một nét riêng."
+      ],
+      "barem_keywords": [
+        "Tả cảnh ngụ tình",
+        "Từ ngữ giàu sức gợi hàm súc",
+        "Thi liệu cổ điển hình ảnh ước lệ",
+        "Nỗi sầu tâm sự tấm lòng nhân đạo",
+        "Mùa thu buồn cô đơn lạnh lẽo",
+        "Giọng điệu buồn bã sầu muôn thuở",
+        "Bậc thi thánh Đỗ Phủ",
+        "Bản tình ca mùa thu văn học",
+        "Sự kết hợp tài tình từ láy",
+        "Không gian nghệ thuật đầy ám ảnh"
+      ]
+    }
+  ]
+}

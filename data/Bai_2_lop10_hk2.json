@@ -1,0 +1,445 @@
+{
+  "document_id": "binh_ngo_dai_cao",
+  "general_knowledge": {
+    "author_and_work": "Nguyễn Trãi (1380 - 1442), hiệu là Ức Trai, quê ở làng Chi Ngại (Chi Linh, Hải Dương), sau rời về Nhị Khê (Thường Tín, Hà Tây, nay thuộc Hà Nội). Ông sinh ra trong một gia đình mà cả bên nội và bên ngoại đều có hai truyền thống lớn là yêu nước và văn hóa, văn học, nhờ đó được tiếp xúc và thấu hiểu tư tưởng chính trị của Nho giáo. Nguyễn Trãi mồ côi mẹ từ lúc 5 tuổi; năm 1400 đỗ Thái học sinh và cùng cha làm quan dưới triều Hồ; năm 1407 giặc Minh cướp nước, ông theo Lê Lợi tham gia khởi nghĩa Lam Sơn và góp phần to lớn vào chiến thắng của dân tộc; cuối 1427 đầu 1428, khởi nghĩa Lam Sơn toàn thắng, ông thừa lệnh Lê Lợi viết Bình Ngô đại cáo và tham gia xây dựng lại đất nước; năm 1439 xin về ở ẩn tại Côn Sơn; năm 1440 được Lê Thái Tông mời ra giúp nước; năm 1442 chịu oan án Lệ Chi viên, bị khép tội 'tru di tam tộc'; đến năm 1464 Lê Thánh Tông mới minh oan và cho sưu tầm lại thơ văn của ông. Nguyễn Trãi sống trong thời đại xã hội nhiều biến động, loạn lạc, mâu thuẫn nội bộ trong triều đình phong kiến, đất nước có giặc ngoại xâm, đời sống nhân dân cơ cực, điều này hướng ngòi bút của ông tới hiện thực đời sống. Ông là tác giả xuất sắc về nhiều thể loại văn học, cả chữ Hán (Quân trung từ mệnh tập, Bình Ngô đại cáo, Ức Trai thi tập, Chí Linh sơn phú, Băng Hồ di sự lục, Lam Sơn thực lục, Văn bia Vĩnh Lăng, Văn loại) và chữ Nôm (Quốc âm thi tập gồm 254 bài), đồng thời để lại Dư địa chí - bộ sách địa lí cổ nhất Việt Nam. Về phong cách, Nguyễn Trãi là nhà văn chính luận kiệt xuất với luận điểm vững chắc, lập luận chặt chẽ, giọng điệu linh hoạt, đồng thời là nhà thơ trữ tình sâu sắc. // Về tác phẩm: Sau khi quân ta đại thắng, tiêu diệt và làm tan rã 15 vạn viện binh của giặc, Vương Thông buộc phải giảng hòa, rút quân về nước, Nguyễn Trãi thừa lệnh Lê Lợi viết Đại cáo Bình Ngô; tác phẩm có ý nghĩa trọng đại như một bản tuyên ngôn độc lập, được công bố vào tháng Chạp, năm Đinh Mùi (đầu năm 1428). Cáo là thể văn nghị luận có từ thời cổ ở Trung Quốc, thường được vua chúa hoặc thủ lĩnh dùng để trình bày một chủ trương, một sự nghiệp, tuyên ngôn một sự kiện để mọi người cùng biết; cáo có thể viết bằng văn xuôi hay văn vần nhưng phần lớn viết bằng văn biền ngẫu, có vần hoặc không có vần, thường có đối, câu dài ngắn không gò bó, mỗi cặp hai vế đối nhau, lời lẽ đanh thép, lí luận sắc bén, kết cấu chặt chẽ, mạch lạc. Bố cục tác phẩm gồm 4 phần: Phần 1 (từ đầu đến 'chứng cớ còn ghi') - Luận đề chính nghĩa (tiền đề lí luận); Phần 2 (tiếp đến 'Ai bảo thần dân chịu được') - Bản cáo trạng tội ác của kẻ thù (soi chiếu lí luận vào thực tiễn); Phần 3 (tiếp đến 'Cũng là chưa thấy xưa nay') - Bản hùng ca về cuộc khởi nghĩa Lam Sơn; Phần 4 (còn lại) - Lời tuyên bố độc lập. Giá trị nội dung: Đại cáo bình Ngô là bản tuyên ngôn độc lập, vạch tội ác của kẻ thù xâm lược, ca ngợi thắng lợi của cuộc khởi nghĩa Lam Sơn. Giá trị nghệ thuật: lí luận chặt chẽ, hợp lí, lời lẽ hùng hồn; sự kết hợp hài hòa giữa yếu tố chính luận và yếu tố văn chương; sử dụng các biện pháp nghệ thuật liệt kê, phóng đại, so sánh, đối lập."
+  },
+  "detailed_analysis": [
+    {
+      "section_name": "1. Luận đề chính nghĩa",
+      "original_text": [
+        "Từng nghe:",
+        "Việc nhân nghĩa cốt ở yên dân,",
+        "Quân điệp phạt trước lo trừ bạo.",
+        "Như nước Đại Việt ta từ trước,",
+        "Vốn xưng nền văn hiến đã lâu.",
+        "Núi sông bờ cõi đã chia,",
+        "Phong tục Bắc Nam cũng khác.",
+        "Từ Triệu, Đinh, Lý, Trần bao đời gây nền độc lập,",
+        "Cùng Hán, Đường, Tống, Nguyên mỗi bên xưng đế một phương.",
+        "Tuy mạnh yếu từng lúc khác nhau,",
+        "Song hào kiệt đời nào cũng có.",
+        "Vậy nên:",
+        "Lưu Cung tham công nên thất bại,",
+        "Triệu Tiết thích lớn phải tiêu vong.",
+        "Cửa Hàm Tử bắt sống Toa Đô,",
+        "Sông Bạch Đằng giết tươi Ô Mã.",
+        "Việc xưa xem xét,",
+        "Chứng cứ còn ghi."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Việc nhân nghĩa cốt ở yên dân,\nQuân điệp phạt trước lo trừ bạo.",
+          "art_type": "Nêu mệnh đề/tiền đề tư tưởng (khái quát hóa)",
+          "effect": "Xác lập ngay từ đầu cốt lõi tư tưởng nhân nghĩa gắn với yên dân, trừ bạo, làm nền tảng lí luận cho toàn bộ bài cáo"
+        },
+        {
+          "target_words": "Từ Triệu, Đinh, Lý, Trần bao đời gây nền độc lập,\nCùng Hán, Đường, Tống, Nguyên mỗi bên xưng đế một phương.",
+          "art_type": "Liệt kê kết hợp so sánh, đối",
+          "effect": "Đặt các triều đại Đại Việt ngang hàng với các triều đại Trung Hoa, khẳng định vị thế bình đẳng, độc lập, tự chủ của dân tộc"
+        },
+        {
+          "target_words": "Lưu Cung tham công nên thất bại,\nTriệu Tiết thích lớn phải tiêu vong.\nCửa Hàm Tử bắt sống Toa Đô,\nSông Bạch Đằng giết tươi Ô Mã.",
+          "art_type": "Liệt kê dẫn chứng lịch sử",
+          "effect": "Dùng các chứng cứ hùng hồn trong lịch sử để chứng minh chân lí độc lập dân tộc, làm cơ sở thực tiễn vững chắc cho luận đề chính nghĩa"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "a) Tư tưởng nhân nghĩa là tiền đề cơ sở lí luận cho cuộc kháng chiến",
+          "details": [
+            "Nhân nghĩa có nghĩa thương người mà làm theo lẽ phải (nhân là lòng thương người, nghĩa là lẽ phải)",
+            "Yên dân: nhân dân được sống yên bình, hạnh phúc trong một đất nước độc lập",
+            "Trừ bạo: diệt kẻ tàn bạo xâm lược đất nước và bọn tham tàn trong nước"
+          ],
+          "conclusion": "Cốt lõi của tư tưởng nhân nghĩa là lấy dân làm gốc, vì dân mà diệt trừ bọn tàn bạo."
+        },
+        {
+          "point": "b) Chân lí về độc lập dân tộc",
+          "details": [
+            "Nguyễn Trãi khẳng định mỗi dân tộc có quyền bình đẳng vì mỗi dân tộc đều có: nền văn hiến riêng, có phong tục tập quán, có các triều đại làm chủ, có các anh hùng hào kiệt"
+          ],
+          "conclusion": "Các dân tộc có quyền bình đẳng như nhau. Lời văn khẳng định quyền độc lập, tự chủ của dân tộc."
+        },
+        {
+          "point": "b) Thái độ của tác giả",
+          "details": [
+            "So sánh các triều đại của Việt Nam với các triều đại của Trung Hoa",
+            "Gọi các vị vua Đại Việt là \"đế\""
+          ],
+          "conclusion": "Thể hiện ý thức cao độ về độc lập chủ quyền của tác giả"
+        }
+      ],
+      "section_full_essay": [
+        "Bố cục của Đại cáo bình Ngô được chia thành bốn phần rõ ràng, mỗi phần mang một nội dung và ý nghĩa quan trọng. Phần đầu tiên của bài cáo đề cập đến tư tưởng nhân nghĩa và chân lý về nền độc lập của Đại Việt. Ngay từ những câu mở đầu, Nguyễn Trãi đã nêu lên tư tưởng nhân nghĩa làm nền tảng cho cuộc kháng chiến: \"Việc nhân nghĩa cốt ở yên dân / Quân điếu phạt trước lo trừ bạo\". Ở đây, nhân nghĩa không chỉ đơn thuần là đạo lý thông thường mà còn gắn liền với việc bảo vệ đất nước, mang lại cuộc sống bình yên cho nhân dân. Tiếp đó, Nguyễn Trãi khẳng định một cách mạnh mẽ chủ quyền của Đại Việt qua các yếu tố lịch sử, văn hóa, lãnh thổ và phong tục. Ông đã đặt nước Đại Việt ngang hàng với Trung Quốc, khẳng định sự tồn tại độc lập của dân tộc: \"Như nước Đại Việt ta từ trước / Vốn xưng nền văn hiến đã lâu\". Đây là một tuyên ngôn quan trọng, khẳng định ý thức tự chủ và bản sắc dân tộc, đặt nền móng cho tư tưởng yêu nước trong văn học Việt Nam."
+      ],
+      "barem_keywords": [
+        "yên dân",
+        "trừ bạo",
+        "văn hiến",
+        "phong tục Bắc Nam",
+        "Triệu, Đinh, Lý, Trần",
+        "xưng đế một phương",
+        "hào kiệt đời nào cũng có"
+      ]
+    },
+    {
+      "section_name": "2. Tội ác của kẻ thù",
+      "original_text": [
+        "Vừa rồi:",
+        "Nhân họ Hồ chính sự phiền hà,",
+        "Để trong nước lòng dân oán hận.",
+        "Quân cuồng Minh thừa cơ gây hoạ,",
+        "Bọn gian tà bán nước cầu vinh.",
+        "Nướng dân đen trên ngọn lửa hung tàn,",
+        "Vùi con đỏ xuống dưới hầm tai vạ.",
+        "Dối trời lừa dân đủ muôn nghìn kế,",
+        "Gây binh kết oán trải hai mươi năm.",
+        "Bại nhân nghĩa nát cả đất trời,",
+        "Nặng thuế khoá sạch không đầm núi.",
+        "Người bị ép xuống biển dòng lưng mò ngọc, ngán thay cá mập, thuồng luồng.",
+        "Kẻ bị đem vào núi đãi cát tìm vàng, khốn nỗi rừng sâu, nước độc.",
+        "Vét sản vật, bắt chim trả, chốn chốn lưới giăng,",
+        "Nhiễu nhân dân, bẫy hươu đen, nơi nơi cạm đặt.",
+        "Tàn hại cả giống côn trùng cây cỏ,",
+        "Nheo nhóc thay kẻ goá bụa khốn cùng.",
+        "Thằng há miệng, đứa nhe răng, máu mỡ bấy no nê chưa chán;",
+        "Nay xây nhà, mai đắp đất, chân tay nào phục dịch cho vừa.",
+        "Nặng nề những nỗi phụ phen,",
+        "Tan tác cả nghề canh cửi.",
+        "Độc ác thay, trúc Nam Sơn không ghi hết tội,",
+        "Dơ bẩn thay, nước Đông Hải không rửa sạch mùi.",
+        "Lẽ nào trời đất dung tha,",
+        "Ai bảo thần nhân chịu được?"
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Nướng dân đen trên ngọn lửa hung tàn,\nVùi con đỏ xuống dưới hầm tai vạ.",
+          "art_type": "Ẩn dụ + đối",
+          "effect": "Tái hiện cụ thể, ám ảnh tội ác giết hại dã man của giặc Minh đối với dân lành, khơi gợi lòng căm phẫn"
+        },
+        {
+          "target_words": "Độc ác thay, trúc Nam Sơn không ghi hết tội,\nDơ bẩn thay, nước Đông Hải không rửa sạch mùi.",
+          "art_type": "Phóng đại (nói quá)",
+          "effect": "Lấy cái vô cùng, vô tận của tự nhiên (trúc Nam Sơn, nước Đông Hải) để đo đếm tội ác chồng chất, không thể dung thứ của giặc Minh"
+        },
+        {
+          "target_words": "Lẽ nào trời đất dung tha,\nAi bảo thần nhân chịu được?",
+          "art_type": "Câu hỏi tu từ",
+          "effect": "Khẳng định tội ác của giặc là không thể dung thứ, khơi dậy sự đồng tình, phẫn nộ của trời đất và con người"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Tội ác của giặc Minh",
+          "details": [
+            "Lừa dối nhân dân ta",
+            "Tàn sát dã man những người vô tội",
+            "Bóc lột nhân dân ta bằng chế độ thuế khóa nặng nề",
+            "Bắt phu phen, phục dịch",
+            "Vơ vét của cải",
+            "Hủy hoại nền văn hóa Đại Việt"
+          ],
+          "conclusion": ""
+        },
+        {
+          "point": "Thái độ căm phẫn của nhân dân",
+          "details": [
+            "Hình ảnh phóng đại \"trúc Nam Sơn không ghi hết tội, nước Đông Hải không rửa sạch mùi\" lấy cái vô cùng của tự nhiên để nói về tội ác của giặc Minh",
+            "Câu hỏi tu từ \"lẽ nào... chịu được\": Tội ác không thể dung thứ của giặc"
+          ],
+          "conclusion": "Bản cáo trạng đanh thép về tội ác dã man của giặc Minh, đồng thời là thái độ căm phẫn, tức giận khôn cùng của nhân dân ta"
+        }
+      ],
+      "section_full_essay": [
+        "Sau phần mở đầu mang tính nguyên lý, Nguyễn Trãi đi sâu vào việc tố cáo tội ác của quân Minh trong phần thứ hai. Ông sử dụng hàng loạt hình ảnh sống động, cụ thể để miêu tả sự tàn bạo của kẻ thù: \"Nướng dân đen trên ngọn lửa hung tàn / Vùi con đỏ xuống dưới hầm tai vạ\". Những câu văn đầy sức tố cáo này không chỉ phản ánh sự dã man của quân Minh mà còn thể hiện nỗi đau của nhân dân ta dưới ách đô hộ ngoại bang. Cách sử dụng từ ngữ mạnh mẽ, hình ảnh đầy ám ảnh đã khiến đoạn văn trở thành một bản cáo trạng đanh thép, vạch trần bản chất phi nhân tính của giặc. Qua đó, Nguyễn Trãi không chỉ khơi gợi lòng căm phẫn của nhân dân mà còn làm nổi bật chính nghĩa của cuộc kháng chiến chống quân Minh."
+      ],
+      "barem_keywords": [
+        "Nướng dân đen",
+        "vùi con đỏ",
+        "trúc Nam Sơn không ghi hết tội",
+        "nước Đông Hải không rửa sạch mùi",
+        "nặng thuế khoá",
+        "tàn hại cả giống côn trùng cây cỏ"
+      ]
+    },
+    {
+      "section_name": "3a. Hình ảnh người anh hùng Lê Lợi và buổi đầu khởi nghĩa gian khổ",
+      "original_text": [
+        "Ta đây:",
+        "Núi Lam Sơn dấy nghĩa,",
+        "Chốn hoang dã nương mình.",
+        "Ngẫm thù lớn há đội trời chung,",
+        "Căm giặc nước thề không cùng sống.",
+        "Đau lòng nhức óc, chốc đà mười mấy năm trời;",
+        "Nếm mật nằm gai, há phải một hai sớm tối.",
+        "Quên ăn vì giận, sách lược thao suy xét đã tinh;",
+        "Ngẫm trước đến nay, lẽ hưng phế đắn đo càng kĩ.",
+        "Những trằn trọc trong cơn mộng mị,",
+        "Chỉ băn khoăn một nỗi đồ hồi.",
+        "Vừa khi cờ nghĩa dấy lên,",
+        "Chính lúc quân thù đương mạnh.",
+        "Lại ngặt vì:",
+        "Tuấn kiệt như sao buổi sớm,",
+        "Nhân tài như lá mùa thu.",
+        "Việc bôn tẩu thiếu kẻ đỡ đần,",
+        "Nơi duy ác hiếm người bàn bạc.",
+        "Tấm lòng cứu nước, vẫn đăm đăm muốn tiến về đông,",
+        "Cỗ xe cầu hiền, thường chăm chăm còn dành phía tả.",
+        "Thế mà:",
+        "Trông người người càng vắng bóng, mịt mù như nhìn chốn bể khơi,",
+        "Tự ta, ta phải dốc lòng, vội vã hơn cứu người chết đuối.",
+        "Phần thì giận hung đồ ngang dọc,",
+        "Phần thì lo vận nước khó khăn.",
+        "Khi Linh Sơn lương hết mấy tuần,",
+        "Khi Khôi Huyện quân không một đội.",
+        "Trời thử lòng trao cho mệnh lớn,",
+        "Ta gắng chí khắc phục gian nan.",
+        "Nhân dân bốn cõi một nhà, dựng cần trúc ngọn cờ phấp phới;",
+        "Tướng sĩ một lòng phụ tử, hoà nước sông chén rượu ngọt ngào.",
+        "Thế trận xuất kì, lấy yếu chống mạnh;",
+        "Dùng quân mai phục, lấy ít địch nhiều."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Núi Lam Sơn dấy nghĩa,\nChốn hoang dã nương mình.",
+          "art_type": "Lời tự xưng khiêm nhường, hình ảnh giản dị",
+          "effect": "Khắc họa nguồn gốc bình dị, xuất thân áo vải của người anh hùng Lê Lợi"
+        },
+        {
+          "target_words": "Ngẫm thù lớn há đội trời chung,\nCăm giặc nước thề không cùng sống.",
+          "art_type": "Thậm xưng (nói quá)",
+          "effect": "Nhấn mạnh lòng căm thù giặc sâu sắc, sục sôi, ý chí không đội trời chung với kẻ thù"
+        },
+        {
+          "target_words": "Tuấn kiệt như sao buổi sớm,\nNhân tài như lá mùa thu.",
+          "art_type": "So sánh",
+          "effect": "Diễn tả sự hiếm hoi, ít ỏi của nhân tài buổi đầu khởi nghĩa, cho thấy khó khăn về nhân lực"
+        },
+        {
+          "target_words": "Nếm mật nằm gai",
+          "art_type": "Điển tích, ẩn dụ",
+          "effect": "Thể hiện quyết tâm chịu đựng gian khổ để nuôi chí lớn phục thù, phục quốc của người lãnh đạo"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "a) Hình ảnh người anh hùng Lê Lợi",
+          "details": [
+            "Nguồn gốc xuất thân: là người nông dân áo vải \"chốn hoang dã nương mình\"",
+            "Lựa chọn căn cứ khởi nghĩa: \"Núi Lam Sơn dấy nghĩa\"",
+            "Có lòng căm thù giặc sâu sắc, sục sôi: \"Ngẫm thù lớn há đội trời chung, căm giặc nước thề không cùng sống...\"",
+            "Có lí tưởng, hoài bão lớn lao, biết trọng dụng người tài: \"Tấm lòng cứu nước... dành phía tả\"",
+            "Có lòng quyết tâm để thực hiện lí tưởng lớn: \"Đau lòng nhức óc... nếm mật nằm gai... suy xét đã tinh\""
+          ],
+          "conclusion": "Lê Lợi vừa là người bình dị vừa là anh hùng khởi nghĩa"
+        },
+        {
+          "point": "b) Buổi đầu gian khổ của cuộc khởi nghĩa Lam Sơn",
+          "details": [
+            "Những thiếu thốn về quân trang và lương thực: binh yếu, có khi lương cạn, nhân tài ít",
+            "Tinh thần của quân và dân: Gắng chí, quyết tâm (Ta gắng chí khắc phục gian nan), đồng lòng, đoàn kết (sử dụng 2 điển tích dựng cần trúc, hòa nước sông)"
+          ],
+          "conclusion": "Giai đoạn đầu đầy khó khăn, thử thách, nhờ sự lạc quan, đồng lòng, đoàn kết, biết dựa vào dân đã giúp nghĩa quân Lam Sơn vượt qua mọi khó khăn."
+        }
+      ],
+      "section_full_essay": [
+        "Phần thứ ba của bài cáo là bức tranh về cuộc kháng chiến gian khổ nhưng đầy hào hùng của nghĩa quân Lam Sơn. Nguyễn Trãi tái hiện lại những ngày đầu kháng chiến đầy khó khăn khi lực lượng nghĩa quân còn yếu, thiếu thốn mọi mặt: \"Khi Linh Sơn lương hết mấy tuần / Lúc Khôi Huyện quân không một đội\". Tuy nhiên, với tinh thần quyết tâm và ý chí quật cường, nghĩa quân Lam Sơn đã từng bước vượt qua thử thách, giành hết thắng lợi này đến thắng lợi khác. Những chiến công vang dội của nghĩa quân được Nguyễn Trãi miêu tả với giọng văn đầy tự hào, thể hiện khí thế hào hùng của toàn dân tộc. Đặc biệt, ông nhấn mạnh vai trò lãnh đạo của Lê Lợi, người đã hết lòng vì nước, vì dân, đem hết tâm huyết để giành lại độc lập cho Đại Việt."
+      ],
+      "barem_keywords": [
+        "Lam Sơn dấy nghĩa",
+        "nếm mật nằm gai",
+        "quên ăn vì giận",
+        "tuấn kiệt như sao buổi sớm",
+        "nhân tài như lá mùa thu",
+        "Linh Sơn lương hết mấy tuần",
+        "Khôi Huyện quân không một đội",
+        "dựng cần trúc ngọn cờ",
+        "hoà nước sông chén rượu ngọt ngào"
+      ]
+    },
+    {
+      "section_name": "3b. Giai đoạn phản công thắng lợi và khí thế của nghĩa quân Lam Sơn",
+      "original_text": [
+        "Trọn hay:",
+        "Đem đại nghĩa để thắng hung tàn,",
+        "Lấy chí nhân để thay cường bạo.",
+        "Trận Bồ Đằng sấm vang chớp giật,",
+        "Miền Trà Lân trúc chẻ tro bay.",
+        "Sĩ khí đã hăng,",
+        "Quân thanh càng mạnh.",
+        "Trần Trí, Sơn Thọ nghe hơi mà mất vía,",
+        "Lý An, Phương Chính nín thở cầu thoát thân.",
+        "Thừa thắng đuổi dài, Tây Kinh quân ta chiếm lại;",
+        "Tuyển binh tiến đánh, Đông Đô đất cũ thu về.",
+        "Ninh Kiều máu chảy thành sông, tanh trôi vạn dặm;",
+        "Tốt Động thây chất đầy nội, nhơ để ngàn năm.",
+        "Phúc Tâm quân giặc, Trần Hiệp đã phải bêu đầu;",
+        "Mọt gian kẻ thù, Lý Lượng cũng đành bỏ mạng.",
+        "Vương Thông gỡ thế nguy, mà đám lửa cháy lại càng cháy;",
+        "Mã Anh cứu trận đánh, mà quân ta hăng lại càng hăng.",
+        "Bó tay để đợi bại vong, giặc đã trí cùng lực kiệt;",
+        "Chẳng đánh mà người chịu khuất, ta đây mưu phạt, tâm công.",
+        "Tưởng chúng biết lẽ ăn ăn, nên đã thay lòng đổi dạ;",
+        "Ngờ đâu vẫn đương mưu tính, lại còn chuốc tội gây oan.",
+        "Giữ ý kiến một người, gieo vạ cho bao nhiêu kẻ khác;",
+        "Tham công danh một lúc, để cười cho tất cả thế gian.",
+        "Bởi thế:",
+        "Thằng nhãi con Tuyên Đức, động binh không ngừng;",
+        "Đồ nhút nhát Thạnh, Thăng, đem dầu chữa cháy.",
+        "Đinh Mùi tháng Chín, Liễu Thăng đem binh từ Khâu Ôn tiến lại;",
+        "Năm ấy tháng Mười, Mộc Thạnh chia đường từ Vân Nam tiến sang.",
+        "Ta trước đã điều binh thủ hiểm, chặt mũi tiên phong;",
+        "Ta sau lại sai tướng chẹn đường, tuyệt nguồn lương thực.",
+        "Ngày mười tám, trận Chi Lăng, Liễu Thăng thất thế,",
+        "Ngày hai mươi, trận Mã An, Liễu Thăng cụt đầu,",
+        "Ngày hăm lăm, Bá tước Lương Minh bại trận tử vong,",
+        "Ngày hăm tám, Thượng thư Lý Khánh cùng kế tự vẫn.",
+        "Thuận đà ta đưa lưỡi dao tung phá,",
+        "Bí nước giặc quay mũi giáo đánh nhau.",
+        "Lại thêm quân bốn mặt vây thành,",
+        "Hẹn đến giữa tháng Mười diệt giặc.",
+        "Sĩ tốt kén người hùng hổ,",
+        "Bề tôi chọn kẻ vuốt nanh.",
+        "Gươm mài đá, đá núi cũng mòn,",
+        "Voi uống nước, nước sông phải cạn.",
+        "Đánh một trận, sạch không kình ngạc,",
+        "Đánh hai trận, tan tác chim muông.",
+        "Nổi gió to trút sạch lá khô,",
+        "Thông tổ kiến phá toang đê vỡ.",
+        "Đô đốc Thôi Tụ lê gối dâng tờ tạ tội,",
+        "Thượng thư Hoàng Phúc trói tay để tự xin hàng.",
+        "Lạng Giang, Lạng Sơn, thây chất đầy đường;",
+        "Xương Giang, Bình Than, máu trôi đỏ nước.",
+        "Ghê gớm thay sắc phong vân phải đổi,",
+        "Thảm đạm thay ánh nhật nguyệt phải mờ.",
+        "Bị ta chẹn ở Lê Hoa, quân Vân Nam nghi ngờ khiếp vía mà vỡ mật;",
+        "Thua quân ta ở Cần Trạm, quân Mộc Thạnh xéo lên nhau chạy để thoát thân.",
+        "Suối Lãnh Câu máu chảy trôi chày, nước sông nghẹn ngào tiếng khóc;",
+        "Thành Đạn Xá thây chất thành núi, cỏ nội đầm đìa máu đen.",
+        "Cứu binh hai đạo tan tành, quay gót chẳng kịp;",
+        "Quân giặc các thành khốn đốn, cởi giáp ra hàng.",
+        "Tướng giặc bị cầm tù, như hổ đói vẫy đuôi xin cứu mạng;",
+        "Thần vũ chẳng giết hại, thể lòng trời ta mở đường hiếu sinh.",
+        "Mã Kỳ, Phương Chính, cấp cho năm trăm chiếc thuyền, ra đến bể mà vẫn hồn bay phách lạc;",
+        "Vương Thông, Mã Anh, phát cho vài nghìn cỗ ngựa, về đến nước mà vẫn tim đập chân run.",
+        "Họ đã tham sống sợ chết, mà hoà hiếu thực lòng;",
+        "Ta lấy toàn quân làm hơn, để nhân dân nghỉ sức.",
+        "Chẳng những mưu kế kì diệu,",
+        "Cũng là chưa thấy xưa nay."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Trận Bồ Đằng sấm vang chớp giật,\nMiền Trà Lân trúc chẻ tro bay.",
+          "art_type": "So sánh, ẩn dụ",
+          "effect": "Tái hiện khí thế tiến công mãnh liệt, nhanh chóng, áp đảo của nghĩa quân Lam Sơn"
+        },
+        {
+          "target_words": "Gươm mài đá, đá núi cũng mòn,\nVoi uống nước, nước sông phải cạn.",
+          "art_type": "Cường điệu (nói quá), đối",
+          "effect": "Phóng đại sức mạnh và khí thế áp đảo của quân ta, khiến núi sông cũng phải chuyển động theo"
+        },
+        {
+          "target_words": "Đánh một trận, sạch không kình ngạc,\nĐánh hai trận, tan tác chim muông.",
+          "art_type": "Ẩn dụ kết hợp cường điệu",
+          "effect": "Ví giặc như loài kình ngạc, chim muông hung dữ, nhấn mạnh chiến thắng quét sạch quân thù của ta"
+        },
+        {
+          "target_words": "Thần vũ chẳng giết hại, thể lòng trời ta mở đường hiếu sinh.",
+          "art_type": "Đối lập (giữa uy vũ và lòng nhân)",
+          "effect": "Thể hiện tư tưởng nhân nghĩa, khoan dung của quân ta ngay cả khi đã chiến thắng, mở đường sống cho kẻ thù bại trận"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Giai đoạn phản công và thắng lợi của ta",
+          "details": [
+            "Những trận tiến quân ra Bắc: trận Tây Kinh, Đông Đô, Ninh Kiều, Tốt Động",
+            "Chiến dịch diệt chi viện: trận Chi Lăng, Mã Yên, Xương Giang"
+          ],
+          "conclusion": "Biện pháp liệt kê tái hiện không khí chiến trận máu lửa, sục sôi với những chiến thắng giòn giã liên tiếp của quân ta cũng như sự thất bại nhục nhã, ê trề của địch."
+        },
+        {
+          "point": "Thất bại của giặc Minh",
+          "details": [
+            "Nghệ thuật cường điệu, nói quá miêu tả những thất bại thảm hại của giặc",
+            "Binh lính cởi áo giáp xin hàng",
+            "Tướng giặc tham sống sợ chết cởi áo giáp xin hàng"
+          ],
+          "conclusion": ""
+        },
+        {
+          "point": "Khí thế và cách ứng xử của quân, dân ta",
+          "details": [
+            "Nghệ thuật cường điệu: Gươm mài đá, đá núi phải mòn...",
+            "Cách ứng xử vừa khôn khéo vừa nhân nghĩa của nghĩa quân: \"Thần vũ chẳng giết hại ... nghỉ sức\""
+          ],
+          "conclusion": "Nghệ thuật đối lập đã thể hiện rõ những nét đối cực trong cuộc chiến giữa ta và địch, từ tính chất cuộc chiến cho đến khí thế, sức mạnh, những chiến công và cách ứng xử"
+        }
+      ],
+      "section_full_essay": [
+        "Phần thứ ba của bài cáo là bức tranh về cuộc kháng chiến gian khổ nhưng đầy hào hùng của nghĩa quân Lam Sơn. Nguyễn Trãi tái hiện lại những ngày đầu kháng chiến đầy khó khăn khi lực lượng nghĩa quân còn yếu, thiếu thốn mọi mặt: \"Khi Linh Sơn lương hết mấy tuần / Lúc Khôi Huyện quân không một đội\". Tuy nhiên, với tinh thần quyết tâm và ý chí quật cường, nghĩa quân Lam Sơn đã từng bước vượt qua thử thách, giành hết thắng lợi này đến thắng lợi khác. Những chiến công vang dội của nghĩa quân được Nguyễn Trãi miêu tả với giọng văn đầy tự hào, thể hiện khí thế hào hùng của toàn dân tộc. Đặc biệt, ông nhấn mạnh vai trò lãnh đạo của Lê Lợi, người đã hết lòng vì nước, vì dân, đem hết tâm huyết để giành lại độc lập cho Đại Việt."
+      ],
+      "barem_keywords": [
+        "Trận Bồ Đằng sấm vang chớp giật",
+        "Trà Lân trúc chẻ tro bay",
+        "gươm mài đá",
+        "voi uống nước",
+        "sạch không kình ngạc",
+        "tan tác chim muông",
+        "thần vũ chẳng giết hại",
+        "mở đường hiếu sinh",
+        "Chi Lăng",
+        "Xương Giang"
+      ]
+    },
+    {
+      "section_name": "4. Lời tuyên bố độc lập",
+      "original_text": [
+        "Xã tắc từ đây vững bền,",
+        "Giang sơn từ đây đổi mới.",
+        "Kiền khôn bĩ rồi lại thái,",
+        "Nhật nguyệt hối rồi lại minh.",
+        "Muôn thuở nền thái bình vững chắc,",
+        "Ngàn thu vết nhục nhã sạch lau.",
+        "Âu cũng nhờ trời đất tổ tông khôn thiêng ngầm giúp đỡ mới được như vậy.",
+        "Than ôi!",
+        "Một cỗ nhung y chiến thắng, nên công oanh liệt ngàn năm;",
+        "Bốn phương biển cả thanh bình, ban chiếu duy tân khắp chốn.",
+        "Xa gần bá cáo",
+        "Ai nấy đều hay."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Kiền khôn bĩ rồi lại thái,\nNhật nguyệt hối rồi lại minh.",
+          "art_type": "Hình ảnh vũ trụ mang tính biểu tượng, đối",
+          "effect": "Ví vận nước như quy luật tuần hoàn của trời đất, từ bĩ cực sang thái lai, từ tối tăm ra ánh sáng, khẳng định tất yếu của nền độc lập, thái bình"
+        },
+        {
+          "target_words": "Muôn thuở nền thái bình vững chắc,\nNgàn thu vết nhục nhã sạch lau.",
+          "art_type": "Đối, khẳng định",
+          "effect": "Khẳng định nền độc lập, thái bình bền vững muôn đời, đồng thời xóa sạch nỗi nhục mất nước"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Lời tuyên bố độc lập",
+          "details": [
+            "Giọng điệu trang trọng, hào sảng cho thấy niềm tin và những suy tư sâu lắng của tác giả",
+            "Sử dụng những hình ảnh về tương lai đất nước như \"xã tắc từ đây vững bền, giang sơn từ đây đổi mới, thái bình vững chắc\", các hình ảnh của vũ trụ \"kiền khôn, nhật nguyệt, ngàn thu sạch làu\""
+          ],
+          "conclusion": ""
+        }
+      ],
+      "section_full_essay": [
+        "Phần cuối của bài cáo là lời tuyên bố nền độc lập của Đại Việt sau chiến thắng. Nguyễn Trãi khẳng định đây là kết quả tất yếu của chính nghĩa, của lòng dân: \"Xã tắc từ đây vững bền / Giang sơn từ đây đổi mới\". Lời văn đầy khí thế, khẳng định Đại Việt đã bước sang một trang sử mới, hòa bình và độc lập. Đồng thời, bài cáo cũng mang ý nghĩa sâu sắc khi thể hiện tinh thần nhân đạo, mong muốn hòa bình của dân tộc ta. Thay vì báo thù, Nguyễn Trãi nhấn mạnh việc mở đường sống cho kẻ thù, thể hiện quan điểm nhân nghĩa và lòng khoan dung."
+      ],
+      "barem_keywords": [
+        "xã tắc từ đây vững bền",
+        "giang sơn từ đây đổi mới",
+        "kiền khôn bĩ rồi lại thái",
+        "nhật nguyệt hối rồi lại minh",
+        "muôn thuở nền thái bình vững chắc"
+      ]
+    }
+  ]
+}

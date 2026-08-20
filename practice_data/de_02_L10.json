@@ -1,0 +1,128 @@
+{
+  "test_id": "de_02_viet_thuong_khong_dau",
+  "test_title": "Đề số 2",
+  "reading_section": {
+    "passage": "Thần Mưa: Đến việc làm ra mưa thì Ngọc Hoàng giao cho thần Mưa. Người Thần hình rồng, có tài lên trời xuống nước bất kì lúc nào cũng được. Thần có phép thu mình lại bằng con cá, nhưng có thể giãn người ra hàng nghìn trượng. Ở đây ta cũng nên phân biệt thần Mưa với thần Nước. Cả hai thần đều cùng mình rồng, cùng một tộc loại, nhưng công việc mỗi bên mỗi khác. Thần Mưa thường xuống hạ giới uống hút nước sông, nước biển no căng rồi bay đi, có thể rất xa, phun nước cho cả thế gian ăn uống, cày cấy và cây cỏ tốt tươi. Công việc của thần Mưa cũng như công việc của thần Gió là công việc có ích cho muôn loài ở hạ giới. Thế nhưng cũng có khi các thần phân chia không đều nên gây ra tai hại, nhất là thần Mưa có nhiều lúc nhầm lẫn: sông biển không hút lại nhè đồng ruộng của nhà mà hút làm hư hỏng rất nhiều của thiên hạ. Có lúc thần Mưa chỉ đi lo tưới nước cho các vùng hẻo lánh cách xa đại dương hàng vạn dặm mà quên bẵng các vùng đồng bằng ở ngay sát bờ biển. Đó là những cái quên \"chết người\" đã gây ra những vụ kiện tại thiên đình như câu chuyện dưới đây là một (tức là truyện Cóc kiện trời). (Theo Văn học dân gian Việt Nam, những tác phẩm chọn lọc, Bùi Mạnh Nhị (chủ biên), NXB Giáo dục Việt Nam, tr 10, 11)",
+    "questions": [
+      {
+        "question_id": "I.1",
+        "question_text": "Xác định thể loại của văn bản trên: A. Cổ tích B. Truyền thuyết C. Thần thoại D. Sử thi",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: C"],
+        "barem_keywords": ["thần thoại"]
+      },
+      {
+        "question_id": "I.2",
+        "question_text": "Phương thức biểu đạt chính của văn bản là: A. Nghị luận B. Tự sự C. Miêu tả D. Biểu cảm",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: B"],
+        "barem_keywords": ["tự sự"]
+      },
+      {
+        "question_id": "I.3",
+        "question_text": "Theo văn bản, nhân vật thần Mưa có thân hình như thế nào? A. Thần có hình rồng, lúc thu nhỏ lại như con cá, lúc lại giãn người ra hàng nghìn trượng. B. Thân hình của thần rất to lớn, to lớn không thể nào ước lượng được C. Thân hình khổng lồ, chân bước một bước từ đỉnh núi này sang đỉnh núi nọ D. Thân hình kì quặc, không có đầu.",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: A"],
+        "barem_keywords": ["hình rồng", "thu nhỏ con cá", "giãn người nghìn trượng"]
+      },
+      {
+        "question_id": "I.4",
+        "question_text": "Công việc của thần Mưa là: A. nằm yên lặng, không ăn uống, không ngủ. B. hô hấp, hít vào thì nước biển tuôn vào bụng, mỗi lần thở ra thì khối lượng nước đó ùa ra hết C. xuống hạ giới uống hút nước sông, nước biển no căng rồi bay đi, có thể rất xa, phun nước cho cả thế gian ăn uống, cày cấy và cây cỏ tốt tươi. D. nằm yên lặng nhưng đôi khi mệt mỏi, phải cựa quậy",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: C"],
+        "barem_keywords": ["hạ giới", "uống hút nước sông nước biển", "phun nước", "cày cấy", "cây cỏ tốt tươi"]
+      },
+      {
+        "question_id": "I.5",
+        "question_text": "Chuyện \"Thần Mưa\" thể hiện nội dung nào dưới đây? A. Giải thích hiện tượng mưa. B. Ngợi ca thiên nhiên. C. Giải thích vì sao có biển. D. Biết ơn thần linh và con người.",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: A"],
+        "barem_keywords": ["giải thích hiện tượng mưa"]
+      },
+      {
+        "question_id": "I.6",
+        "question_text": "Truyện \"thần Mưa\" được kể từ ngôi thứ mấy? Tác giả là ai? A. Truyện được kể từ ngôi thứ hai, tác giả dân gian B. Truyện được kể từ ngôi thứ nhất, tác giả Bùi Mạnh Nhị C. Truyện được kể từ ngôi thứ ba, tác giả Bùi Mạnh Nhị D. Truyện được kể từ ngôi thứ ba, tác giả dân gian",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: D"],
+        "barem_keywords": ["ngôi thứ ba", "tác giả dân gian"]
+      },
+      {
+        "question_id": "I.7",
+        "question_text": "Truyện \"Thần Mưa\" hấp dẫn người đọc bởi yếu tố nào sau đây: A. Ngắn gọn, cốt truyện đơn giản B. Chi tiết hoang đường, kì ảo C. Ngôn ngữ giản dị, gần gũi D. Tất cả các đáp án trên",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: D"],
+        "barem_keywords": ["ngắn gọn", "cốt truyện đơn giản", "hoang đường kì ảo", "ngôn ngữ giản dị"]
+      },
+      {
+        "question_id": "I.8",
+        "question_text": "Về phương diện thể loại, truyện \"Thần Mưa\" giống câu chuyện nào đã học? Hãy chỉ những điểm giống nhau đó?",
+        "max_score": 0.5,
+        "detailed_rubric": [
+          "Về phương diện thể loại truyện \"Thần Mưa\" giống truyện \"Thần Gió\" đã học",
+          "Điểm giống nhau là: Đều là thần thoại dân gian Việt Nam; thuộc loạiij thần thoại suy nguyên; kể về các vị thần; Cốt truyện đơn giản, ngắn gọn; có sử dụng yếu tố kì ảo",
+          "Học sinh trả lời tương đương như đáp án: 0,5 điểm",
+          "Học sinh trả lời có nội dung phù hợp nhưng diễn đạt chưa tốt: 0,25 điểm",
+          "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
+          "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
+        ],
+        "barem_keywords": ["thần gió", "thần thoại dân gian", "thần thoại suy nguyên", "cốt truyện đơn giản", "yếu tố kì ảo"]
+      },
+      {
+        "question_id": "I.9",
+        "question_text": "Nhận xét về cách giải thích hiện tượng mưa của tác giả dân gian? Cách giải thích ấy hiện nay có còn phù hợp không? Vì sao?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Nhận xét cách giải thích hiện tượng mưa của tác giả dân gian rất hồn nhiên, ngây thơ, thể hiện tư duy của con người thuở sơ khai",
+          "Cách giải thích ấy hiện nay không còn hợp lí nữa. Vì khoa học nghiên cứu về hiện tượng tự nhiên đã phát triển giải thích Mưa là hiện tượng do không khí chứa hơi nước gặp lạnh ngưng tụ thành những giọt nước trên cao, khi gặp lạnh chúng rơi xuống tạo thành mưa",
+          "Học sinh trả lời tương đương như đáp án: 1,0 điểm",
+          "Học sinh trả lời đúng 1 ý: 0,5 điểm",
+          "Học sinh trả lời có nội dung phù hợp nhưng diễn đạt chưa tốt: 0,25 điểm",
+          "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
+          "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
+        ],
+        "barem_keywords": ["hồn nhiên ngây thơ", "tư duy thuở sơ khai", "không còn hợp lý", "khoa học", "hơi nước", "ngưng tụ", "giọt nước"]
+      },
+      {
+        "question_id": "I.10",
+        "question_text": "Anh chị rút ra được bài học gì sau khi đọc văn bản \"Thần Mưa\"?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Bài học: Cần làm nhiều việc có ích cho muôn loài, muôn người; Làm việc phải sáng suốt, không gây nhầm lẫn tai hại…",
+          "Lí giải hợp lý…",
+          "Học sinh trả lời tương đương 02 ý như đáp án: 1,0 điểm",
+          "Học sinh trả lời có nội dung phù hợp nhưng diễn đạt chưa tốt: 0,25 – 0,75 điểm",
+          "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
+          "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
+        ],
+        "barem_keywords": ["việc có ích", "sáng suốt", "nhầm lẫn tai hại"]
+      }
+    ]
+  },
+  "writing_section": {
+    "questions": [
+      {
+        "question_id": "II.1",
+        "question_type": "Nghị luận văn học",
+        "question_text": "Viết bài văn nghị luận cảm nhận đoạn thơ sau: …Thời gian chạy qua tóc mẹ / Một màu trắng đến nôn nao / Lưng mẹ cứ còng dần xuống / Cho con ngày một thêm cao. / Mẹ ơi, trong lời mẹ hát / Có cả cuộc đời hiện ra / Lời ru chắp con đôi cánh / Lớn rồi con sẽ bay xa. (Trong lời mẹ hát, Trương Nam Hương)",
+        "max_score": 4.0,
+        "detailed_rubric": [
+          "Đảm bảo cấu trúc bài nghị luận: Mở bài nêu được vấn đề, thân bài triển khai được vấn đề, kết bài khái quát được vấn đề (0,5 điểm)",
+          "Xác định đúng vấn đề cần nghị luận: Cảm nhận của anh/chị về đoạn thơ (0,25 điểm)",
+          "Khổ 1: Thời gian trôi qua đã làm mẹ già nua, vất vả nhọc nhằn: tóc bac, lưng còng",
+          "Mẹ luôn cho con những điều tuyệt vời nhất…",
+          "Mẹ là kết tinh của tình thương, sự bao dung độ lượng, luôn hi sinh vì con…Nhà thơ bày tỏ tình thương, sự yêu mến nâng niu, trân trọng mẹ",
+          "Khổ 2: Nhà thơ cảm nhận giá trị lời ru của mẹ: có cả quê hương ruộng đồng, cánh cò, nhưng hơn cả lời ru cho con trưởng thành, bay xa…=> Mẹ là điểm tựa tinh thần cho cuộc đời con",
+          "Phân tích đầy đủ, sâu sắc: 2,0 điểm",
+          "Phân tích chưa đầy đủ hoặc chưa sâu: 1,0 điểm – 1,75 điểm",
+          "Phân tích chung chung, sơ sài: 0,25 điểm – 0,75 điểm",
+          "Đánh giá chung: Lời thơ cô đọng, hàm súc, hình ảnh chân thật, giản dị xúc động, ám ảnh, biện pháp tu liệt kê, thể thơ 6 chữ… đã góp phần diễn tả tình cảm yêu thương chân thành, thiết tha của người con đối với mẹ của mình…",
+          "Trình bày được 2 ý: 0,5 điểm",
+          "Trình bày được 1 ý: 0,25 điểm",
+          "Chính tả, ngữ pháp: Đảm bảo chuẩn chính tả, ngữ pháp Tiếng Việt. Không cho điểm nếu bài làm có quá nhiều lỗi chính tả, ngữ pháp (0,25 điểm)",
+          "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề nghị luận; có cách diễn đạt mới mẻ (0,5 điểm)"
+        ],
+        "barem_keywords": ["thời gian", "tóc mẹ trắng", "lưng mẹ còng", "lời ru", "đôi cánh", "bay xa", "tình thương", "bao dung", "hi sinh", "điểm tựa tinh thần", "thể thơ 6 chữ", "hàm súc"]
+      }
+    ]
+  }
+}

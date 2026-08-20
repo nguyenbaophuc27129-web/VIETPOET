@@ -1,0 +1,143 @@
+{
+  "test_id": "de_03_viet_thuong_khong_dau",
+  "test_title": "Đề số 3",
+  "reading_section": {
+    "passage": "Truyện kể rằng Dớt nặn ra loài người, một sinh vật yếu đuối, không có khả năng gì để tồn tại và tự bảo vệ trước sóng gió, bão bùng và trước sự đe doạ của bao thú vật to, khoẻ, có sừng, có nọc độc, có nanh vuốt, biết bơi dưới nước, biết leo trèo. Thần Prômêtê thương loài người, luôn luôn tìm cách làm cho loài người đỡ khổ cực. Một lần, Thần giết con bò rất béo, lừa cho Dớtt chọn được phần gồm toàn xương xẩu, gân và vó, còn phần nạc ngon nhất cho loài người. Dớt càng tức giận \"Ðã thế, không bao giờ ta cho lửa loài người; chúng nó sẽ sống trong tối tăm, ngu dốt, khổ cực\". Thần Prômêtê biết ý đồ độc ác ấy, một hôm, lúc thiên đình vắng vẻ, chàng châm ngọn lửa, giấu kín trong ruột một loại cây sậy, rồi chạy như bay xuống trần thế, không ai hay biết gì hết. Thần trao ngọn lửa thiêng cho loài người. Ngay đêm hôm ấy, Dơt thấy dưới mặt đất, những đốm lửa nghìn nghịt như sao sa. Dơt uất ức hét ầm ầm \"Thế là loài người có lửa, ta không thể tiêu diệt loài người được nữa; có lửa, con người sẽ sánh ngang thần thánh. Ôi! tai họa! Ôi! tai hoạ! Nhưng không, không! Ta sẽ làm cho loài người đau khổ, ta sẽ trừng trị Prômêtê\". Dơt tức khắc cho gọi thần thợ rèn chân thọt là Hêphaixtôt đến và ra lệnh nặn một thiếu nữ xinh đẹp tuyệt vời, tóc như làn mây nhẹ, thân nàng óng ả như dòng suối lượn, tiếng nói thánh thót như chim ca, hai con mắt xanh biếc như biển cả- nàng Păngđo tuyệt thế giai nhân. Xưa nay, mặt đất chỉ rặt là đàn ông. Khi Păngđo xuất hiện, người đàn ông say đắm, không rời nàng một bước. Sức quyến rũ của Păngđo vô cùng kỳ diệu, nhưng nàng là một tai hoạ cho người đàn ông, nàng lừa dối, nên là nguồn gốc của mọi khổ đau mà người đàn ông phải chịu. Mặt khác, Dớt ra tay trừng trị Prômêtê. Dớt cho giải thần đến một đỉnh núi cao chót vót ở dãy Côcadơ hoang vu, xa tít mù tắp và ra lệnh cho thần thợ rèn Hêphaixtôt đóng đinh xiềng chàng vào núi đá. Prômêtê ngày bị mặt trời thiêu đốt, đêm rét buốt thấu đến xương tuỷ. Hàng ngày, một con đại bàng khổng lồ do Dớt sai đến, mổ bụng và ăn buồng gan của chàng. Song, thật kỳ diệu, buồng gan của vị thần bất tử đêm lại mọc ra, đầy đủ và tươi rói. Những cực hình kinh khủng ấy không thể khuất phục thần Prômêtê kiên cường. Prômêtê không run sợ. Chàng hiên ngang, không chịu nói một lời van xin. Bao nhiêu thế kỷ trôi qua, Prômêtê vẫn là Prômêtê bất khuất. Cuối cùng, Dớt chịu thua Prômêtê. Thần Hêraclet đến dãy núi Côcadơ, giương cung bắn chết Ðại bàng, trèo lên núi phá xiềng. Prômêtê được trả lại tự do. (Thần thoại Hi Lạp-theo Ðiển tích văn học- NXB Văn học 1996)",
+    "questions": [
+      {
+        "question_id": "I.1",
+        "question_text": "Xác định phương thức biểu đạt chính của văn bản trên?",
+        "max_score": 0.5,
+        "detailed_rubric": [
+          "Phương thức biểu đạt chính: Tự sự",
+          "Học sinh trả lời như đáp án: 0,5 điểm",
+          "Học sinh không trả lời được không có điểm"
+        ],
+        "barem_keywords": ["tự sự"]
+      },
+      {
+        "question_id": "I.2",
+        "question_text": "Theo văn bản nguyên nhân nào khiến Dớt từng phạt prômê tê?",
+        "max_score": 0.5,
+        "detailed_rubric": [
+          "Nguyên nhân: Prômêtê đã mang lửa cho loài người loài người /có lửa, Dớt không thể tiêu diệt loài người được nữa/ có lửa, con người sẽ sánh ngang thần thánh",
+          "Học sinh trả lời được như trong đáp án: 0,5 điểm",
+          "Học sinh không trả lời được không có điểm"
+        ],
+        "barem_keywords": ["mang lửa", "tiêu diệt", "sánh ngang thần thánh"]
+      },
+      {
+        "question_id": "I.3",
+        "question_text": "Nêu những sự kiện chính trong văn bản?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Những sự kiện chính trong văn bản",
+          "Dớt tạo ra loài người nhưng con người yếu đuối và không có khả năng tự vệ",
+          "Prômêtê thương loài người nên luôn tìm cách bảo vệ và mang lửa đến cho loài người",
+          "Khi có lửa con người trở nên mạnh mẽ sánh ngang với thần linh",
+          "Dớt sai nàng Păngđo xuống gieo rắc tai họa, nguồn gốc đau khổ cho loài người",
+          "Dớt trừng phạt thần prômêtê bằng cách trói thần vào một ngọn núi để cho hàng ngày bị mặt trời thiêu đốt, đêm thì lạnh thấu xương và hàng ngày cho con đại bằng đến mổ bụng moi buồng gan của thần",
+          "Thần Hêraclet đến dãy núi Côcadơ, giương cung bắn chết Ðại bàng, trèo lên núi phá xiềng. Prômêtê được trả lại tự do",
+          "Học sinh trả lời như đáp án: 1,0 điểm",
+          "Học sinh trả lời được 03 ý: 0,75 điểm",
+          "Học sinh trả lời được 02 ý: 0,5 điểm",
+          "Học sinh trả lời được 01 ý: 0.25 điểm"
+        ],
+        "barem_keywords": ["dớt tạo ra loài người", "prômêtê mang lửa", "sánh ngang thần linh", "păngđo", "trừng phạt", "hêraclet", "tự do"]
+      },
+      {
+        "question_id": "I.4",
+        "question_text": "Thần prômêtê đã làm cách nào để mang lửa xuống cho loài người?",
+        "max_score": 0.5,
+        "detailed_rubric": [
+          "Thần prômêtê mang lửa xuống cho loài người bằng cách: chàng châm ngọn lửa, giấu kín trong ruột một loại cây sậy, rồi chạy như bay xuống trần thế"
+        ],
+        "barem_keywords": ["châm ngọn lửa", "giấu kín", "cây sậy", "trần thế"]
+      },
+      {
+        "question_id": "I.5",
+        "question_text": "Chỉ ra những yếu tố hoang đường kì ảo xuất hiện trong văn bản? vai trò của những yếu tố hoang đường kì ảo đó?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Những yếu tố hoang đường kì ảo xuất hiện trong văn bản: Thần Prômêtê ăn cắp ngọn lửa của Dớt trên thiên đình và mang xuống cho loài người",
+          "Dớt tức gian đã đóng đinh thần Prômêtê vào ngọn núi và hàng ngày sai đại bàng mổ bụng và ăn buồng gan của chàng. Song, thật kỳ diệu, buồng gan của vị thần bất tử đêm lại mọc ra, đầy đủ và tươi rói",
+          "Vai trò của những yếu tố hoang đường kì ảo: Lí gải các hiện tượng thiên nhiên",
+          "Thể hiện trí tưởng tượng phong phú của người xưa",
+          "Thần thánh hóa sức mạnh và sự bất tử của các vị thần",
+          "Học sinh trả lời như Đáp án 1.0 điểm",
+          "Học sinh trả lời1/2 ý: 0,5 điểm",
+          "Học sinh không trả lời được không có điểm"
+        ],
+        "barem_keywords": ["ăn cắp ngọn lửa", "thiên đình", "đóng đinh", "đại bàng mổ bụng", "buồng gan mọc ra", "lí giải thiên nhiên", "trí tưởng tượng", "thần thánh hóa"]
+      },
+      {
+        "question_id": "I.6",
+        "question_text": "Qua sự việc thần Prômêtê mang lửa cho loài người, tác giả dân gian đã lí giải điều gi?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Nguồn gốc của ngọn lửa mà loài người đang sử dụng và vai trò của ngọn lửa đối với cuộc sống của con người",
+          "Học sinh trả lời như Đáp án 1.0 điểm",
+          "Học sinh trả lời1/2 ý: 0,5 điểm",
+          "Học sinh có cách lí giải hợp lí khác: Gv linh hoạt cho điểm"
+        ],
+        "barem_keywords": ["nguồn gốc ngọn lửa", "vai trò ngọn lửa", "cuộc sống con người"]
+      },
+      {
+        "question_id": "I.7",
+        "question_text": "Em nhận thấy ở nhân vật Prômêtê hội tụ những phẩm chất gì?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Yêu thương, trí tuệ, nhân ái, dũng cảm, gan dạ, hiên ngang, bất khuất…",
+          "Học sinh trả lời như Đáp án 1.0 điểm",
+          "Học sinh trả lời 2 ý: 0,5 điểm",
+          "Học sinh trả lời được 1 ý: 0.25 điểm",
+          "Học sinh không trả lời được không có điểm"
+        ],
+        "barem_keywords": ["yêu thương", "trí tuệ", "nhân ái", "dũng cảm", "gan dạ", "hiên ngang", "bất khuất"]
+      },
+      {
+        "question_id": "I.8",
+        "question_text": "Trong văn bản em thích nhất chi tiết nào? Vì sao?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Học sinh nêu được chi tiết trong văn bản",
+          "Có cách lí giải hợp lí, lập luận chặt chẽ, thuyết phục",
+          "Học sinh trả lời đầỳ đủ rõ ràng hợp lí: 1.0 điểm",
+          "Học sinh hiểu nhưng lí giải chưa rõ ràng, chưa đầy đủ: 0.5 điểm",
+          "Học sinh trả lời chung chung, chưa thuyết phục: 0.25 điểm"
+        ],
+        "barem_keywords": ["chi tiết", "lí giải hợp lí", "lập luận chặt chẽ", "thuyết phục"]
+      }
+    ]
+  },
+  "writing_section": {
+    "questions": [
+      {
+        "question_id": "II.1",
+        "question_type": "Nghị luận văn học",
+        "question_text": "Cảm nhận về vẻ đẹp của đoạn thơ sau: \"Mưa đổ bụi êm êm trên bến vắng, / Đò biếng lười nằm mặc nước sông trôi; / Quán tranh đứng im lìm trong vắng lặng / Bên chòm xoan hoa tím rụng tơi bời.'' (Chiều Xuân, Anh Thơ, trích Những nhà thơ mới Việt Nam, NXB, Hội nhà văn 2014)",
+        "max_score": 4.0,
+        "detailed_rubric": [
+          "Đảm bảo cấu trúc bài nghị luận: Mở bài nêu được vấn đề, Thân bài triển khai được vấn đề, Kết bài khái quát được vấn đề (0,25 điểm)",
+          "Xác định đúng vấn đề cần nghị luận: Vẻ đẹp của đoạn thơ (0,25 điểm)",
+          "Mở bài: Giới thiệu khái quát về nhà thơ Anh Thơ và bài thơ Chiều xuân (0,5 điểm)",
+          "Nội dung: Hs cần phân tích được các hình ảnh thơ: Mưa đổ bụi trên bến vắng, Đò lười, Quán tranh im lìm vắng lặng, Chòm xoan hoa tím rụng",
+          "Bức tranh thiên nhiên tĩnh lặng, yên bình của làng quê trong một buổi chiều xuân",
+          "Nghệ thuật: Miêu tả, nhân hóa: làm cho sự vật sinh động, gần gũi và có linh hồn",
+          "Ngôn ngữ gợi hình, gợi cảm",
+          "Sử dụng hiệu quả các biện pháp: so sánh, nhân hóa",
+          "Giọng điệu vui tươi, hứng khởi",
+          "Hình ảnh thơ giàu sức gợi, biểu cảm",
+          "Phân tích chi tiết, làm rõ vẻ đẹp của các hình ảnh thơ, 1.5 điểm-2.0 điểm",
+          "Phân tích được vẻ đẹp nhưng chưa thật chi tiết, đầy đủ: 0.5 điểm -1.0 điểm",
+          "Phân tích chung chung, chưa làm rõ hình ảnh thơ 0,25 điểm -0,5 điểm",
+          "Chính tả, ngữ pháp: Đảm bảo chuẩn chính tả, ngữ pháp tiếng Việt. Không cho điểm nếu bài làm mắc quá nhiều lỗi chính tả, ngữ pháp (0,25 điểm)",
+          "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề nghị luận; có cách diễn đạt mới mẻ. Học sinh biết vận dụng lí luận văn học trong quá trình phân tích, đánh giá; biết so sánh với các tác phẩm khác để làm nổi bật hình ảnh thơ; biết liên hệ vấn đề nghị luận với thực tiễn đời sống; văn viết giàu hình ảnh, cảm xúc",
+          "Học sinh đáp ứng được 2 yêu cầu trở lên: 0,5 điểm",
+          "Học sinh đáp ứng được 1 yêu cầu: 0,25 điểm (0,25 điểm)"
+        ],
+        "barem_keywords": ["chiều xuân", "anh thơ", "mưa đổ bụi", "bến vắng", "đò biếng lười", "quán tranh", "chòm xoan hoa tím", "tĩnh lặng yên bình", "nhân hóa", "gợi hình gợi cảm", "so sánh", "giọng điệu vui tươi"]
+      }
+    ]
+  }
+}

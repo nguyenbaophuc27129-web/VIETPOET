@@ -1,0 +1,68 @@
+{
+  "test_id": "de_05_L11_viet_thuong_khong_dau",
+  "test_title": "Đề số 5 Lớp 11",
+  "reading_section": {
+    "passage": "Mất hàng triệu năm mới định hình những nếp nhăn ngôn ngữ trong não bộ, khó khăn lắm con người mới có tiếng nói. Không có tiếng nước bạn dở, tiếng nước tôi hay. Không có tiếng làng tôi nhẹ nhàng, làng bạn nặng trích. Ý thức kì thị đó có thể lưu giữ được \"bản sắc\" văn hóa làng xã nhưng nghèo tính tiến hóa biết bao. Tiếng nói của nước nào cũng đáng kính trọng, bởi tiếng nói suy cho cùng là di sản từ tổ tiên loài người sinh học có chung một nguồn cội, chung một cây tiến hóa. Một loại di sản đặc biệt. Bởi nó không chỉ nằm trong kí ức mà nối dài trong hiện tại và bắc cầu đến tương lai. Người ta thường dùng di sản vào những mục đích tốt đẹp. Tiếng nói cũng vậy. Xin em đừng lộng ngữ tà ngôn. Biết dành những lời yêu thương cho cha mẹ. Dành những lời tốt đẹp, trung thực cho bạn bè. Tuổi hoa chỉ nói những lời \"hoa cười, ngọc thốt đoan trang\". Và muôn đời, lời nói thành thực vẫn là lời hay nhất. Bởi mất đi sự chân thực, mất đi trách nhiệm trong lời nói, con người sẽ tuột dốc lỗi lầm. (Trích Lắng nghe lời thì thầm của trái tim, Nhiều tác giả, NXB Văn hóa – Văn nghệ TP. HCM, 2015, tr.33)",
+    "questions": [
+      {
+        "question_id": "I.1",
+        "question_text": "Anh/chị hiểu thế nào về ý kiến cho rằng tiếng nói là: \"Một loại di sản đặc biệt. Bởi nó không chỉ nằm trong kí ức mà nối dài trong hiện tại và bắc cầu đến tương lai.\"?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Tiếng nói là tài sản văn hóa tinh thần thế hệ cha ông trong quá khứ đã tạo dựng và để lại",
+          "Tiếng nói nằm trong kí ức: Tiếng nói đã được bao thế hệ trong quá khứ sử dụng",
+          "Nối dài trong hiện tại: Thế hệ hiện tại sử dụng tiếng nói tức là thừa hưởng, phát huy và sáng tạo di sản của cha ông",
+          "Bắc cầu đến tương lai: Thế hệ hiện tại sử dụng tiếng nói còn là cách để gìn giữ, lưu truyền cho con cháu mai sau"
+        ],
+        "barem_keywords": ["di sản đặc biệt", "kí ức", "hiện tại", "tương lai", "thừa hưởng", "phát huy", "giữ gìn", "lưu truyền"]
+      },
+      {
+        "question_id": "I.2",
+        "question_text": "Nêu thông điệp văn bản gửi đến người đọc.",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Trân trọng tiếng nói của dân tộc mình và tất cả tiếng nói của dân tộc khác",
+          "Biết nói những lời tốt đẹp, những lời yêu thương, những lời thành thực và tránh xa lộng ngữ, tà ngôn"
+        ],
+        "barem_keywords": ["trân trọng tiếng nói", "lời tốt đẹp", "lời yêu thương", "lời thành thực", "tránh lộng ngữ tà ngôn"]
+      },
+      {
+        "question_id": "I.3",
+        "question_text": "Xác định phương thức biểu đạt chính của văn bản.",
+        "max_score": 1.0,
+        "detailed_rubric": ["Phương thức nghị luận"],
+        "barem_keywords": ["nghị luận"]
+      },
+      {
+        "question_id": "I.4",
+        "question_text": "Trong chương trình Ngữ văn 11 học kì II, có một văn bản đề cập đến tầm quan trọng của tiếng nói, hãy nêu tên văn bản và tên tác giả.",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Văn bản: Tiếng mẹ đẻ - nguồn giải phóng các dân tộc bị áp bức",
+          "Tác giả: Nguyễn An Ninh"
+        ],
+        "barem_keywords": ["tiếng mẹ đẻ", "nguyễn an ninh", "nguồn giải phóng"]
+      }
+    ]
+  },
+  "writing_section": {
+    "questions": [
+      {
+        "question_id": "II.1",
+        "question_type": "Nghị luận văn học",
+        "question_text": "Cảm nhận của em về hai khổ thơ đầu của bài thơ \"Tràng Giang\" (Huy Cận)? \"Sóng gợn tràng giang buồn điệp điệp, / Con thuyền xuôi mái nước song song, / Thuyền về nước lại, sầu trăm ngả; / Củi một cành khô lạc mấy dòng. / Lơ thơ cồn nhỏ gió đìu hiu, / Đâu tiếng làng xa vãn chợ chiều. / Nắng xuống, trời lên sâu chót vót; / Sông dài, trời rộng, bến cô liêu\". (Trích – Tràng giang – Huy Cận)",
+        "max_score": 6.0,
+        "detailed_rubric": [
+          "Mở Bài: Trong phần mở đề, cần khẳng định Huy Cận (1919-2005) là một trong những nhà thơ xuất sắc nhất của phong trào \"Thơ Mới\" (1932-1945), bài thơ Tràng giang trong tập Lửa thiêng là một trong những bài thơ nổi tiếng nhất của Huy Cận. Bài thơ mang vẻ đẹp vừa cổ điển vừa hiện đại",
+          "Thân Bài - Khổ 1: Ba câu đầu mang đậm màu sắc cổ điển, vẽ lên hình ảnh con thuyền nhỏ nhoi, lênh đênh, trôi dạt trên dòng sông rộng lớn, mênh mông gợi cảm giác buồn, cô đơn, xa vắng, chia lìa",
+          "Câu thứ 4 mang nét hiện đại với hình ảnh rất đời thường: cành củi khô trôi nổi gợi lên cảm nhận về thân phận của những kiếp người nhỏ bé, bơ vơ giữa dòng đời",
+          "Khổ 2: Bức tranh tràng giang được hoàn chỉnh thêm với những chi tiết mới: cồn nhỏ, gió đìu hiu, cây cối lơ thơ, chợ chiều đã vãn, làng xa, trời sâu chót vót, bến cô liêu... nhưng không làm cho cảnh vật sống động hơn mà càng chìm sâu vào tĩnh lặng, cô đơn, hiu quạnh",
+          "Nghệ thuật: Sự kết hợp hài hòa giữa sắc thái cổ điển và hiện đại (Sự xuất hiện của những cái tưởng như tầm thường, vô nghĩa và cảm xúc buồn mang dấu ấn cái tôi cá nhân,...); Nghệ thuật đối, bút pháp tả cảnh giàu tính tạo hình, hệ thống từ láy giàu giá trị biểu cảm",
+          "Kết bài: \"Tràng giang\" của Huy Cận đẹp vì những hình ảnh, những từ ngữ đẹp như thơ cổ, cho người đọc thưởng thức những bức tranh quen thuộc của phong cảnh sông nước quê hương",
+          "Tràng giang của Huy Cận thực sự là một bài thơ của thơ hiện đại, mang cảm nhận về nỗi buồn và nỗi cô đơn của con người hiện đại, nhất là con người trong khoảng những năm ba mươi của thế kỉ trước"
+        ],
+        "barem_keywords": ["tràng giang", "huy cận", "thơ mới", "lửa thiêng", "cổ điển", "hiện đại", "con thuyền", "buồn cô đơn", "cành củi khô", "tĩnh lặng", "hiu quạnh", "bút pháp tả cảnh", "từ láy", "nghệ thuật đối"]
+      }
+    ]
+  }
+}

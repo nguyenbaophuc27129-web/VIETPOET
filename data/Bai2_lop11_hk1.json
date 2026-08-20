@@ -1,0 +1,343 @@
+{
+  "document_id": "trang_giang_huy_can",
+  "general_knowledge": {
+    "author_and_work": "Huy Cận (1919 – 2005) tên khai sinh là Cù Huy Cận, quê ở tỉnh Hà Tĩnh. Ông là một trong những nhà thơ tiêu biểu nhất của phong trào Thơ mới và cũng là cây bút có nhiều đóng góp xuất sắc cho nền thơ cách mạng Việt Nam từ sau năm 1945. Thơ Huy Cận giàu chất suy tưởng, tràn đầy cảm xúc về vũ trụ, luôn thể hiện khát khao hoà diệu với cuộc đời và tạo vật. Tiếp thu dòng thời tinh hoa của nền thơ truyền thống phương Đông và nền thơ Pháp, thơ Huy Cận đã tạo được sự cân bằng hiếm có giữa vẻ đẹp cổ điển và vẻ đẹp hiện đại, giữa chất lãng mạn và chất tượng trưng. Các tập thơ tiêu biểu của Huy Cận: Lửa thiêng (1940), Vũ trụ ca, Trời mỗi ngày lại sáng (1958), Đất nở hoa (1960), Bài thơ cuộc đời (1963), Hai bàn tay em (1967), Ngôi nhà giữa nắng (1978), Hạt lại gieo (1984), Nước triều đông (tập thơ song ngữ Việt – Pháp, 1994)... Bài thơ Tràng giang in trong tập Lửa thiêng, rất tiêu biểu cho phong cách nghệ thuật thơ Huy Cận trên nhiều phương diện. Cảm hứng sáng tác bài thơ được khơi dậy từ những buổi chiều tác giả tới ngắm cảnh thênh thang của sông Hồng ở vùng Chèm – Vẽ vào mùa thu năm 1939. Trong Suy nghĩ về nghệ thuật (1982), Huy Cận cho biết Tràng giang lúc sơ khai lại muốn là một bài lục bát và tên nguyên thuỷ của nó là Chiều trên sông. Phong trào Thơ Mới đánh dấu tên tuổi của nhiều thi nhân, trong đó phải kể đến Huy Cận- một hồn thơ sầu vạn cổ. Mỗi vần thơ của Huy Cận đều chất chứa những nỗi buồn miên man, sầu bi của nhà thơ trước thời đại, trước xã hội mà ông đang sống. Đằng sau những nỗi sầu ấy là tiếng lòng của một con người yêu nước."
+  },
+  "detailed_analysis": [
+    {
+      "section_name": "1. Lời đề từ - Khai mở bài thơ",
+      "original_text": [
+        "Bâng khuâng trời rộng nhớ sông dài.",
+        "H.C."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Bâng khuâng",
+          "art_type": "Từ láy",
+          "effect": "Gợi tâm trạng vương sầu và nỗi nhớ miên man nơi đáy lòng thi sĩ"
+        },
+        {
+          "target_words": "trời rộng nhớ sông dài",
+          "art_type": "Đối",
+          "effect": "Gợi không gian bao la, nỗi buồn thương nhớ khơi dậy"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Lời đề từ với bảy chữ thôi nhưng đã bao quát toàn bộ nội dung và tư tưởng nghệ thuật mà tác giả gửi gắm",
+          "details": [
+            "Câu thơ gợi ra nỗi buồn thương, khắc khoải, nhớ nhung của con người trước cảnh vật bao la, sâu rộng",
+            "Từ láy bâng khuâng càng gợi tâm trạng vương sầu và nỗi nhớ miên man nơi đáy lòng thi sĩ",
+            "Gợi mở cho những câu thơ sau được giãi bày tự nhiên"
+          ],
+          "conclusion": "Lời đề từ: thâu tóm được tất cả tình và cảnh trong bài thơ"
+        }
+      ],
+      "section_full_essay": [
+        "Mở đầu tác phẩm là lời đề từ Bâng khuâng trời rộng nhớ sông dài, lời đề từ với bảy chữ thôi nhưng đã bao quát toàn bộ nội dung và tư tưởng nghệ thuật mà tác giả gửi gắm. Câu thơ gợi ra nỗi buồn thương, khắc khoải, nhớ nhung của con người trước cảnh vật bao la, sâu rộng. Từ láy bâng khuâng càng gợi tâm trạng vương sầu và nỗi nhớ miên man nơi đáy lòng thi sĩ, gợi mở cho những câu thơ sau được giãi bày tự nhiên."
+      ],
+      "barem_keywords": ["Bâng khuâng", "Trời rộng", "Sông dài", "Lời đề từ", "Nỗi nhớ", "Tâm trạng"]
+    },
+    {
+      "section_name": "2. Khổ 1 - Cảnh sông nước và tâm trạng buồn",
+      "original_text": [
+        "Sóng gợn tràng giang buồn điệp điệp",
+        "Con thuyền xuôi mái nước song song",
+        "Thuyền về nước lại, sầu trăm ngả",
+        "Củi một cành khô lạc mấy dòng."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Sóng gợn tràng giang",
+          "art_type": "Điệp vần",
+          "effect": "Gợi âm vang của nỗi buồn tha thiết, không gian dài rộng"
+        },
+        {
+          "target_words": "buồn điệp điệp",
+          "art_type": "Từ láy",
+          "effect": "Nỗi buồn khắc khoải, tầng tầng lớp lớp, nối tiếp nhau chẳng thể nào dứt"
+        },
+        {
+          "target_words": "Con thuyền xuôi mái",
+          "art_type": "Hình ảnh",
+          "effect": "Con thuyền nhỏ bé, đơn độc trôi theo dòng nước, lênh đênh phiêu dạt"
+        },
+        {
+          "target_words": "nước song song",
+          "art_type": "Từ láy",
+          "effect": "Sự chia lìa, xa cách, không hứa hẹn sự gặp gỡ"
+        },
+        {
+          "target_words": "Thuyền về nước lại",
+          "art_type": "Đối",
+          "effect": "Sự đối lập, chia ly đang đón đợi"
+        },
+        {
+          "target_words": "sầu trăm ngả",
+          "art_type": "Điền từ",
+          "effect": "Nỗi sầu chia ly nhiều hướng"
+        },
+        {
+          "target_words": "Củi một cành khô",
+          "art_type": "Nghệ thuật đảo ngữ",
+          "effect": "Nhấn mạnh sự đơn độc, lẻ loi, vô định, nhỏ bé"
+        },
+        {
+          "target_words": "lac một dòng",
+          "art_type": "Hình ảnh",
+          "effect": "Hình ảnh ẩn dụ cho kiếp người bơ vơ, lạc lõng"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Câu thơ mở đầu khổ thơ thứ nhất đã mở ra một hình ảnh sông nước mênh mang",
+          "details": [
+            "Từ điệp điệp gợi lên hình ảnh những đợt sóng cứ nối đuôi nhau vỗ vào bờ không ngừng nghỉ, không dứt",
+            "Tô đậm thêm không gian rộng lớn, bao la",
+            "Hình ảnh: con thuyền xuôi mái nước gợi lên sự nhỏ nhoi",
+            "Hình ảnh đối lập giữa không gian sông nước mênh mông với hình ảnh con thuyền nhỏ bé càng gợi lên trong chúng ta sự cô đơn, le loi"
+          ],
+          "conclusion": "Nếu ví dòng tràng giang là dòng đời vô tận thì hình ảnh con thuyền, cành củi khô chính là hình ảnh tượng trưng cho kiếp người nhỏ nhoi, vô định"
+        }
+      ],
+      "section_full_essay": [
+        "Sóng gợn tràng giang buồn điệp điệp / Con thuyền xuôi mái nước song song / Thuyền về nước lại sầu trăm ngả / Củi một cành khô lạc mấy dòng.",
+        "Câu thơ lặp lại nhan đề tác phẩm tràng giang, cách điệp vần ang được sử dụng đầy tinh tế đã gợi ra một không gian với dòng sông dài rộng. Hai tiếng tràng giang cất lên càng gợi âm vang của nỗi buồn tha thiết. Những con sóng gợn nhẹ nơi dòng sông, dòng sông mang màu tâm trạng buồn điệp điệp. Nỗi buồn của dòng sông cũng chính là nỗi buồn sâu thẳm trong nhân vật trữ tình, cụm tính từ buồn điệp điệp càng làm cho nỗi buồn thêm khắc khoải, tầng tầng lớp lớp, nối tiếp nhau chẳng thể nào dứt. Tưởng chừng như nhẹ nhàng nhưng lại trĩu nặng vô bờ, thấm đẫm và lan tỏa trong từng thức cảnh. Nổi bật trong không gian dài rộng, mênh mông là hình ảnh con thuyền xuôi mái, con thuyền nhỏ bé, đơn độc trôi theo dòng nước, mặc nhiên lênh đênh, phiêu dạt như chính người thi sĩ cũng đang trống vắng, lẻ loi phó mặc dòng đời xô đẩy, chảy trôi.",
+        "Hình ảnh đối lập thuyền về- nước lại được tả giả vận dụng tinh tế kết hợp cùng thi liệu đầy mới mẻ củi một cành khô lạc mấy dòng không chỉ làm cho câu thơ thêm uyển chuyển linh hoạt mà con gợi ra được âm hưởng cổ kính. Nghệ thuật đảo ngữ củi một cành khô được đưa lên đầu câu càng nhấn mạnh sự đơn độc, lẻ loi, vô định, nhỏ bé, tầm thường. Cành củi khô ấy phải chăng là hình ảnh ẩn dụ cho thi nhân với một cái tôi bơ vơ, lạc lõng trong chính đời sống của mình."
+      ],
+      "barem_keywords": ["Điệp điệp", "Con thuyền xuôi mái", "Nước song song", "Sầu trăm ngả", "Củi một cành khô", "Lạc mấy dòng", "Đối", "Đảo ngữ"]
+    },
+    {
+      "section_name": "3. Khổ 2 - Cảnh hoang vắng và nỗi cô đơn",
+      "original_text": [
+        "Lơ thơ cồn nhỏ gió đìu hiu",
+        "Đâu tiếng làng xa vãn chợ chiều",
+        "Nắng xuống, trời lên, sâu chót vót",
+        "Sông dài, trời rộng, bến cô liêu."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Lơ thơ",
+          "art_type": "Từ láy",
+          "effect": "Sự thưa thớt, hoang vắng, lạnh lẽo"
+        },
+        {
+          "target_words": "đìu hiu",
+          "art_type": "Từ láy",
+          "effect": "Gió lạnh lẽo, buốt giá, không gian tĩnh mịch"
+        },
+        {
+          "target_words": "cồn nhỏ",
+          "art_type": "Hình ảnh",
+          "effect": "Những cồn cát nhỏ bé, lẻ loi giữa dòng sông"
+        },
+        {
+          "target_words": "Đâu tiếng làng xa",
+          "art_type": "Câu hỏi tu từ",
+          "effect": "Nỗi khao khát âm thanh cuộc sống con người"
+        },
+        {
+          "target_words": "vãn chợ chiều",
+          "art_type": "Hình ảnh",
+          "effect": "Chợ chiều đã vãn, không gian càng vắng lặng u tịch"
+        },
+        {
+          "target_words": "Nắng xuống, trời lên",
+          "art_type": "Đối",
+          "effect": "Sự vận động của không gian, mở rộng chiều kích"
+        },
+        {
+          "target_words": "sâu chót vót",
+          "art_type": "Từ láy",
+          "effect": "Sự thăm thẳm, hun hút khôn cùng"
+        },
+        {
+          "target_words": "Sông dài, trời rộng",
+          "art_type": "Đối",
+          "effect": "Không gian bao la, vô cùng"
+        },
+        {
+          "target_words": "bến cô liêu",
+          "art_type": "Từ láy",
+          "effect": "Sự cô đơn, lẻ loi, vắng vẻ"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Hai câu thơ đầu đã vẽ nên một không gian hoang vắng, hiu quạnh",
+          "details": [
+            "Nghệ thuật đảo ngữ cùng từ láy lơ thơ, đìu hiu đặc biệt gợi cảm đã gợi lên sự thưa thớt, hoang vắng, lạnh lẽo",
+            "Câu thơ Đâu tiếng làng xa vãn chợ chiều là câu thơ có nhiều cách hiểu",
+            "Dẫu hiểu theo cách nào thì câu thơ vẫn gợi lên trong lòng người đọc nỗi buồn, sự hoang vắng, tàn tạ, thiếu vắng đi sự sống của con người",
+            "Đứng trước không gian ấy con người càng cô đơn, khao khát được nghe thấy âm thanh của cuộc sống con người"
+          ],
+          "conclusion": "Hai câu sau, không gian như được mở rộng cả về bốn phía làm cho cảnh vật vốn đã vắng vẻ lại càng thêm cô liêu và tĩnh mịch hơn"
+        }
+      ],
+      "section_full_essay": [
+        "Tưởng như nỗi buồn đã dừng lại, nhường chỗ cho chút niềm vui ủi an. Nhưng sang khổ thơ thứ hai, nỗi sầu càng lớn thêm nhiều chút, thấm sâu vào cảnh vật: Lơ thơ cồn nhỏ gió đìu hiu / Đâu tiếng làng xa, vãn chợ chiều",
+        "Cặp từ láy tượng hình lơ thơ đìu hiu gợi bao buồn vắng, quạnh quẽ, cô đơn. Như tự nhiên vốn có, không gian chợ búa gợi sự đông vui, tấp nập, nhưng trong đoạn thơ, hình ảnh chợ xuất hiện mà chẳng thấy chút hơi ấm của cuộc sống, tiếng cười nói, mua bán của con người. Vạn vật như nằm trong sự tĩnh lặng đến tuyệt đối, không gian cũng được mở rộng cả chiều kích sâu rộng: Nắng xuống trời lên, sâu chót vót / Sông dài trời rộng, bến cô liêu.",
+        "Nghệ thuật đối kết hợp với biện pháp tu từ nhân hoá cho thấy được chiều kích vô cùng của không gian. Sâu chót vót gợi sự thăm thẳm, hun hút khôn cùng. Càng rộng, càng cao, càng sâu bao nhiêu thì cảnh vật càng buồn vắng, lẻ loi bấy nhiêu. Sông tuy dài mà bến bờ cô lẻ, nỗi buồn như mở rộng theo chiều kích không gian, thấm sâu trong từng hơi thở."
+      ],
+      "barem_keywords": ["Lơ thơ", "Đìu hiu", "Cồn nhỏ", "Vãn chợ chiều", "Sâu chót vót", "Sông dài", "Trời rộng", "Bến cô liêu", "Tĩnh lặng"]
+    },
+    {
+      "section_name": "4. Khổ 3 - Cảm thức cô đơn và sự thiếu vắng giao lưu",
+      "original_text": [
+        "Bèo dạt về đâu, hàng nối hàng",
+        "Mênh mông không một chuyến đò ngang",
+        "Không cầu gợi chút niềm thân mật",
+        "Lặng lẽ bờ xanh tiếp bãi vàng."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Bèo dạt về đâu",
+          "art_type": "Câu hỏi tu từ",
+          "effect": "Gợi sự vô định, lênh đênh của kiếp người"
+        },
+        {
+          "target_words": "hàng nối hàng",
+          "art_type": "Từ láy",
+          "effect": "Sự nối tiếp nhau, không biết đâu là cuối"
+        },
+        {
+          "target_words": "Mênh mông",
+          "art_type": "Từ láy",
+          "effect": "Không gian bao la, vô cùng"
+        },
+        {
+          "target_words": "không một chuyến đò ngang",
+          "art_type": "Phủ định",
+          "effect": "Không có sự giao lưu, gắn kết đôi bờ"
+        },
+        {
+          "target_words": "Không cầu",
+          "art_type": "Phủ định",
+          "effect": "Thiếu vắng dấu vết của sự sống, của bóng hình con người"
+        },
+        {
+          "target_words": "Lặng lẽ",
+          "art_type": "Từ láy",
+          "effect": "Sự tĩnh mịch tuyệt đối"
+        },
+        {
+          "target_words": "bờ xanh tiếp bãi vàng",
+          "art_type": "Hình ảnh",
+          "effect": "Sự tĩnh lặng, cô liêu, không sự giao lưu"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Hình ảnh bèo dạt về đâu hàng nối hàng: gợi lên hình ảnh về kiếp người, cõi nhân sinh trôi nổi, không biết rồi sẽ đi đâu, về đâu",
+          "details": [
+            "Nghệ thuật phủ định được lặp lại: không một chuyến đò ngang, không cầu",
+            "Ở nơi đây không có bất cứ thứ gì gắn kết đôi bờ với nhau",
+            "Nó thiếu đi dấu vết của sự sống, của bóng hình con người",
+            "Hơn hết là tình người, mối giao hòa, thân mật giữa con người với nhau",
+            "Cảm thức cô đơn về sự lạc loài trước cảnh sông dài trời rộng đã khiến nhà thơ mong được đón nhận tiếng nói con người",
+            "Mong được nhìn thấy sự giao lưu gần gũi giữa con người với con người nhưng tất cả vẫn bị ngăn cách"
+          ],
+          "conclusion": "Hình ảnh con đò, chiếc cầu tượng trưng cho sự giao lưu đôi bờ nhưn không có → nỗi buồn về cuộc đời, về nhân thế"
+        }
+      ],
+      "section_full_essay": [
+        "Theo mạch cảm xúc của hai khổ thơ trước, khổ thơ thứ ba càng khắc sâu thêm nỗi buồn tuyệt đối: Bèo dạt về đâu hàng nối hàng / Mênh mông không một chuyến đò ngang / Không cần gợi chút niềm thân mật / Lặng lẽ bờ xanh tiếp bãi vàng.",
+        "Hình ảnh cánh bèo gợi sự vô định, lênh đênh. Những cánh bèo trôi dạt liên tiếp hàng nối hàng không nơi bấu víu, chẳng chốn trở về hay chính là hình ảnh ẩn dụ cho những kiếp người nhỏ bé, đơn độc, mất phương hướng lúc bấy giờ. Sông nước mênh mông, dài rộng, không có lấy một chuyến đò đi qua, cây cầu bắc ngang cũng chẳng thấy nên dù muốn nhưng nào có chút hy vọng mong manh về sự gắn kết với con người. Tất cả dường như đang chống đối với lòng người, kẻ cô đơn đang khao khát giao cảm, thấu hiểu, sẻ chia lại không có một chút tình đời, tình người ở lại."
+      ],
+      "barem_keywords": ["Bèo dạt", "Hàng nối hàng", "Mênh mông", "Đò ngang", "Không cầu", "Lặng lẽ", "Bờ xanh", "Bãi vàng", "Giao cảm"]
+    },
+    {
+      "section_name": "5. Khổ 4 - Cảnh hoàng hôn và nỗi nhớ quê hương",
+      "original_text": [
+        "Lớp lớp mây cao đùn núi bạc",
+        "Chim nghiêng cánh nhỏ bóng chiều sa",
+        "Lòng quê dợn dợn vời con nước",
+        "Không khói hoàng hôn cũng nhớ nhà."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Lớp lớp mây cao",
+          "art_type": "Liệt kê hình ảnh",
+          "effect": "Những đám mây trắng nối tiếp nhau phía chân trời"
+        },
+        {
+          "target_words": "đùn núi bạc",
+          "art_type": "Động từ mạnh",
+          "effect": "Sự vận động mạnh mẽ, vẻ đẹp hùng vĩ tráng lệ"
+        },
+        {
+          "target_words": "Chim nghiêng cánh nhỏ",
+          "art_type": "Hình ảnh đối lập",
+          "effect": "Cánh chim bé nhỏ giữa vũ trụ bao la, chấp chới rợn ngợp"
+        },
+        {
+          "target_words": "bóng chiều sa",
+          "art_type": "Hình ảnh",
+          "effect": "Bóng chiều buồn vương buông xuống"
+        },
+        {
+          "target_words": "Lòng quê dợn dợn",
+          "art_type": "Từ láy",
+          "effect": "Nỗi nhớ quê da diết, cồn cào, lan tỏa không dứt"
+        },
+        {
+          "target_words": "vời con nước",
+          "art_type": "Hình ảnh",
+          "effect": "Những đợt sóng lan xa, gợi sự nhớ thương vô tận"
+        },
+        {
+          "target_words": "Không khói hoàng hôn",
+          "art_type": "Phủ định",
+          "effect": "Không cần điều kiện外在 vẫn nhớ quê"
+        },
+        {
+          "target_words": "cũng nhớ nhà",
+          "art_type": "Câu khẳng định",
+          "effect": "Nỗi nhớ quê thường trực, mãnh liệt, biểu hiện tình yêu nước"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Khổ thơ cuối bài thơ vẽ nên một bức tranh đầy tráng lệ của thiên nhiên và nỗi buồn sâu lắng của lòng người",
+          "details": [
+            "Hai câu thơ đầu khổ thơ: Vẽ nên một bức tranh thiên nhiên chiều tà với vẻ đẹp hùng vĩ, nên thơ",
+            "Hình ảnh những đám mây trắng cứ hết lớp này đến lớp khác nối tiếp nhau đùn lên dưới ánh nắng chiều như tạo nên những quả núi dát bạc",
+            "Hình ảnh cánh chim xuất hiện như ánh lên một tia ấm áp cho cảnh vật song nó vẫn không làm vơi đi nỗi buồn trong sâu thẳm tâm hồn của nhà thơ",
+            "Hai câu thơ cuối đã thể hiện nỗi nhớ quê hương da diết, cháy bỏng của tác giả",
+            "Hình ảnh dờn dợn vời con nước không chỉ tả những đợt sóng lan xa mà hơn thế nó còn gợi lên cảm giác buồn nhớ đến vô tận của nhà thơ",
+            "Nỗi buồn của người xa xứ đang nhớ quê hương da diết"
+          ],
+          "conclusion": "Câu thơ cuối đậm chất cổ điển khép lại bài thơ đã diễn tả một cách chân thực và rõ nét niềm thương nhớ quê hương đất nước của nhà thơ"
+        }
+      ],
+      "section_full_essay": [
+        "Khổ thơ cuối bài thơ vẽ nên một bức tranh đầy tráng lệ của thiên nhiên và nỗi buồn sâu lắng của lòng người: Lớp lớp mây cao đùn núi bạc / Chim nghiêng cánh nhỏ, bóng chiều sa / Lòng quê dợn dợn vời con nước / Không khói hoàng hôn cũng nhớ nhà..",
+        "Bầu trời với những đám mây cao trắng được phản chiếu dưới ánh mặt trời tạo hoá trở nên đẹp đẽ với ánh bạc lấp lánh. Động từ đùn cho thấy được sự vận động đầy mạnh mẽ của cảnh vật, những đám mây đùn lên trùng điệp phía chân trời tạo thành những dãy núi hùng vĩ, tráng lệ. Giữa không trung là cánh chim bé nhỏ đang đơn độc nghiêng mình dưới bóng chiều buồn vương. Hình ảnh đối lập giữa cánh chim nhỏ bé và vũ trụ bao la hùng vĩ càng tô đậm nỗi buồn của bầu thiên nhiên sâu rộng, khoáng đạt.",
+        "Trước cảnh thiên nhiên ấy, nỗi nhớ quê hương trong lòng thi nhân lại thêm da diết, cồn cào: Lòng quê dợn dợn vời con nước / Không khói hoàng hôn cũng nhớ house.",
+        "Trong thơ Đường Thi cũng đã từng viết: Nhât mộ hương quan hà xứ thị / Yên ba giang thượng sử nhân sầu. Thôi Hiệu nhìn khói sóng mà thương nỗi nhớ quê nhà. Trong Tràng giang, nỗi nhớ quê hương của Huy Cận dường như thường trực, dai dẳng và mãnh liệt hơn bởi không khói hoàng hôn cũng nhớ nhà. Không vì bất cứ điều gì mà nỗi nhớ vẫn dợn dợn trong lòng thi nhân, đó chính là biểu hiện của tình yêu quê hương nói riêng và tinh thần yêu nước nói chung."
+      ],
+      "barem_keywords": ["Lớp lớp", "Mây cao", "Đùn núi bạc", "Chim nghiêng cánh", "Bóng chiều", "Dợn dợn", "Vời con nước", "Khói hoàng hôn", "Nhớ nhà", "Yêu nước"]
+    },
+    {
+      "section_name": "6. Kết luận - Giá trị nghệ thuật",
+      "original_text": [],
+      "x_ray_data": [],
+      "section_outline": [
+        {
+          "point": "Vẻ đẹp cổ điển thể hiện trên nhiều phương diện",
+          "details": [
+            "Mỗi dòng 7 chữ ngắt nhịp đều đặn, mỗi khổi 4 dòng, tách ra như bài thơ tứ tuyệt",
+            "Cách thức miêu tả thiên nhiên theo bút pháp hội họa cổ điển: một vài nét đơn sơ nhưng ghi được hồn tạo vật",
+            "Tả cảnh ngụ tình",
+            "Sự trang nhã, thanh thoát từ hình ảnh, ngôn từ"
+          ],
+          "conclusion": "Chất hiện đại thể hiện trong cách cảm nhận sự việc, tâm trạng bơ vơ, buồn bã phổ biến của cái tôi lãng mạn đương thời"
+        }
+      ],
+      "section_full_essay": [
+        "Bằng sự kết hợp hài hòa giữa cổ điển và hiện đại, bài thơ đậm chất Đường thi nhưng vẫn rất Việt Nam với những hình ảnh đầy gần gũi như con thuyền xuôi mái, bèo dạt mây trôi, cành củi khô lạc dòng,. Qua bài thơ, ta thấy được một nỗi buồn vô tận của cái tôi lạc lõng trong cuộc đời."
+      ],
+      "barem_keywords": ["Cổ điển", "Hiện đại", "Tứ tuyệt", "Tả cảnh ngụ tình", "Thơ Đường", "Lãng mạn"]
+    }
+  ]
+}
