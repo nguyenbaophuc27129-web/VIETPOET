@@ -12,7 +12,7 @@ import {
 // ==============================================================================
 // Khi chạy trên máy tính: giữ nguyên 'http://127.0.0.1:8000'
 // Khi đã deploy lên Hugging Face: thay bằng link 'https://TÊN_BẠN-vietpoet-api.hf.space'
-const API_BASE_URL = 'https://huggingface.co/spaces/phucnguyen27/vietpoet-api/tree/main';
+const API_BASE_URL = 'https://vietpoet-api.loca.lt';
 
 // ==============================================================================
 // 📚 DỮ LIỆU DỰ PHÒNG (MOCK DATA TỰ ĐỘNG CHẠY KHI BACKEND CHƯA BẬT)
