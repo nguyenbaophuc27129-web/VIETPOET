@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "task": "Poem Identification (16 classes)",
+    "seed": 42,
+    "corpus_passages": 456,
+    "n_poems": 16,
+    "set_a": {
+      "name": "Trích dẫn câu thơ gốc",
+      "n": 96
+    },
+    "set_b": {
+      "name": "Diễn giải (không chứa câu thơ gốc)",
+      "n": 96
+    },
+    "sbert_model": "keepitreal/vietnamese-sbert",
+    "date": "2026-09-04 22:17"
+  },
+  "results_setA": [
+    {
+      "method": "Random (baseline)",
+      "n": 96,
+      "top1": 0.0625,
+      "top3": 0.1875,
+      "mrr": 0.2113,
+      "macro_f1": 0.0074,
+      "latency_ms": 0.0
+    },
+    {
+      "method": "TF-IDF + Cosine",
+      "n": 96,
+      "top1": 0.8438,
+      "top3": 0.9479,
+      "mrr": 0.8986,
+      "macro_f1": 0.8491,
+      "latency_ms": 0.7
+    },
+    {
+      "method": "TF-IDF + SVM (LinearSVC)",
+      "n": 96,
+      "top1": 0.7083,
+      "top3": 0.875,
+      "mrr": 0.8047,
+      "macro_f1": 0.7163,
+      "latency_ms": 0.4
+    },
+    {
+      "method": "SBERT + ChromaDB",
+      "n": 96,
+      "top1": 0.4792,
+      "top3": 0.625,
+      "mrr": 0.5959,
+      "macro_f1": 0.4771,
+      "latency_ms": 91.3
+    },
+    {
+      "method": "Hybrid SBERT+TF-IDF (RRF)",
+      "n": 96,
+      "top1": 0.6875,
+      "top3": 0.8542,
+      "mrr": 0.7818,
+      "macro_f1": 0.6745,
+      "latency_ms": 91.9
+    }
+  ],
+  "results_setB": [
+    {
+      "method": "Random (baseline)",
+      "n": 96,
+      "top1": 0.0625,
+      "top3": 0.1875,
+      "mrr": 0.2113,
+      "macro_f1": 0.0074,
+      "latency_ms": 0.0
+    },
+    {
+      "method": "TF-IDF + Cosine",
+      "n": 96,
+      "top1": 0.9271,
+      "top3": 0.9583,
+      "mrr": 0.9493,
+      "macro_f1": 0.9284,
+      "latency_ms": 0.8
+    },
+    {
+      "method": "TF-IDF + SVM (LinearSVC)",
+      "n": 96,
+      "top1": 0.7917,
+      "top3": 0.9583,
+      "mrr": 0.8761,
+      "macro_f1": 0.7927,
+      "latency_ms": 0.4
+    },
+    {
+      "method": "SBERT + ChromaDB",
+      "n": 96,
+      "top1": 0.5938,
+      "top3": 0.7083,
+      "mrr": 0.688,
+      "macro_f1": 0.5834,
+      "latency_ms": 105.5
+    },
+    {
+      "method": "Hybrid SBERT+TF-IDF (RRF)",
+      "n": 96,
+      "top1": 0.7292,
+      "top3": 0.875,
+      "mrr": 0.8113,
+      "macro_f1": 0.7243,
+      "latency_ms": 108.0
+    }
+  ],
+  "per_poem_sbert": [
+    {
+      "poem_id": "duong_phu_hanh_cao_ba_quat",
+      "poem_title": "Dương phụ hành (Cao Bá Quát)",
+      "n_questions": 12,
+      "top1_accuracy": 0.1667
+    },
+    {
+      "poem_id": "nho_dong_to_huu",
+      "poem_title": "Nhớ đồng (Tố Hữu)",
+      "n_questions": 12,
+      "top1_accuracy": 0.1667
+    },
+    {
+      "poem_id": "con_duong_mua_dong_puskin",
+      "poem_title": "Con đường mùa đông (Pu-skin)",
+      "n_questions": 12,
+      "top1_accuracy": 0.25
+    },
+    {
+      "poem_id": "trao_duyen_trich_truyen_kieu",
+      "poem_title": "Trao duyên - Truyện Kiều (Nguyễn Du)",
+      "n_questions": 12,
+      "top1_accuracy": 0.3333
+    },
+    {
+      "poem_id": "bai_ca_ngat_nguong_nguyen_cong_tru",
+      "poem_title": "Bài ca ngất ngưởng (Nguyễn Công Trứ)",
+      "n_questions": 12,
+      "top1_accuracy": 0.4167
+    },
+    {
+      "poem_id": "doc_tieu_thanh_ki_nguyen_du",
+      "poem_title": "Đọc Tiểu Thanh ki (Nguyễn Du)",
+      "n_questions": 12,
+      "top1_accuracy": 0.4167
+    },
+    {
+      "poem_id": "loi_tien_dặn_tran_tho_dan_toc_thai",
+      "poem_title": "Lời tiễn dặn (truyện thơ Thái)",
+      "n_questions": 12,
+      "top1_accuracy": 0.4167
+    },
+    {
+      "poem_id": "chum_tho_hai_cu_nhat_ban",
+      "poem_title": "Chùm thơ haiku Nhật Bản",
+      "n_questions": 12,
+      "top1_accuracy": 0.5
+    },
+    {
+      "poem_id": "binh_ngo_dai_cao",
+      "poem_title": "Bình Ngô đại cáo (Nguyễn Trãi)",
+      "n_questions": 12,
+      "top1_accuracy": 0.6667
+    },
+    {
+      "poem_id": "thuyen_va_bien_xuan_quynh",
+      "poem_title": "Thuyền và biển (Xuân Quỳnh)",
+      "n_questions": 12,
+      "top1_accuracy": 0.6667
+    },
+    {
+      "poem_id": "ban_hoa_am_ngon_tu_trong_tieng_thu_luu_trong_lu_chu_van_son",
+      "poem_title": "Bạn hoa âm ngôn từ trong tiếng thu (Chu Văn Sơn)",
+      "n_questions": 12,
+      "top1_accuracy": 0.75
+    },
+    {
+      "poem_id": "bao_kinh_canh_gioi_bai_43",
+      "poem_title": "Bảo kính cảnh giới (bài 43) - Nguyễn Trãi",
+      "n_questions": 12,
+      "top1_accuracy": 0.75
+    },
+    {
+      "poem_id": "duc_thuy_son",
+      "poem_title": "Dục Thủy sơn (Nguyễn Trãi)",
+      "n_questions": 12,
+      "top1_accuracy": 0.75
+    },
+    {
+      "poem_id": "mua_xuan_chin_han_mac_tu",
+      "poem_title": "Mùa xuân chín (Hàn Mặc Tử)",
+      "n_questions": 12,
+      "top1_accuracy": 0.75
+    },
+    {
+      "poem_id": "trang_giang_huy_can",
+      "poem_title": "Tràng giang (Huy Cận)",
+      "n_questions": 12,
+      "top1_accuracy": 0.75
+    },
+    {
+      "poem_id": "thu_hung_cam_xuc_mua_thu_do_phu",
+      "poem_title": "Thu hứng (Đỗ Phủ)",
+      "n_questions": 12,
+      "top1_accuracy": 0.8333
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+/**
+ * VIET-POET-ALYZER - AI Chat API với RAG Pipeline (Tuần 3)
+ *
+ * Luồng xử lý:
+ * 1. Nhận câu hỏi từ VoiceChat
+ * 2. Gọi RAG server Python (localhost:5000/query) — retrieve từ 456 passages
+ *    của 16 bài thơ SGK 2018 → zero hallucination
+ * 3. Nếu RAG server tắt/chậm → tự động fallback về smartAI cục bộ (rule-based)
+ *
+ * Bật/tắt RAG: biến môi trường ENABLE_RAG (mặc định BẬT)
+ */
+import { NextRequest, NextResponse } from 'next/server';
+import { smartAI } from '@/lib/smartAI';
+
+// Configuration
+const RAG_BACKEND_URL = process.env.RAG_BACKEND_URL || 'http://localhost:5000';
+// Mặc định BẬT RAG (điểm bán hàng chính của dự án). Tắt bằng ENABLE_RAG=false
+const ENABLE_RAG = process.env.ENABLE_RAG !== 'false';
+// Timeout cho RAG backend. Khi bật LLM (VIETPOET_LLM=true) câu trả lời mất ~5-16s
+// nên cần >= 20s. Khi chỉ dùng template (~200ms) timeout này vô hại.
+const RAG_TIMEOUT_MS = Number(process.env.RAG_TIMEOUT_MS) || 20000;
+
+interface ChatMessage {
+  role: 'user' | 'assistant' | 'system';
+  content: string;
+}
+
+/**
+ * POST /api/ai - Chat với RAG, fallback smartAI
+ */
+export async function POST(request: NextRequest) {
+  try {
+    const { messages, poemId, sectionIndex } = await request.json();
+
+    if (!messages || messages.length === 0) {
+      return NextResponse.json({ error: 'Messages array required' }, { status: 400 });
+    }
+
+    const lastMessage = messages[messages.length - 1];
+    if (lastMessage.role !== 'user') {
+      return NextResponse.json({ error: 'Last message must be from user' }, { status: 400 });
+    }
+
+    const question = lastMessage.content;
+
+    // ---- 1. Ưu tiên RAG backend (offline ChromaDB, zero hallucination) ----
+    if (ENABLE_RAG) {
+      try {
+        const ragResponse = await queryRAGBackend(question, poemId);
+
+        // RAG không tìm thấy passage phù hợp (retrieved=0/confidence=0) →
+        // dùng smartAI giảng dạy thân thiện thay vì thông báo "không tìm thấy" khô khan
+        const retrieved = Number(ragResponse.metadata?.retrieved ?? 0);
+        if (retrieved > 0 && Number(ragResponse.confidence ?? 0) > 0) {
+          return NextResponse.json({
+            role: 'assistant',
+            content: ragResponse.content,
+            sources: ragResponse.sources,
+            confidence: ragResponse.confidence,
+            poemId: poemId,
+            sectionIndex: sectionIndex,
+            ragEnabled: true,
+            metadata: ragResponse.metadata
+          });
+        }
+        console.warn('RAG has no relevant passage, falling back to smartAI for:', question);
+      } catch (ragError) {
+        // RAG server tắt hoặc quá timeout → fallback xuống smartAI bên dưới
+        console.warn('RAG unavailable, falling back to smartAI:', ragError instanceof Error ? ragError.message : ragError);
+      }
+    }
+
+    // ---- 2. Fallback: smartAI cục bộ (vẫn hoạt động 100% offline, không cần Python) ----
+    let poem = null;
+    if (poemId) {
+      poem = await loadPoemData(poemId);
+    }
+
+    const response = smartAI.analyzePoem(poem, question);
+
+    return NextResponse.json({
+      role: 'assistant',
+      content: response.content,
+      sources: response.sources,
+      confidence: response.confidence,
+      poemId: poemId,
+      sectionIndex: sectionIndex,
+      ragEnabled: false,
+      metadata: {
+        method: 'local_smartAI',
+        query: question,
+        timestamp: new Date().toISOString()
+      }
+    });
+
+  } catch (error) {
+    console.error('AI Chat API error:', error);
+    return NextResponse.json(
+      {
+        error: 'Failed to process chat message',
+        details: error instanceof Error ? error.message : 'Unknown error'
+      },
+      { status: 500 }
+    );
+  }
+}
+
+/**
+ * Gọi RAG server Python (FastAPI, port 5000)
+ */
+async function queryRAGBackend(question: string, poemId?: string, topK: number = 3) {
+  const body: Record<string, unknown> = { question, topK };
+  if (poemId) body.poemId = poemId;
+
+  const response = await fetch(`${RAG_BACKEND_URL}/query`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+    signal: AbortSignal.timeout(RAG_TIMEOUT_MS)
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`RAG backend error (${response.status}): ${errorText}`);
+  }
+
+  return response.json();
+}
+
+/**
+ * Load dữ liệu bài thơ từ JSON (cho smartAI fallback)
+ */
+async function loadPoemData(poemId: string): Promise<any> {
+  try {
+    const poemFiles = [
+      '/data/Bai1_lop10_hk1.json',
+      '/data/Bai1_lop11_hk1.json',
+      '/data/Bai2_lop10_hk1.json',
+      '/data/Bai2_lop11_hk1.json',
+      '/data/Bai2_lop11_hk2.json',
+      '/data/Bai3_lop10_hk1.json',
+      '/data/Bai3_lop11_hk1.json',
+      '/data/Bai3_lop11_hk2.json',
+      '/data/Bai4_lop10_hk1.json',
+      '/data/Bai4_lop11_hk1.json',
+      '/data/Bai4_lop11_hk2.json',
+      '/data/Bai5_lop11_hk1.json',
+      '/data/Bai6_lop11_hk1.json',
+      '/data/Bai_2_lop10_hk2.json',
+      '/data/Bai_3_lop10_hk2.json',
+      '/data/Bai_4_lop10_hk2.json'
+    ];
+
+    for (const file of poemFiles) {
+      const response = await fetch(`http://localhost:3000${file}`);
+      if (response.ok) {
+        const data = await response.json();
+        if (data.document_id === poemId) {
+          return data;
+        }
+      }
+    }
+    return null;
+  } catch (error) {
+    console.warn('Failed to load poem data:', error);
+    return null;
+  }
+}
+
+/**
+ * GET /api/ai - Trạng thái hệ thống AI
+ */
+export async function GET() {
+  // Kiểm tra RAG server có sống không (nhanh, 1s)
+  let ragStatus: 'online' | 'offline' = 'offline';
+  if (ENABLE_RAG) {
+    try {
+      const res = await fetch(`${RAG_BACKEND_URL}/health`, { signal: AbortSignal.timeout(1000) });
+      ragStatus = res.ok ? 'online' : 'offline';
+    } catch {
+      ragStatus = 'offline';
+    }
+  }
+
+  return NextResponse.json({
+    system: 'VIET-POET-ALYZER AI',
+    version: '6.0 (RAG + Socratic smartAI)',
+    status: 'active',
+    pipeline: {
+      ragEnabled: ENABLE_RAG,
+      ragBackendUrl: RAG_BACKEND_URL,
+      ragStatus,
+      fallback: 'local_smartAI (rule-based Socratic, zero dependency)'
+    },
+    features: [
+      'RAG retrieval trên 456 passages / 16 bài thơ SGK 2018',
+      'Vietnamese SBERT embeddings (chạy 100% offline)',
+      'Phương pháp Socratic (chống viết bài hộ)',
+      'Tự động fallback khi RAG server tắt',
+      'Source attribution + confidence scoring'
+    ]
+  });
+}

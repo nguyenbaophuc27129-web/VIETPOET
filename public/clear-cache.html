@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear Service Worker - VIET-POET-ALYZER</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        button:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 Clear Service Worker Cache</h1>
+        <p>Đang xóa Service Worker cache...</p>
+        <script>
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                    var count = registrations.length;
+
+                    registrations.forEach(function(registration) {
+                        registration.unregister();
+                        console.log('Unregistered:', registration.scope);
+                    });
+
+                    if (count > 0) {
+                        document.querySelector('p').textContent = '✅ Đã xóa ' + count + ' Service Worker!';
+                        setTimeout(function() {
+                            window.location.href = 'http://localhost:3000';
+                        }, 1500);
+                    } else {
+                        document.querySelector('p').textContent = '✅ Không có Service Worker để xóa!';
+                        setTimeout(function() {
+                            window.location.href = 'http://localhost:3000';
+                        }, 1500);
+                    }
+                });
+            } else {
+                document.querySelector('p').textContent = 'Trình duyệt không hỗ trợ Service Worker';
+                setTimeout(function() {
+                    window.location.href = 'http://localhost:3000';
+                }, 1500);
+            }
+        </script>
+        <button onclick="window.location.href='http://localhost:3000'">🚀 Về Trang Chủ</button>
+    </div>
+</body>
+</html>

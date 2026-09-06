@@ -1,0 +1,22 @@
+# VIET-POET-ALYZER 2.0 — Danh sách thư viện Python cho cài đặt OFFLINE
+# (khớp đúng các phiên bản đang chạy tốt trên máy phát triển, Windows x64 + Python 3.13)
+# Cài offline:  python -m pip install --no-index --find-links wheelhouse -r requirements-offline.txt
+
+# API server
+fastapi==0.135.2
+uvicorn==0.42.0
+
+# RAG: embeddings + vector database
+sentence-transformers==5.3.0
+chromadb==1.5.9
+torch==2.13.0
+numpy
+
+# LLM OpenVINO (Qwen2.5-1.5B INT8) — LƯU Ý: requirements.txt cũ thiếu openvino-genai
+openvino==2026.3.0
+openvino-genai==2026.3.0.0
+transformers==5.4.0
+huggingface-hub
+
+# Hỗ trợ
+python-dotenv

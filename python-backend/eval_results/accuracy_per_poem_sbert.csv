@@ -1,0 +1,17 @@
+﻿poem_id,poem_title,n_questions,top1_accuracy
+duong_phu_hanh_cao_ba_quat,Dương phụ hành (Cao Bá Quát),12,0.1667
+nho_dong_to_huu,Nhớ đồng (Tố Hữu),12,0.1667
+con_duong_mua_dong_puskin,Con đường mùa đông (Pu-skin),12,0.25
+trao_duyen_trich_truyen_kieu,Trao duyên - Truyện Kiều (Nguyễn Du),12,0.3333
+bai_ca_ngat_nguong_nguyen_cong_tru,Bài ca ngất ngưởng (Nguyễn Công Trứ),12,0.4167
+doc_tieu_thanh_ki_nguyen_du,Đọc Tiểu Thanh ki (Nguyễn Du),12,0.4167
+loi_tien_dặn_tran_tho_dan_toc_thai,Lời tiễn dặn (truyện thơ Thái),12,0.4167
+chum_tho_hai_cu_nhat_ban,Chùm thơ haiku Nhật Bản,12,0.5
+binh_ngo_dai_cao,Bình Ngô đại cáo (Nguyễn Trãi),12,0.6667
+thuyen_va_bien_xuan_quynh,Thuyền và biển (Xuân Quỳnh),12,0.6667
+ban_hoa_am_ngon_tu_trong_tieng_thu_luu_trong_lu_chu_van_son,Bạn hoa âm ngôn từ trong tiếng thu (Chu Văn Sơn),12,0.75
+bao_kinh_canh_gioi_bai_43,Bảo kính cảnh giới (bài 43) - Nguyễn Trãi,12,0.75
+duc_thuy_son,Dục Thủy sơn (Nguyễn Trãi),12,0.75
+mua_xuan_chin_han_mac_tu,Mùa xuân chín (Hàn Mặc Tử),12,0.75
+trang_giang_huy_can,Tràng giang (Huy Cận),12,0.75
+thu_hung_cam_xuc_mua_thu_do_phu,Thu hứng (Đỗ Phủ),12,0.8333

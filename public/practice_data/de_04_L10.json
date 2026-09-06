@@ -1,0 +1,108 @@
+{
+  "test_id": "de_04_viet_thuong_khong_dau",
+  "test_title": "Đề số 4",
+  "reading_section": {
+    "passage": "Từ thời vua Hùng dựng nước đã truyền lại câu chuyện về nữ thần Lúa, một vị thần xinh đẹp, dáng người ẻo lả, và có tính hay hờn dỗi. Nàng là con gái Ngọc Hoàng. Sau những trận lụt lội ghê gớm xảy ra, sinh linh cây cỏ đều bị diệt hết, trời bèn cho những người còn sống sót sinh con đẻ cái trên mặt đất, sai nữ thần Lúa xuống trần gian, nuôi sống loài người. Nữ thần làm phép cho những hạt giống gieo xuống đất nảy mầm, mọc thành cây, kết bông mẩy hạt. Lúa chín tự về nhà không cần gặt và không phải phơi phóng gì cả. Cần ăn, cứ ngắt bông vào nồi là lúa sẽ thành cơm. Một hôm cô con gái nhà kia đang bận việc. Sân chưa quét dọn, cửa kho cũng chưa mở, lúa ở ngoài đã ùn ùn kéo về. Cô gái cuống quýt và đâm cáu. Sẵn tay đang cầm cái chổi, cô đập vào đầu bông lúa mà mắng: - Người ta chưa dọn dẹp xong đã bò về. Gì mà hấp tấp thế? Nữ thần Lúa đang dẫn các bông lúa vào sân, thấy sân, đường bẩn thỉu rác rưởi đã bực trong lòng, lại bị mang một cán chổi vào đầu, tức lắm. Cả đám lúa đều thốt lên: - Muốn mệt thì ta cho mệt luôn. Từ nay có hái tre, liềm sắc cắt cổ tao, tao mới về. Từ đó nữ thần Lúa dỗi, nhất định không cho lúa bò về nữa. Người trần gian phải xuống tận ruộng lấy từng bông. Thấy vất vả mệt nhọc quá, người ta mới chế ra liềm hái để cắt lúa cho nhanh. Và lúa cũng không tự biến thành cơm nữa, mà phải phơi phóng, xay giã cho ra gạo. Sự hờn dỗi của nữ thần Lúa còn đôi khi cay nghiệt hơn nữa. Nữ thần vẫn giận sự phũ phàng của con người, nên nhiều lần đã cấm không cho các bông lúa nảy nở. Có kết hạt cũng chỉ là lúa lép mà thôi. Vì thế sau này mỗi lần gặt xong là người trần gian phải làm lễ cúng hồn Lúa, cũng là cúng thần Lúa. Có nơi không gọi như thế thì gọi là cúng cơm mới. Cúng hồn Lúa, cơm mới, do các các gia đình tổ chức trong nhà mình. Các làng, các bản cũng phải mở những ngày hội chung để cúng thần Lúa. Trong những ngày hội ấy, mở đầu cho các cuộc tế tự và trò vui, là một ''tiết mục'' hấp dẫn, gọi là: Rước bông lúa. Các trò Trám (Vĩnh Phú), trò Triềng (Thanh Hóa), trò thổi tù và cây Hống (Nghệ Tĩnh), v.v... đều có rước bông lúa như vậy. (Trích Nữ thần Lúa, theo Thần thoại Việt Nam chọn lọc, NXB Thanh niên)",
+    "questions": [
+      {
+        "question_id": "I.1",
+        "question_text": "Xác định thể loại của văn bản trên. A. Cổ tích B. Truyền thuyết C. Thần thoại D. Sử thi",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: C"],
+        "barem_keywords": ["thần thoại"]
+      },
+      {
+        "question_id": "I.2",
+        "question_text": "Câu chuyện diễn ra trong không gian nào? A. Không gian rừng núi rộng lớn, kì vĩ. B. Không gian thiên đình và hạ giới. C. Không gian cõi âm ti. D. Không gian nhà của một cô gái.",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: B"],
+        "barem_keywords": ["thiên đình", "hạ giới"]
+      },
+      {
+        "question_id": "I.3",
+        "question_text": "Nhân vật Nữ thần Lúa được khắc hoạ thông qua những phương diện nào? A. lai lịch, ngoại hình, tính khí, tâm trạng, công việc B. công việc, ngoại hình, tính khí, lời nói C. lai lịch, công việc, ngoại hình, tính khí D. lai lịch, tính khí, ngoại hình, lời nói",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: C"],
+        "barem_keywords": ["lai lịch", "công việc", "ngoại hình", "tính khí"]
+      },
+      {
+        "question_id": "I.4",
+        "question_text": "Cốt truyện được sắp xếp theo trình tự nào? A. Trình tự thời gian B. Trình tự tâm lí C. Quan hệ sở hữuD. Quan hệ nhân quả",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: A"],
+        "barem_keywords": ["trình tự thời gian"]
+      },
+      {
+        "question_id": "I.5",
+        "question_text": "Biện pháp tu từ nào được sử dụng trong câu văn sau: \"Từ thời vua Hùng dựng nước đã truyền lại câu chuyện về nữ thần Lúa, một vị thần xinh đẹp, dáng người ẻo lả, và có tính hay hờn dỗi\"? A. So sánh B. Liệt kê C. Nhân hoáD. Nói quá",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: B"],
+        "barem_keywords": ["liệt kê"]
+      },
+      {
+        "question_id": "I.6",
+        "question_text": "Phương thức biểu đạt chính của văn bản là: A. Tự sự B. Miêu tả C. Nghị luậnD. Thuyết minh",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: A"],
+        "barem_keywords": ["tự sự"]
+      },
+      {
+        "question_id": "I.7",
+        "question_text": "Văn bản trên thuộc loại thần thoại nào? A. Thần thoại về nguồn gốc vũ trụ và các hiện tượng tự nhiên. B. Thần thoại về nguồn gốc con người và nguồn gốc các dân tộc ở Việt Nam. C. Thần thoại về các anh hùng thời khuyết sử, các anh hùng văn hoá, tổ sư các nghề. D. Thần thoại về nguồn gốc các loài động thực vật.",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: D"],
+        "barem_keywords": ["nguồn gốc động thực vật"]
+      },
+      {
+        "question_id": "I.8",
+        "question_text": "Năng lực siêu nhiên của Nữ thần Lúa được thể hiện như thế nào trong văn bản?",
+        "max_score": 0.5,
+        "detailed_rubric": [
+          "Năng lực siêu nhiên của Nữ thần Lúa: làm phép cho những hạt giống gieo xuống đất nảy mầm, mọc thành cây, kết bông mẩy hạt. Lúa chín tự về nhà không cần gặt và không phải phơi phóng gì cả. Cần ăn, cứ ngắt bông vào nồi là lúa sẽ thành cơm"
+        ],
+        "barem_keywords": ["làm phép", "nảy mầm", "kết bông mẩy hạt", "lúa chín tự về", "thành cơm"]
+      },
+      {
+        "question_id": "I.9",
+        "question_text": "Qua truyện kể, dân gian muốn lí giải điều gì?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Văn bản trên ra đời để lí giải nguồn gốc cây lúa và lễ cúng cơm mới"
+        ],
+        "barem_keywords": ["nguồn gốc cây lúa", "lễ cúng cơm mới"]
+      },
+      {
+        "question_id": "I.10",
+        "question_text": "Viết một đoạn văn (khoảng 5-7 câu) phân tích một chi tiết kì ảo có trong văn bản.",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Nhân dân sáng tạo ra các chi tiết kì ảo nhằm dựng lên câu chuyện thần kì, giải thích những sự kiện, sự việc chưa thể giải thích theo cách thông thường",
+          "HS có thể chọn một chi tiết kì ảo bất kì và chia sẻ cảm nhận của cá nhân"
+        ],
+        "barem_keywords": ["chi tiết kì ảo", "câu chuyện thần kì", "giải thích sự kiện"]
+      }
+    ]
+  },
+  "writing_section": {
+    "questions": [
+      {
+        "question_id": "II.1",
+        "question_type": "Nghị luận văn học",
+        "question_text": "Quê hương là nơi đẹp nhất đối với mỗi người. Hãy viết bài văn trình bày cảm nhận của anh/chị về vẻ đẹp của quê hương trong đoạn thơ sau: \"Quê hương là chùm khế ngọt / Cho con trèo hái mỗi ngày / Quê hương là đường đi học / Con về rợp bướm vàng bay / Quê hương là con diều biếc / Tuổi thơ con thả trên đồng / Quê hương là con đò nhỏ / Êm đềm khua nước ven sông / Quê hương là cầu tre nhỏ / Mẹ về nón lá nghiêng che / Là hương hoa đồng cỏ nội / Bay trong giấc ngủ đêm hè\" (Trích Bài học đầu cho con-Đỗ Trung Quân)",
+        "max_score": 4.0,
+        "detailed_rubric": [
+          "Đảm bảo cấu trúc bài nghị luận văn học: Mở bài nêu được vấn đề, thân bài triển khai được vấn đề, kết bài khái quát được vấn đề (0,25 điểm)",
+          "Xác định đúng vấn đề nghị luận: Vẻ đẹp của quê hương qua đoạn thơ trên (0,5 điểm)",
+          "Mở bài: Giới thiệu vấn đề cần nghị luận: Vẻ đẹp của quê hương qua đoạn thơ trên",
+          "Cảm nhận chung về quê hương",
+          "Cảm nhận về vẻ đẹp của quê hương qua 3 khổ thơ: Quê hương thân thuộc, gần gũi; Quê hương bình dị, mộc mạc; Quê hương gắn bó sâu nặng với mỗi người",
+          "Cảm nhận về vẻ đẹp của hình ảnh, ngôn từ, giọng điệu, cách ngắt nhịp được tác giả sử dụng trong đoạn thơ",
+          "Kết bài: Khẳng định vẻ đẹp của quê hương và tấm lòng của nhà thơ; Cách viết dung dị, đi vào lòng người (2,5 điểm)",
+          "Chính tả, ngữ pháp: Đảm bảo chuẩn chính tả, ngữ pháp Tiếng Việt (0,25 điểm)",
+          "Sáng tạo: Bài viết có giọng điệu riêng; cách diễn đạt sáng tạo, văn phong trôi chảy (0,5 điểm)"
+        ],
+        "barem_keywords": ["quê hương", "chùm khế ngọt", "đường đi học", "con diều biếc", "con đò nhỏ", "cầu tre nhỏ", "hương hoa đồng", "thân thuộc gần gũi", "bình dị mộc mạc", "gắn bó sâu nặng", "đỗ trung quân"]
+      }
+    ]
+  }
+}

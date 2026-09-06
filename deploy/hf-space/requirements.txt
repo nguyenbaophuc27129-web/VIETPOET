@@ -1,0 +1,13 @@
+# VIET-POET-ALYZER 2.0 — dependencies cho Docker/HuggingFace Spaces (Linux, Python 3.11)
+# torch CPU (nhẹ hơn bản mặc định) — cài qua index riêng trong Dockerfile nếu muốn gọn hơn
+torch>=2.2
+numpy
+sentence-transformers>=2.2
+chromadb>=0.4
+fastapi>=0.110
+uvicorn>=0.29
+transformers>=4.41
+huggingface-hub
+openvino>=2024.0
+openvino-genai>=2024.0
+python-dotenv

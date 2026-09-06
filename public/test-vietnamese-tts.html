@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Vietnamese TTS/STT - VIET-POET-ALYZER</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #9E2A2B;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px solid #C5A059;
+            border-radius: 10px;
+            background: #FAF6F0;
+        }
+        .section h2 {
+            color: #9E2A2B;
+            margin-top: 0;
+        }
+        button {
+            background: #9E2A2B;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #B84E4E;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        button.recording {
+            background: #dc3545;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        textarea, input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #C5A059;
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: inherit;
+            box-sizing: border-box;
+        }
+        .voice-list {
+            max-height: 200px;
+            overflow-y: auto;
+            background: white;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .voice-item {
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        .voice-item:hover {
+            background: #f0f0f0;
+        }
+        .voice-item.selected {
+            background: #C5A059;
+            color: white;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .status.error {
+            background: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+        }
+        .status.warning {
+            background: #fff3cd;
+            border-color: #ffeaa7;
+            color: #856404;
+        }
+        .info {
+            background: #e7f3ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            border-left: 4px solid #2196F3;
+        }
+        .info h3 {
+            margin-top: 0;
+            color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🇻🇳 Test Vietnamese TTS/STT</h1>
+
+        <div class="info">
+            <h3>ℹ️ Thông tin</h3>
+            <p>Trang này dùng để test tính năng Text-to-Speech và Speech-to-Text bằng tiếng Việt.</p>
+            <p><strong>Browser:</strong> <span id="browser-info"></span></p>
+            <p><strong>Hỗ trợ TTS:</strong> <span id="tts-support"></span></p>
+            <p><strong>Hỗ trợ STT:</strong> <span id="stt-support"></span></p>
+        </div>
+
+        <!-- TTS Section -->
+        <div class="section">
+            <h2>🔊 Text-to-Speech (Đọc tiếng Việt)</h2>
+
+            <div>
+                <label><strong>Chọn giọng:</strong></label>
+                <div class="voice-list" id="voice-list">
+                    <div style="text-align: center; color: #666;">Đang tải giọng...</div>
+                </div>
+            </div>
+
+            <textarea id="tts-text" rows="4" placeholder="Nhập văn bản tiếng Việt để đọc...">Xin chào! Tôi là VIET-POET-ALYZER, trợ lý AI học thơ. Tôi có thể giúp bạn học tập môn Ngữ văn, đặc biệt là thơ ca Việt Nam.</textarea>
+
+            <div>
+                <button onclick="speakText()">🔊 Đọc</button>
+                <button onclick="stopSpeaking()">⏹️ Dừng</button>
+                <button onclick="testVietnameseSentences()">📝 Test câu tiếng Việt</button>
+            </div>
+
+            <div id="tts-status" class="status" style="display: none;"></div>
+        </div>
+
+        <!-- STT Section -->
+        <div class="section">
+            <h2>🎤 Speech-to-Text (Nhận diện tiếng Việt)</h2>
+
+            <div>
+                <label><strong>Ngôn ngữ:</strong></label>
+                <select id="stt-language" style="width: 100%; padding: 10px; margin: 10px 0; border: 2px solid #C5A059; border-radius: 5px;">
+                    <option value="vi-VN" selected>🇻🇳 Tiếng Việt (Vietnamese)</option>
+                    <option value="en-US">🇺🇸 English (United States)</option>
+                </select>
+            </div>
+
+            <textarea id="stt-result" rows="4" placeholder="Kết quả nhận diện sẽ hiện ở đây..." readonly></textarea>
+
+            <div>
+                <button id="start-record" onclick="startRecording()">🎤 Bắt đầu ghi âm</button>
+                <button id="stop-record" onclick="stopRecording()" disabled>⏹️ Dừng ghi âm</button>
+                <button onclick="copyResult()">📋 Copy kết quả</button>
+            </div>
+
+            <div id="stt-status" class="status" style="display: none;"></div>
+
+            <div class="info">
+                <h3>💡 Mẹo để nhận diện tiếng Việt tốt hơn:</h3>
+                <ul>
+                    <li>Nói rõ ràng, chậm rãi</li>
+                    <li>Nói gần micro</li>
+                    <li>Dùng từ vựng tiếng Việt chuẩn</li>
+                    <li>Tránh môi trường ồn</li>
+                    <li>Dùng Chrome hoặc Edge trên Windows</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Test Sentences -->
+        <div class="section">
+            <h2>📝 Các câu test tiếng Việt</h2>
+            <div id="test-sentences"></div>
+        </div>
+    </div>
+
+    <script>
+        // Browser info
+        document.getElementById('browser-info').textContent = navigator.userAgent;
+
+        // Check support
+        const ttsSupported = 'speechSynthesis' in window;
+        const sttSupported = ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window);
+
+        document.getElementById('tts-support').textContent = ttsSupported ? '✅ Có' : '❌ Không';
+        document.getElementById('stt-support').textContent = sttSupported ? '✅ Có' : '❌ Không';
+
+        // TTS Variables
+        let voices = [];
+        let selectedVoice = null;
+
+        // STT Variables
+        let recognition = null;
+        let isRecording = false;
+
+        // Test sentences
+        const testSentences = [
+            'Xin chào, tôi tên là Nguyễn Văn A.',
+            'Thưa ông, bà và các bạn.',
+            'Cô giáo đang giảng bài trên bục giảng.',
+            'Chiếc thuyền nhỏ phiệu bồng bềnh.',
+            'Biển đảo quê hương yêu thương.',
+            'Mùa thu năm ấy có ánh mắt trinh nữ.',
+            'Đất nước trông hàng năm vết thủng',
+            'Lời ca của người mẹ hiền',
+            'Con chào cha mẹ, thưa thầy cô',
+            'Việt Nam muôn năm!'
+        ];
+
+        // Load voices for TTS
+        function loadVoices() {
+            voices = speechSynthesis.getVoices();
+            const voiceList = document.getElementById('voice-list');
+            voiceList.innerHTML = '';
+
+            // Filter Vietnamese voices
+            const vietnameseVoices = voices.filter(voice =>
+                voice.lang.includes('vi') ||
+                voice.lang.includes('VN') ||
+                voice.lang === 'vi-VN'
+            );
+
+            if (vietnameseVoices.length === 0) {
+                voiceList.innerHTML = '<div style="text-align: center; color: #dc3545;">⚠️ Không tìm thấy giọng tiếng Việt! Hãy dùng Chrome/Edge trên Windows.</div>';
+                showTTSStatus('Không tìm thấy giọng tiếng Việt', 'error');
+                return;
+            }
+
+            vietnameseVoices.forEach((voice, index) => {
+                const div = document.createElement('div');
+                div.className = 'voice-item' + (index === 0 ? ' selected' : '');
+                div.textContent = `${voice.name} (${voice.lang})`;
+                div.onclick = () => selectVoice(voice, div);
+                voiceList.appendChild(div);
+
+                if (index === 0) {
+                    selectedVoice = voice;
+                }
+            });
+
+            showTTSStatus(`Đã tải ${vietnameseVoices.length} giọng tiếng Việt`, 'success');
+        }
+
+        function selectVoice(voice, element) {
+            selectedVoice = voice;
+            document.querySelectorAll('.voice-item').forEach(el => el.classList.remove('selected'));
+            element.classList.add('selected');
+        }
+
+        function speakText() {
+            if (!ttsSupported) {
+                showTTSStatus('Trình duyệt không hỗ trợ TTS', 'error');
+                return;
+            }
+
+            const text = document.getElementById('tts-text').value;
+            if (!text.trim()) {
+                showTTSStatus('Vui lòng nhập văn bản để đọc', 'warning');
+                return;
+            }
+
+            // Stop current speech
+            speechSynthesis.cancel();
+
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'vi-VN';
+            utterance.rate = 0.85;
+            utterance.pitch = 1;
+
+            if (selectedVoice) {
+                utterance.voice = selectedVoice;
+                console.log('Using voice:', selectedVoice.name);
+            }
+
+            utterance.onstart = () => {
+                showTTSStatus('🔊 Đang phát...', 'success');
+            };
+
+            utterance.onend = () => {
+                showTTSStatus('✅ Đã đọc xong', 'success');
+            };
+
+            utterance.onerror = (event) => {
+                showTTSStatus(`❌ Lỗi: ${event.error}`, 'error');
+            };
+
+            speechSynthesis.speak(utterance);
+        }
+
+        function stopSpeaking() {
+            speechSynthesis.cancel();
+            showTTSStatus('⏹️ Đã dừng', 'warning');
+        }
+
+        function testVietnameseSentences() {
+            const container = document.getElementById('test-sentences');
+            container.innerHTML = '<p style="text-align: center;">Đang test...</p>';
+
+            testSentences.forEach((sentence, index) => {
+                setTimeout(() => {
+                    const utterance = new SpeechSynthesisUtterance(sentence);
+                    utterance.lang = 'vi-VN';
+                    utterance.rate = 0.85;
+
+                    if (selectedVoice) {
+                        utterance.voice = selectedVoice;
+                    }
+
+                    container.innerHTML = `<p><strong>${index + 1}.</strong> "${sentence}"</p>`;
+                    showTTSStatus(`🔊 Đọc câu ${index + 1}/${testSentences.length}`, 'success');
+
+                    utterance.onend = () => {
+                        if (index === testSentences.length - 1) {
+                            showTTSStatus('✅ Đã test xong tất cả câu', 'success');
+                            container.innerHTML = '<p style="text-align: center;">✅ Đã test xong!</p>';
+                        }
+                    };
+
+                    speechSynthesis.speak(utterance);
+                }, index * 3000);
+            });
+        }
+
+        function showTTSStatus(message, type) {
+            const status = document.getElementById('tts-status');
+            status.textContent = message;
+            status.className = 'status ' + type;
+            status.style.display = 'block';
+
+            setTimeout(() => {
+                status.style.display = 'none';
+            }, 5000);
+        }
+
+        // Initialize STT
+        function initSTT() {
+            if (!sttSupported) {
+                showSTTStatus('Trình duyệt không hỗ trợ STT', 'error');
+                return;
+            }
+
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = true;
+            recognition.lang = 'vi-VN';
+
+            recognition.onresult = (event) => {
+                let finalTranscript = '';
+                let interimTranscript = '';
+
+                for (let i = event.resultIndex; i < event.results.length; ++i) {
+                    if (event.results[i].isFinal) {
+                        finalTranscript += event.results[i][0].transcript;
+                    } else {
+                        interimTranscript += event.results[i][0].transcript;
+                    }
+                }
+
+                document.getElementById('stt-result').value = finalTranscript || interimTranscript;
+            };
+
+            recognition.onend = () => {
+                isRecording = false;
+                document.getElementById('start-record').disabled = false;
+                document.getElementById('stop-record').disabled = true;
+                document.getElementById('start-record').classList.remove('recording');
+                showSTTStatus('✅ Đã dừng ghi âm', 'success');
+            };
+
+            recognition.onerror = (event) => {
+                console.error('STT Error:', event.error);
+                showSTTStatus(`❌ Lỗi: ${event.error}`, 'error');
+                isRecording = false;
+                document.getElementById('start-record').disabled = false;
+                document.getElementById('stop-record').disabled = true;
+                document.getElementById('start-record').classList.remove('recording');
+            };
+        }
+
+        function startRecording() {
+            if (!recognition) {
+                showSTTStatus('STT không được hỗ trợ', 'error');
+                return;
+            }
+
+            const language = document.getElementById('stt-language').value;
+            recognition.lang = language;
+
+            document.getElementById('stt-result').value = '';
+
+            try {
+                recognition.start();
+                isRecording = true;
+                document.getElementById('start-record').disabled = true;
+                document.getElementById('stop-record').disabled = false;
+                document.getElementById('start-record').classList.add('recording');
+                showSTTStatus('🎤 Đang ghi âm... Hãy nói gì đó', 'success');
+            } catch (error) {
+                showSTTStatus(`❌ Không thể bắt đầu: ${error.message}`, 'error');
+            }
+        }
+
+        function stopRecording() {
+            if (recognition && isRecording) {
+                recognition.stop();
+            }
+        }
+
+        function copyResult() {
+            const result = document.getElementById('stt-result').value;
+            if (result) {
+                navigator.clipboard.writeText(result);
+                showSTTStatus('✅ Đã copy kết quả', 'success');
+            }
+        }
+
+        function showSTTStatus(message, type) {
+            const status = document.getElementById('stt-status');
+            status.textContent = message;
+            status.className = 'status ' + type;
+            status.style.display = 'block';
+
+            setTimeout(() => {
+                status.style.display = 'none';
+            }, 5000);
+        }
+
+        // Initialize
+        window.onload = () => {
+            if (ttsSupported) {
+                speechSynthesis.onvoiceschanged = loadVoices;
+                loadVoices();
+            }
+
+            if (sttSupported) {
+                initSTT();
+            }
+
+            // Load test sentences
+            const testContainer = document.getElementById('test-sentences');
+            testContainer.innerHTML = '<p><strong>Nhấn vào từng câu để test:</strong></p>';
+            testSentences.forEach((sentence, index) => {
+                const btn = document.createElement('button');
+                btn.textContent = `Câu ${index + 1}: ${sentence.substring(0, 30)}...`;
+                btn.onclick = () => {
+                    document.getElementById('tts-text').value = sentence;
+                    speakText();
+                };
+                testContainer.appendChild(btn);
+            });
+        };
+    </script>
+</body>
+</html>

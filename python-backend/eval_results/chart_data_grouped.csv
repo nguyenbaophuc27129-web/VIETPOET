@@ -1,0 +1,11 @@
+﻿dataset,method,n,top1,top3,mrr,macro_f1,latency_ms
+A - Trích dẫn,Random (baseline),96,0.0625,0.1875,0.2113,0.0074,0.0
+A - Trích dẫn,TF-IDF + Cosine,96,0.8438,0.9479,0.8986,0.8491,0.7
+A - Trích dẫn,TF-IDF + SVM (LinearSVC),96,0.7083,0.875,0.8047,0.7163,0.4
+A - Trích dẫn,SBERT + ChromaDB,96,0.4792,0.625,0.5959,0.4771,91.3
+A - Trích dẫn,Hybrid SBERT+TF-IDF (RRF),96,0.6875,0.8542,0.7818,0.6745,91.9
+B - Diễn giải,Random (baseline),96,0.0625,0.1875,0.2113,0.0074,0.0
+B - Diễn giải,TF-IDF + Cosine,96,0.9271,0.9583,0.9493,0.9284,0.8
+B - Diễn giải,TF-IDF + SVM (LinearSVC),96,0.7917,0.9583,0.8761,0.7927,0.4
+B - Diễn giải,SBERT + ChromaDB,96,0.5938,0.7083,0.688,0.5834,105.5
+B - Diễn giải,Hybrid SBERT+TF-IDF (RRF),96,0.7292,0.875,0.8113,0.7243,108.0

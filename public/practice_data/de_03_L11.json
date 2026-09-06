@@ -1,0 +1,93 @@
+{
+  "test_id": "de_03_L11_viet_thuong_khong_dau",
+  "test_title": "Đề số 3 Lớp 11",
+  "reading_section": {
+    "passage": "ANH ĐỘC THOẠI TRƯỚC CON ĐƯỜNG (Đoàn Trọng Hải) (1) Con đường lơ lửng chân trời / Con đường dài hơn số phận (2) Đã bao lần bóng anh mất hút / Đã bao lần tâm hồn anh bệnh tật / Đã bao lần anh ngã gục trên đường (3) Nhưng trước con đường / Bàn chân anh vẫn bước / Như trước cuộc đời / Anh mãi còn có em (4) Anh không sợ gai cuộc đời găm vào chân đau đớn / Anh không sợ nỗi cô đơn trong suốt cuộc hành trình đơn độc / Anh chỉ sợ gặp lại những dấu chân mìn / Những dấu chân quen đã bước trên con đường hôm trước / Những dấu chân mở ra những lối mòn / Những dấu chân làm tâm hồn anh rách rưới / Những dấu chân khép lại cánh cửa cuộc đời (5) Anh sẽ là anh khi bước trên đường / Những dấu chân đằng sau không còn dấu vết / Những dấu chân cỏ lấp đầy trổ hoa nước mắt / Phía trước anh là những bước lối ban mai (6) Anh sẽ là anh với những chuyến đi dài / Con đường trước anh là hơi thở / Anh yêu từng dấu chân mới mẻ / Như yêu cuộc đời và như đã yêu em. (Tạp chí Quân đội, số 1033, tháng 3-2024, trang 37)",
+    "questions": [
+      {
+        "question_id": "I.1",
+        "question_text": "Xác định nhân vật trữ tình của bài thơ trên.",
+        "max_score": 0.5,
+        "detailed_rubric": ["Đáp án: Anh - người đi trên con đường đời"],
+        "barem_keywords": ["anh", "nhân vật trữ tình", "con đường đời"]
+      },
+      {
+        "question_id": "I.2",
+        "question_text": "Chỉ ra những hình ảnh diễn tả sự đau đớn, thất bại của nhân vật trữ tình ở đoạn thơ (2).",
+        "max_score": 0.5,
+        "detailed_rubric": ["Bóng anh mất hút, tâm hồn anh bệnh tật, anh ngã gục trên đường"],
+        "barem_keywords": ["bóng mất hút", "tâm hồn bệnh tật", "ngã gục"]
+      },
+      {
+        "question_id": "I.3",
+        "question_text": "Phân tích hiệu quả của biện pháp tu từ lặp cấu trúc: \"Anh sẽ là anh…\" ở đoạn thơ (5) và (6).",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Phép lặp cấu trúc: \"Anh sẽ là anh...\"",
+          "Tác dụng: Nhấn mạnh sự khẳng định cái tôi, bản lĩnh của nhân vật trữ tình",
+          "Tạo nhịp điệu mạnh mẽ, thể hiện quyết tâm vượt qua thử thách"
+        ],
+        "barem_keywords": ["anh sẽ là anh", "lặp cấu trúc", "khẳng định cái tôi", "bản lĩnh", "nhịp điệu", "quyết tâm"]
+      },
+      {
+        "question_id": "I.4",
+        "question_text": "Xác định ý nghĩa biểu tượng của hình ảnh \"con đường\" được sử dụng trong bài thơ.",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Con đường là biểu tượng của cuộc đời với những thử thách, khó khăn",
+          "Con đường đại diện cho hành trình trưởng thành và phát triển của con người",
+          "Con đường thể hiện những lựa chọn, quyết định trong đời mỗi người"
+        ],
+        "barem_keywords": ["con đường", "biểu tượng", "cuộc đời", "thử thách", "hành trình", "trưởng thành", "lựa chọn"]
+      },
+      {
+        "question_id": "I.5",
+        "question_text": "Anh/Chị có đồng tình với suy nghĩ: \"Anh chỉ sợ gặp lại những dấu chân mình\" của tác giả không? Vì sao?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Đồng tình hoặc không đồng tình (có lý)",
+          "Nếu đồng tình: Vì những dấu chân cũ là sai lầm, lỗi lầm trong quá khứ cần tránh lặp lại",
+          "Nếu không đồng tình: Vì từ sai lầm ta học hỏi và trưởng thành, không cần sợ gặp lại"
+        ],
+        "barem_keywords": ["dấu chân", "sai lầm", "quá khứ", "trưởng thành", "học hỏi"]
+      }
+    ]
+  },
+  "writing_section": {
+    "questions": [
+      {
+        "question_id": "II.1",
+        "question_type": "Nghị luận xã hội",
+        "question_text": "Từ nội dung bài thơ ở phần đọc hiểu, anh/ chị hãy viết đoạn văn nghị luận (khoảng 200 chữ) bàn luận về vấn đề luôn là chính mình.",
+        "max_score": 2.0,
+        "detailed_rubric": [
+          "Xác định đúng vấn đề cần nghị luận: Luôn là chính mình",
+          "Triển khai các luận điểm: Giải thích ý nghĩa của việc là chính mình; Tại sao cần là chính mình; Cách để là chính mình trong cuộc sống",
+          "Kết hợp lý lẽ và dẫn chứng thuyết phục",
+          "Liên hệ bản thân và thực tế",
+          "Chính tả, ngữ pháp đảm bảo",
+          "Sáng tạo trong diễn đạt"
+        ],
+        "barem_keywords": ["là chính mình", "bản lĩnh", "cái tôi", "quyết tâm", "trưởng thành", "khẳng định"]
+      },
+      {
+        "question_id": "II.2",
+        "question_type": "Nghị luận văn học",
+        "question_text": "Viết bài văn nghị luận (khoảng 600 chữ) phân tích, đánh giá bài thơ Gửi mẹ (Lưu Quang Vũ): Trên đời chẳng ai lo cho ta bằng mẹ / Cũng chẳng ai ta làm khổ nhiều như mẹ của ta / Mẹ ơi nếu con được sống lại tuổi thơ / Con sẽ chẳng bao giờ mải chơi trốn học / Đứa con trai nhiều lỗi lầm ương ngạnh / Sẽ không lần nào làm mẹ xót xa. / Ước mẹ trẻ hoài như buổi mới gặp cha / Ước con được sống suốt đời bên mẹ / Mẹ muốn ăn cá thu con chẳng nề xuống bể / Chẳng ngại lên ngàn kiếm đọt măng mai / Nhưng xứ sở ta quân Mỹ tới rồi / Cùng bạn bè con lên đường đuổi giặc. / Mẹ vui vẻ gánh lấy phần khó nhọc / Việc cơ quan, việc Đảng, việc nhà / Đánh Pháp năm xưa, đánh Mỹ bây giờ / Quen vất vả, mẹ quản gì sương nắng. / Đêm nay con nằm rừng xa gió lạnh / Mẹ nghỉ chưa hay mẹ thức rồi? / Suốt một đời chưa có lúc nghỉ ngơi / Nghĩ thương mẹ, giận quân thù quá đỗi. / Lo trước mọi điều mẹ thường ít nói / Mắt tin yêu nhìn thấu tận đường xa / Mọi giả dối quanh co mọi tàn bạo hận thù / Đều nát vụn trước mắt hiền của mẹ. / Dầu cuộc đời là con đường dài thế / Con sẽ đi qua mọi đèo dốc chông gai / Bằng đôi chân của mẹ, mẹ ơi! / 1969 (Gió và tình yêu thổi trên đất nước tôi, Nhà xuất bản Hội Nhà văn, trang 123-124)",
+        "max_score": 4.0,
+        "detailed_rubric": [
+          "Bảo đảm bố cục và dung lượng bài văn nghị luận khoảng 600 chữ",
+          "Xác định đúng vấn đề cần nghị luận: Phân tích, đánh giá bài thơ Gửi mẹ của Lưu Quang Vũ",
+          "Mở bài: Giới thiệu tác giả Lưu Quang Vũ và bài thơ Gửi mẹ",
+          "Thân bài: Phân tích nội dung - Tình yêu mẹ sâu sắc, niềm cảm hối lỗi, sự hy sinh của mẹ; Tinh thần yêu nước, trách nhiệm với cách mạng; Sự kết hợp giữa tình cảm gia đình và trách nhiệm lịch sử",
+          "Phân tích nghệ thuật - Thể thơ tự do, giọng điệu tâm tình, thủ pháp xưng hô; Ngôn ngữ giản dị, chân thành; Biện pháp tu từ: liệt kê, đối, nhân hóa",
+          "Đánh giá: Bài thơ là tiếng nói tâm tình đầy xúc động về tình mẹ, kết hợp với tinh thần yêu nước; Giá trị nhân văn và nghệ thuật của tác phẩm",
+          "Kết bài: Khẳng định giá trị của bài thơ trong thơ ca Việt Nam hiện đại",
+          "Chính tả, ngữ pháp đảm bảo",
+          "Sáng tạo trong diễn đạt"
+        ],
+        "barem_keywords": ["gửi mẹ", "lưu quang vũ", "tình yêu mẹ", "hối lỗi", "hy sinh", "yêu nước", "cách mạng", "thể thơ tự do", "giọng điệu tâm tình", "xưng hô", "giản dị", "nhân văn", "nghệ thuật"]
+      }
+    ]
+  }
+}

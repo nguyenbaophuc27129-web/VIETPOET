@@ -1,0 +1,319 @@
+{
+  "document_id": "doc_tieu_thanh_ki_nguyen_du",
+  "general_knowledge": {
+    "author_and_work": "I. Đôi nét về tác giả Nguyễn Du\n- Nguyễn Du là một thiên tài văn học, một nhà nhân đạo chủ nghĩa lớn của dân tộc\n- Sự nghiệp sáng tác của ông gồm những tác phẩm có giá trị cả chữ Hán và chữ Nôm\n- Tác phẩm chữ Hán: Thanh Hiên thi tập, Nam Trung tạp ngâm, Bắc Hành tạp lục\n- Tác phẩm chữ Nôm: Đoạn trường tân thanh (Truyện Kiều), Văn chiêu hồn\n\nII. Đôi nét về tác phẩm Đọc Tiểu Thanh kí (Độc Tiểu Thanh kí)\n1. Hoàn cảnh sáng tác và nhan đề bài thơ\n- Bài thơ được Nguyễn Du viết trước khi đi sứ ở Trung Quốc\n- Nhan đề “Đọc Tiểu Thanh kí” (Độc Tiểu Thanh kí)\n  + Kí: những ghi chép\n  + Tiểu Thanh kí: những ghi chés của nàng Tiểu Thanh\n  → “Đọc Tiểu Thanh kí”: đọc những ghi chép của nàng Tiểu Thanh (đọc tập thơ của nàng Tiểu Thanh)\n\n2. Bố cục (4 phần)\nBài thơ được chia theo thể thơ thất ngôn bát cú: Đề - Thực - Luận - Kết\n\n3. Giá trị nội dung\nBài thơ “Đọc Tiểu Thanh kí” thể hiện cảm xúc, suy tư của Nguyễn Du về số phận bất hạnh của người phụ nữ có tài văn chương trong xã hội phong kiến. Đồng thời, qua đó cũng thể hiện một phương diện quan trọng trong chủ nghĩa nhân đạo của Nguyễn Du: xót xa cho những giá trị tinh thần bị chà đạp\n\n4. Giá trị nghệ thuật\n- Thể thơ thất ngôn bát cú Đường luật\n- Nghệ thuật đối, câu hỏi tu từ\n- Hình ảnh thơ hàm súc, giàu giá trị biểu tượng\n\n5. Câu chuyện về Tiểu Thanh\n- Nàng Tiểu Thanh sống thời Minh (thế kỉ XIV-XVII), người tài sắc vẹn toàn\n- Làm vợ lẽ, bị vợ cả ghen ghét đày ra Côn Sơn\n- Những vẽ và thơ của nàng bị đốt sạch chỉ còn ít ỏi\n- Chết trẻ ở tuổi xuân xanh vì cô đơn, uất ức"
+  },
+  "detailed_analysis": [
+    {
+      "section_name": "Hai câu Đề: Cảnh tàn phe và sự viếng kính",
+      "original_text": [
+        "Phiên âm Tây Hồ hoa uyển tận thành khư,",
+        "Độc điếu song tiền nhất chỉ thư."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Tây Hồ hoa uyển",
+          "art_type": "Hình ảnh thơ",
+          "effect": "Chỉ vườn hoa đẹp bên hồ Tây, gợi vẻ đẹp lộng lẫy của quá khứ"
+        },
+        {
+          "target_words": "Tận thành khư",
+          "art_type": "Thành ngữ",
+          "effect": "Đến cùng, triệt để, hết - gợi sự tàn phá hoàn toàn"
+        },
+        {
+          "target_words": "Độc điếu",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Một mình viếng - thể hiện sự trang nghiêm, cô đơn"
+        },
+        {
+          "target_words": "Nhất chỉ thư",
+          "art_type": "Hình ảnh thơ",
+          "effect": "Một tờ giấy/một tập sách - gợi sự khiêm tốn nhưng cũng trân trọng"
+        },
+        {
+          "target_words": "Tây Hồ hoa uyển - thành khư",
+          "art_type": "Nghệ thuật đối",
+          "effect": "Đối lập giữa quá khứ rực rỡ và hiện tại hoang tàn"
+        },
+        {
+          "target_words": "Song tiền",
+          "art_type": "Hình ảnh thơ",
+          "effect": "Trước cửa sổ - gợi không khí trang nghiêm của sự viếng"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Hình ảnh thơ đối lập giữa quá khứ và hiện tại",
+          "details": [
+            "Tây Hồ hoa uyển (vườn hoa bên Tây Hồ) – thành khư (gò hoang)",
+            "Động từ “tận”: đến cùng, triệt để, hết"
+          ],
+          "conclusion": "Câu thơ gợi ra một nghịch cảnh giữa quá khứ và hiện tại: Vườn hoa bên Tây Hồ nay đã thành bãi đất hoang rồi. Từ đó, gợi sự xót xa trước sự đổi thay, sự tàn phá của thời gian đối với cái đẹp"
+        },
+        {
+          "point": "Cách sử dụng từ ngữ",
+          "details": [
+            "Độc điếu (một mình viếng) – nhất chỉ thư (một tập sách)",
+            "Sự tương xứng trong cuộc gặp gỡ"
+          ],
+          "conclusion": "Nguyễn Du như muốn nhấn mạnh sự cô đơn nhưng cũng nhấn mạnh cả sự tương xứng trong cuộc gặp gỡ này. Một trạng thái cô đơn gặp một kiếp cô đơn bất hạnh"
+        }
+      ],
+      "section_full_essay": [
+        "Sê-khốp đã từng nói \"Một nghệ sĩ chân chính phải là một nhà nhân đạo từ trong cốt tuỷ\" câu nói ấy làm ta bỗng nhớ đến một nhà thơ lớn của dân tộc, một danh nhân văn hoá thế giới, một bậc thầy về ngôn ngữ và hơn cả là một người có quan điểm tư tưởng nhân đạo tiến bộ nhất trong xã hội phong kiến xưa,… con người vĩ đại ấy không ai khác ngoài đại thi hào dân tộc Nguyễn Du.",
+        "Bài thơ được sáng tác vào một lần Nguyễn Du đi sứ Trung Quốc được lấy cảm hứng từ câu chuyện về cuộc đời bất hạnh của nàng Tiểu Thanh sống vào thời Minh (từ thế kỉ XIV đến thế kỉ XVII). Nàng vốn là người tài sắc vẹn toàn nhưng rồi cái quy luật phũ phàng của trời đất đâu có tha riêng cho một ai: \"Chữ tài liền với chữ tai một vần\"! Vẫn ở cái tuổi \"Xuân xanh xấp xỉ tới tuần cập kê\" nhưng nàng đã phải làm vợ lẽ khi mới là một thiếu nữ và cuộc đời nàng cũng chìm trong bóng tối từ đây…",
+        "Nguyễn Du từng viết trong \"Truyện Kiều\" rằng: \"Người buồn cảnh có vui đâu bao giờ\". Và đó cũng chính là tâm trạng của ông khi bước tới ngọn núi Côn Sơn đã lụi tàn qua năm tháng: \"Tây Hồ hoa uyển tẫn thành khuê, Độc điếu song tiền nhất chỉ thư\". (Tây Hồ cảnh đẹp hoá gò hoang, Thổn thức bên song mảnh giấy tàn) Đó không chỉ là sự thay đổi nghiệt ngã của cảnh vật mà còn là của con người, từ một vườn hoa đẹp, lộng lẫy, sức sống căng tràn bao nhiêu thì nay lại trở nên tàn tạ, hoang phế, đìu hìu bấy nhiêu.",
+        "Khi tới nơi đây, héo tàn, trơ trụi đã đành nay còn thêm cả ảm đạm, đìu hiu không một bóng người dù vậy Nguyễn Du vẫn trang trọng kính viếng bởi chăng trong họ là một sợi dây đồng cảm đang kết nối với nhau, đó là tiếng nói đồng điệu của những con người đa tài nhưng số phận chẳng được trọn vẹn như cái tài ấy. \"Độc điếu\"- tâm thế cô đơn không chỉ riêng Tiểu Thanh mà còn là của Nguyễn Du. Nàng thì cô đơn giữa chốn không người, cảnh vất thê lương hoang tàn còn ông thì cô đơn giữa dòng đời bởi chẳng ai hiểu được ông, hiểu được cái nhân đạo cao quý, cái tư tưởng sâu sắc mà con người cao cả hướng tới bấy lâu nay."
+      ],
+      "barem_keywords": [
+        "Tây Hồ hoa uyển",
+        "Tận thành khư",
+        "Độc điếu",
+        "Nhất chỉ thư",
+        "Cô đơn",
+        "Sự viếng kính",
+        "Quá khứ - hiện tại",
+        "Nghịch cảnh"
+      ]
+    },
+    {
+      "section_name": "Hai câu Thực: Tiếng nói bất bình cho cái tài bị vùi dập",
+      "original_text": [
+        "Chi phấn hữu thần liên tử hậu,",
+        "Văn chương vô mệnh luỵ phần dư."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Chi phấn",
+          "art_type": "Hoán dụ",
+          "effect": "Tượng trưng cho vẻ đẹp, sắc đẹp của người phụ nữ"
+        },
+        {
+          "target_words": "Hữu thần",
+          "art_type": "Nghệ thuật tương phản",
+          "effect": "Có thần linh - gợi sự bất tử của nhan sắc"
+        },
+        {
+          "target_words": "Văn chương",
+          "art_type": "Hoán dụ",
+          "effect": "Tượng trưng cho tài năng văn chương"
+        },
+        {
+          "target_words": "Vô mệnh",
+          "art_type": "Nghệ thuật tương phản",
+          "effect": "Không có số mệnh - tài năng không được định đoạt bởi số phận"
+        },
+        {
+          "target_words": "Liên tử hậu",
+          "art_type": "Từ ngữ diễn tả cảm xúc",
+          "effect": "Vẫn còn hận sau khi chết - sự tiếc thương còn vương vấn"
+        },
+        {
+          "target_words": "Luỵ phần dư",
+          "art_type": "Từ ngữ diễn tả cảm xúc",
+          "effect": "Chịu luỵ, bị đốt dở - sự tàn phá phũ phàng"
+        },
+        {
+          "target_words": "Hận - vương",
+          "art_type": "Từ ngữ diễn tả cảm xúc",
+          "effect": "Diễn tả nỗi đau, sự tiếc thương còn đọng lại"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Nghệ thuật hoán dụ",
+          "details": [
+            "Son phấn: tượng trưng cho vẻ đẹp, sắc đẹp của người phụ nữ",
+            "Văn chương: tượng trưng cho tài năng",
+            "Từ ngữ diễn tả cảm xúc: hận, vương",
+            "Chôn, đốt là những động từ cụ thể hóa sự ghen ghét, sự vùi dập phũ phàng của người vợ cả đối với nàng Tiểu Thanh"
+          ],
+          "conclusion": "thái độ của xã hội phong kiến không chấp nhận những con người tài sắc"
+        },
+        {
+          "point": "Triết lí về số phận con người trong xã hội phong kiến",
+          "details": [
+            "Tài hoa bạc mệnh, tài mệnh tương đố, hồng nhan đa truân…",
+            "Cái tài, cái đẹp thường bị vùi dập"
+          ],
+          "conclusion": "Hai câu thơ cực tả nỗi đau về số phận bất hạnh của nàng Tiểu Thanh đồng thời cũng là tấm lòng trân trọng, ngợi ca nhan sắc và đề cao tài năng trí tuệ của Tiểu Thanh; đồng thời có sức tố cáo mạnh mẽ"
+        }
+      ],
+      "section_full_essay": [
+        "Thấm thoát cũng đã hơn ba trăm năm, những gì về người con gái ấy chỉ còn là một tập thơ với những trang giấy tàn mà Nguyễn Du đọc bên cửa sổ, dù có ít ỏi đi chăng nữa cũng đủ cho hậu thế xót xa mà nhỏ lệ, nhỏ lệ trước cách mà trò đời đối xử với nàng, cách mà nó làm nàng nhỏ bé, tàn tạ rồi ra đi mãi mãi đến đau lòng…",
+        "Cuộc đời nàng, số phận nàng luôn làm người đời suy tư, thổn thức ngay cả Nguyễn Du cũng vậy: \"Chi phấn hữu thần liên tử hậu, Văn chương vô mệnh lụy phần dư\". (Son phấn có thần chôn vẫn hận, Văn chương không mệnh đốt còn vương)",
+        "Son phấn làm gì có thần? Nhưng với Nguyễn Du thì có đấy. Văn chương thì làm gì có mệnh (vô mệnh) nhưng trong thơ của Nguyễn Du hoàn toàn ngược lại. Dường như ông đã khéo léo sử dụng hình ảnh \"chi phấn\" để ẩn dụ cho nhan sắc của TiểuThanh, nhan sắc ấy không chỉ đẹp mà còn bất tử và trường tồn mãi mãi. Vẻ đẹp ấy có sức sống kì diệu ngay cả khi bị chôn vùi dưới đất xấu thì nó vẫn làm người đời nhớ đến mà tiếc thương và đây cũng là lần đầu tiên trong nền văn học trung đại Việt Nam, dưới sự kìm hãm của xã hội phong kiến có một nhà thơ dám miêu tả vẻ đẹp hình thức của người phụ nữ, ngay cả khi Nguyễn Dữ miêu tả Vũ Nương cũng chỉ khiêm tốn hoạ nên vẻ đẹp tâm hồn của nàng.",
+        "Dường như đó là tiếng nói bất bình của Nguyễn Du bởi lẽ vẻ đẹp của người phụ nữ bị xã hội rẻ rúng, coi thường và đây cũng là một bước đi mới trong nền văn học trung đại đương thời. Văn chương vốn \"vô mệnh\" nay lại thành hữu mệnh, có lẽ đó là ẩn dụ cho tài năng của nay cũng phải \"lụy\" cái bạc mệnh của con người. Nó cũng biết đau khổ, biết buồn vui, biết vương vấn,… và rồi bỗng chợt nhận ra cái oan trái, ngang ngược mà ông trời sắp đặt cho nó.",
+        "Có sắc, có tài rồi cũng để làm gì: \"Có tài mà cậy chi tài, Chữ tài liền với chữ tai một vần\". Hai câu thực khép lại là lòng thương cảm sâu sắc về số phận bất hạnh tài hoa nhưng bạc mệnh của nàng Tiểu Thanh đồng thời mang niềm tin vào thuyết luân hồi đạo phật cũng như là nguồn cảm hứng nhân đạo của Nguyễn Du. Ông nhận ra được những giá trị tốt đẹp của con người qua đó ta thấy một tâm hồn đa cảm đến sâu sắc!"
+      ],
+      "barem_keywords": [
+        "Chi phấn",
+        "Văn chương",
+        "Hữu thần",
+        "Vô mệnh",
+        "Liên tử hậu",
+        "Luỵ phần dư",
+        "Hận - vương",
+        "Tài hoa bạc mệnh",
+        "Tố cáo xã hội phong kiến"
+      ]
+    },
+    {
+      "section_name": "Hai câu Luận: Tiếng nói tri âm của người nghệ sĩ",
+      "original_text": [
+        "Cổ kim hận sự thiên nan vấn,",
+        "Phong vận kì oan ngã tự cư."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Cổ kim hận sự",
+          "art_type": "Cụm từ đắt",
+          "effect": "Mối hận xưa và nay, mối hận muôn đời, mối hận truyền kiếp"
+        },
+        {
+          "target_words": "Thiên nan vấn",
+          "art_type": "Thành ngữ",
+          "effect": "Khó mà hỏi trời được - thể hiện sự bất lực, bế tắc"
+        },
+        {
+          "target_words": "Phong vận",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Số phận, phận phong lưu - chỉ người có tài năng văn chương"
+        },
+        {
+          "target_words": "Kì oan",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Nỗi oan lạ lùng, nghịch lý"
+        },
+        {
+          "target_words": "Ngã",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Ta - từ chỉ bản thể cá nhân táo bạo so với thời đại Nguyễn Du sống"
+        },
+        {
+          "target_words": "Tự cư",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Tự đặt mình vào - chủ động tìm sự tri âm"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Tổng quát nỗi hận của người tài hoa",
+          "details": [
+            "Cổ kim hận sự: mối hận xưa và nay, mối hận muôn đời, mối hận truyền kiếp",
+            "Đó chính là mối hận của những người tài hoa mà bạc mệnh",
+            "Thiên nan vấn: khó mà hỏi trời được"
+          ],
+          "conclusion": "Câu thơ mang tính khái quát cao. Nỗi hận kia không phải là nỗi hận của riêng nàng Tiểu Thanh, của Nguyễn Du mà của tất cả những người tài hoa trong xã hội phong kiến"
+        },
+        {
+          "point": "Sự đồng cảm sâu sắc",
+          "details": [
+            "Kì oan: nỗi oan lạ lùng",
+            "Ngã: ta (từ chỉ bản thể cá nhân táo bạo so với thời đại Nguyễn Du sống)",
+            "Nguyễn Du không đứng bên ngoài mà nhìn vào nữa mà giờ đây ông chủ động tìm sự tri âm với nàng, với những người tài hoa bạc mệnh"
+          ],
+          "conclusion": "Nguyễn Du không chỉ thương xót cho nàng Tiểu Thanh mà còn bàn ra tới nỗi hận của muôn người, muôn đời trong đó có bản thân nhà thơ. Qua đó, thể hiện sự cảm thông sâu sắc đến độ \"tri âm tri kỉ\""
+        }
+      ],
+      "section_full_essay": [
+        "Hai câu luận vẫn là niềm thương cảm ấy nhưng giờ đây còn vang lên tiếng nói của tri âm nghe mà nhói lòng người: \"Cổ kim hận sự thiên nan vấn, Phong lưu kì oan ngã tự cư\". (Nỗi hờn kim cổ trời khôn hỏi, Cái án phong lưu khách tự mang)",
+        "Tài hoa nhưng bạc mệnh có lẽ đã trở thành \"Cổ kim hận sự\" , xưa thì có số phận của nàng Tiểu Thanh và những người cùng cảnh ngộ, nay thì là những người như ông. Nhưng rồi khi ngẩng đầu lên hỏi trời thì trời cũng chỉ biết lặng thinh không nói một lời khiến cái hận càng thêm hận, thấm thía lại càng thêm thấm thía,.. khi trời không đáp con người cũng chỉ biết bất lực, bế tắc, nó thể hiện một hiện thực bất công của xã hội phong kiến nhiều hủ tục để rồi Thuý Kiều trong \"Truyện Kiều\" cũng phải thốt lên rằng: \"Đau đớn thay phận đàn bà, Lời rằng bạc mệnh cũng là lời chung\".",
+        "Nguyễn Du đau đớn, căm giận trước cái đẹp, cái thiện đang dần bị thế lực hắc ám chà đạp, những con người như Tú Bà, Mã Giám Sinh hay Sở Khanh được ông miêu tả bằng tất cả sự căm phẫn. Tú bà thì: \"Thoắt trông nhợt nhạt màu da, Ăn gì to lớn đẫy đà làm sao\". Mã Giám Sinh thì: \"Quá niên trạc ngoại tứ tuần, Mày râu nhẵn nhụi áo quần bảnh bao\". Sở Khanh lại là kẻ: \"Một chàng vừa trạc thanh xuân, Hình dong chải chuốt áo khăn dịu dàng\".",
+        "Tại sao những kẻ như vậy vẫn sống yên bình, ăn chơi trác táng mà khi ấy những người như Tiểu Thanh hay Thuý Kiều, Đạm tiên lại phải chịu biết bao sóng gió cuộc đời để rồi người thì ra đi mãi mãi, người thì chẳng bao giờ có được tình yêu của chính mình,… Bản thân Nguyễn Du tự cho mình là người có tài và cùng hội với những con người tài hoa bạc mệnh. Cái tài của ông dùng để cảm nhận cái đẹp, để thương con người, để thể hiện vẻ đẹp sâu sắc của tâm hồn chứa đựng cảm hứng nhân đạo khác hoàn toàn với Nguyễn Công Trứ mang nét cao ngạo, thể hiện cái tôi một cách ngông cuồng. Cái phong lưu của con người đã trở thành một cái oan, cái án ấy khiến người ta bị đày đọa, bị hắt hủi, bị hành hạ cho đến sức cùng lực kiệt thì mới thôi. Phải chăng khi đặt mình cùng vào chiếc thuyền khiến cho tiếng nói tri âm, tri kỉ lại càng vắng thêm sâu sắc thêm nhường nào…"
+      ],
+      "barem_keywords": [
+        "Cổ kim hận sự",
+        "Thiên nan vấn",
+        "Phong vận",
+        "Kì oan",
+        "Ngã",
+        "Tự cư",
+        "Tri âm tri kỉ",
+        "Tài hoa bạc mệnh",
+        "Nghĩa đồng type"
+      ]
+    },
+    {
+      "section_name": "Hai câu Kết: Nỗi cô đơn của nghệ sĩ và mong tìm tri âm",
+      "original_text": [
+        "Bất tri tam bách dư niên hậu,",
+        "Thiên hạ hà nhân khấp Tố Như."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Bất tri",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Không biết, chẳng hay - thể hiện sự băn khoăn, nghi hoặc"
+        },
+        {
+          "target_words": "Tam bách dư niên",
+          "art_type": "Con số ước lệ",
+          "effect": "Hơn ba trăm năm - tượng trưng cho một chặng đường thời gian dài"
+        },
+        {
+          "target_words": "Hậu",
+          "art_type": "Từ ngữ chỉ thời gian",
+          "effect": "Sau, về sau - gợi tương lai xa xăm"
+        },
+        {
+          "target_words": "Thiên hạ",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Trong thiên hạ, nhân gian - gợi không gian rộng lớn"
+        },
+        {
+          "target_words": "Hà nhân",
+          "art_type": "Câu hỏi tu từ",
+          "effect": "Người nào - thể hiện sự mong mỏi, khao khát"
+        },
+        {
+          "target_words": "Khấp",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Khóc - dấu hiệu mãnh liệt nhất của tình cảm, cảm xúc thương thân mình, thân người trào lên"
+        },
+        {
+          "target_words": "Tố Như",
+          "art_type": "Tên hiệu",
+          "effect": "Tên hiệu của Nguyễn Du - lần đầu tiên ông đưa tên mình vào thơ"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Nghệ thuật: Câu hỏi tu từ",
+          "details": [
+            "Nguyễn Du khóc nàng Tiểu Thanh và băn khoăn, khóc cho chính mình",
+            "Khắc: khóc. Tiếng khóc là dấu hiệu mãnh liệt nhất của tình cảm, cảm xúc thương thân mình, thân người trào lên mãnh liệt không kìm nén được"
+          ],
+          "conclusion": "Ông không viết đơn thuần mà khóc cho Tiểu Thanh. Ông băn khoăn không biết hậu thế ai sẽ khóc ông"
+        },
+        {
+          "point": "Nỗi cô đơn của nghệ sĩ",
+          "details": [
+            "Thể hiện nỗi cô đơn của nghệ sĩ lớn \"Tiếng chim cô lẻ giữa trời thu khuya\" (Xuân Diệu)",
+            "Ông thấy mình lạc lõng ở hiện tại và đã tìm thấy được một người tri kỉ ở quá khứ nhưng vẫn mong ngóng một tấm lòng trong tương lai"
+          ],
+          "conclusion": "Tấm lòng nhân đạo mênh mông vượt qua mọi không gian và thời gian. Lần đầu tiên trong văn học trung đại Việt Nam có nhà thơ đưa tên mình vào tác phẩm"
+        }
+      ],
+      "section_full_essay": [
+        "Đau đớn trước cái ngang trái của cuộc đời và giờ đây Nguyễn Du lại tự thương cho chính bản thân mình và đó vô tình trở thành một nét mới trong văn học trung đại- cảm hứng tự thương: \"Bất tri tam bách dư niên hậu, Thiên hạ hà nhân khấp Tố Như\". (Chẳng biết ba trăm năm nữa, Người đời ai khóc Tố Như chng?)",
+        "Hai câu kết mở ra là cả một thế giới nội tâm của Nguyễn Du, \"tam bách dư niên hậu\"-con số 300 năm chỉ mang tính chất ước lệ tượng trưng nhưng đó lại là nỗi niềm cô đơn của ông trong thời đại. Câu hỏi tu từ ở cuối bài bày tỏ niềm khao khát, mong muốn tìm được sự thấu hiểu, thương cảm. Tiếng khóc của người đời là thứ mà Nguyễn Du luôn tìm kiếm bởi đó là tiếng vang của sự tri âm, đồng cảm.",
+        "Từ xót thương cho những kiếp người tài hoa bạc mệnh và rồi ông cũng tự khóc cho chính mình, ông cũng là một trong những số ít nhà thơ đưa tên chữ của mình vào trong thi phẩm, dường như đó là cái tôi, cái cá nhân mà ông muốn khẳng định qua đó lại một lần nữa Nguyễn Du thể hiện tấm lòng nhân đạo lớn lao của mình đó là sự tự thương.",
+        "Khép lại bài thơ là tiếng nói bất bình lần nữa của ông, bằng 2 câu thơ thất niêm phá tính quy phạm vốn có của văn học trung đại để lên án mạnh mẽ những kẻ không trân trọng giá trị của con người đặc biệt là những con người tài hoa."
+      ],
+      "barem_keywords": [
+        "Bất tri",
+        "Tam bách dư niên",
+        "Hà nhân",
+        "Khấp",
+        "Tố Như",
+        "Câu hỏi tu từ",
+        "Nỗi cô đơn nghệ sĩ",
+        "Tri âm",
+        "Cảm hứng tự thương",
+        "Tên hiệu trong thơ"
+      ]
+    }
+  ]
+}

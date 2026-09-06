@@ -1,0 +1,308 @@
+/**
+ * Simple Accurate Mindmap Component
+ * Displays poem analysis in a clean, organized layout
+ * Sắp xếp chuẩn sơ đồ tư duy: 1 nút gốc ở giữa, các nhánh trái/phải nối bằng
+ * ĐƯỜNG CONG bezier (SVG) mềm mại như sơ đồ tư duy chuyên dụng (XMind...).
+ * Kiểu ô + kiểu chữ giữ nguyên như bản gốc.
+ */
+'use client';
+
+import React, { useCallback, useEffect, useLayoutEffect, useRef } from 'react';
+
+interface OutlinePoint {
+  point: string;
+  details: string[];
+  conclusion: string;
+}
+
+interface XRayData {
+  target_words: string;
+  art_type: string;
+  effect: string;
+}
+
+interface AccurateMindmapProps {
+  outline: OutlinePoint[];
+  xRayData: XRayData[];
+  title: string;
+  originalText: string[];
+}
+
+export default function AccurateMindmap({
+  outline,
+  xRayData,
+  title,
+  originalText
+}: AccurateMindmapProps) {
+  const cardRef = useRef<HTMLDivElement>(null);   // card gốc (dùng cho chế độ in PDF)
+  const rowRef = useRef<HTMLDivElement>(null);    // vùng chứa toàn bộ sơ đồ (để vẽ SVG)
+  const rootNodeRef = useRef<HTMLDivElement>(null);
+  const branchRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const svgRef = useRef<SVGSVGElement>(null);
+  const pathRefs = useRef<(SVGPathElement | null)[]>([]);
+
+  // Tính đường cong nối: từ mép nút gốc → mép gần nhất của từng nhánh (bezier S-curve).
+  // GHI TRỰC TIẾP attribute `d` vào DOM (không qua React state) để đường KHÔNG bao giờ
+  // bị lệch/mất do render chậm — đặc biệt ngay trước lúc gọi window.print().
+  //
+  // QUAN TRỌNG: toàn bộ toạ độ dùng px BỐ CỤC (offsetLeft/offsetTop/offsetWidth/...)
+  // thay vì getBoundingClientRect, vì rect trả px viewport (bị ăn bởi CSS zoom khi in
+  // PDF và scroll trang) còn hệ toạ độ SVG là px bố cục → trộn 2 đơn vị sẽ lệch.
+  const measure = useCallback(() => {
+    const row = rowRef.current;
+    const rootNode = rootNodeRef.current;
+    const svg = svgRef.current;
+    if (!row || !rootNode || !svg) return;
+
+    // Toạ độ góc trên-trái của một nút tính theo hệ toạ độ của `row` (px bố cục):
+    // cộng dồn offsetLeft/offsetTop dọc chuỗi offsetParent cho tới khi gặp row.
+    const posInRow = (el: HTMLElement) => {
+      let x = 0, y = 0, cur: HTMLElement | null = el;
+      while (cur && cur !== row) {
+        x += cur.offsetLeft;
+        y += cur.offsetTop;
+        cur = cur.offsetParent as HTMLElement | null;
+      }
+      return { x, y };
+    };
+
+    // Kích thước SVG cố định theo px bố cục để in/zoom luôn chính xác
+    svg.setAttribute('width', String(row.offsetWidth));
+    svg.setAttribute('height', String(row.offsetHeight));
+
+    const root = posInRow(rootNode);
+    const sy = root.y + rootNode.offsetHeight / 2;
+    const sxLeft = root.x;                         // mép trái nút gốc
+    const sxRight = root.x + rootNode.offsetWidth; // mép phải nút gốc
+
+    branchRefs.current.forEach((b, i) => {
+      const p = pathRefs.current[i];
+      if (!b || !p) return;
+      const pos = posInRow(b);
+      const isLeft = pos.x + b.offsetWidth <= root.x;
+      const sx = isLeft ? sxLeft : sxRight;
+      const ex = isLeft ? pos.x + b.offsetWidth : pos.x;
+      const ey = pos.y + b.offsetHeight / 2;
+      const dx = Math.max(36, Math.abs(sx - ex) / 2);
+      const d = isLeft ? -1 : 1;
+      p.setAttribute(
+        'd',
+        `M ${sx} ${sy} C ${sx + d * dx} ${sy}, ${ex - d * dx} ${ey}, ${ex} ${ey}`
+      );
+    });
+  }, []);
+
+  // Vẽ lại đường khi: mount, đổi dữ liệu, resize, font tải xong, bố cục thay đổi
+  useLayoutEffect(() => {
+    measure();
+    const t = setTimeout(measure, 80);
+    if (typeof document !== 'undefined' && (document as any).fonts?.ready) {
+      (document as any).fonts.ready.then(() => measure()).catch(() => {});
+    }
+    const row = rowRef.current;
+    const ro = new ResizeObserver(() => measure());
+    if (row) ro.observe(row);
+    window.addEventListener('resize', measure);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener('resize', measure);
+      clearTimeout(t);
+    };
+  }, [measure, outline, xRayData, originalText]);
+
+  // Dọn class + style tạm sau khi in xong
+  useEffect(() => {
+    const done = () => {
+      document.body.classList.remove('printing-mindmap');
+      if (cardRef.current) {
+        cardRef.current.style.zoom = '';
+        cardRef.current.style.width = '';
+      }
+    };
+    window.addEventListener('afterprint', done);
+    return () => window.removeEventListener('afterprint', done);
+  }, []);
+
+  // Xuất PDF vừa đúng 1 trang A4 ngang, chữ to nhất có thể:
+  // 1) bật bố cục nén → 2) khoá khung in đúng bề rộng tự nhiên của sơ đồ (1064px) →
+  // 3) đo → 4) zoom-to-fit → 5) in
+  const handleDownloadPdf = () => {
+    const el = cardRef.current;
+    if (!el) return;
+
+    document.body.classList.add('printing-mindmap');
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      // A4 ngang 297×210mm, lề 10mm → vùng in thực ~1047×718px (96dpi)
+      const PAGE_W = 1047;
+      const PAGE_H = 718;
+      const PRINT_W = 1064; // 1040px nội dung mindmap (min-w) + 2×12px padding
+      el.style.width = `${PRINT_W}px`;
+      requestAnimationFrame(() => {
+        const w = el.scrollWidth + 1;
+        const h = el.scrollHeight + 1;
+        const zoom = Math.min(1, (PAGE_W / w) * 0.98, (PAGE_H / h) * 0.98);
+        el.style.zoom = zoom < 1 ? String(zoom) : '';
+        // Vẽ lại đường cong theo bố cục in NGAY TRƯỚC khi mở hộp thoại in
+        // (ghi trực tiếp DOM nên có tác dụng tức thì, không phụ thuộc React render)
+        requestAnimationFrame(() => {
+          measure();
+          setTimeout(() => window.print(), 250);
+        });
+      });
+    }));
+  };
+
+  return (
+    <div
+      ref={cardRef}
+      className="accurate-mindmap mindmap-print-root w-full bg-white rounded-xl shadow-lg"
+      style={{ maxHeight: '800px', overflowY: 'auto' }}
+    >
+      {/* Header */}
+      <div
+        className="no-print p-4 border-b sticky top-0 bg-white z-10 flex items-center justify-between gap-4"
+        style={{ borderColor: 'var(--border)' }}
+      >
+        <h4 className="font-bold text-lg" style={{ fontFamily: 'var(--font-serif)', color: 'var(--primary)' }}>
+          🗺️ SƠ ĐỒ TƯ DUY: {title}
+        </h4>
+        <button
+          onClick={handleDownloadPdf}
+          className="no-print shrink-0 px-4 py-2 rounded-lg text-white font-bold text-sm transition-opacity hover:opacity-85"
+          style={{ background: 'var(--primary)' }}
+          title="In hoặc lưu sơ đồ tư duy thành file PDF"
+        >
+          📄 Tải PDF
+        </button>
+      </div>
+
+      {/* Mindmap: gốc giữa — 2 nhánh trái, 1 nhánh phải, nối bằng đường cong SVG */}
+      <div className="p-6 overflow-x-auto">
+        <div ref={rowRef} className="relative flex items-center min-w-[1040px]">
+          {/* Lớp đường nối nhánh (nằm dưới các ô) — kích thước + hình vẽ set bằng JS */}
+          <svg ref={svgRef} className="absolute left-0 top-0 pointer-events-none" aria-hidden="true">
+            {[0, 1, 2].map((i) => (
+              <path
+                key={i}
+                ref={(el) => { pathRefs.current[i] = el; }}
+                d=""
+                fill="none"
+                strokeWidth={2.5}
+                strokeLinecap="round"
+                opacity={0.9}
+                style={{ stroke: 'var(--accent)' }}
+              />
+            ))}
+          </svg>
+
+          <div className="relative z-10 flex items-center w-full">
+
+            {/* ===== CÁC NHÁNH TRÁI ===== */}
+            <div className="mm-side mm-left flex-1 flex flex-col gap-10">
+              {/* Nhánh: Bài thơ gốc */}
+              <div className="mm-branch">
+                <div
+                  ref={(el) => { branchRefs.current[0] = el; }}
+                  className="mm-branch-content p-4 rounded-lg"
+                  style={{ background: 'var(--paper-light)', border: `1px solid var(--accent)` }}
+                >
+                  <h5 className="font-bold mb-3" style={{ color: 'var(--primary)' }}>📜 BÀI THƠ GỐC:</h5>
+                  <div className="space-y-2" style={{ fontFamily: 'var(--font-serif)', fontSize: '1.1rem' }}>
+                    {originalText.map((line, index) => (
+                      <div key={index} className="p-2 bg-white rounded">
+                        {line}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="mm-stub" />
+              </div>
+
+              {/* Nhánh: Phân tích nghệ thuật */}
+              <div className="mm-branch">
+                <div
+                  ref={(el) => { branchRefs.current[1] = el; }}
+                  className="mm-branch-content p-4 rounded-lg"
+                  style={{ background: 'var(--paper-light)', border: `1px solid var(--accent)` }}
+                >
+                  <h5 className="font-bold mb-3" style={{ color: 'var(--primary)' }}>🔍 PHÂN TÍCH NGHỆ THUẬT (X-RAY):</h5>
+                  <div className="space-y-3">
+                    {xRayData.map((xray, index) => (
+                      <div key={index} className="p-3 bg-white rounded-lg border" style={{ borderColor: 'var(--accent)' }}>
+                        <div className="font-bold text-amber-700 mb-1">&quot;{xray.target_words}&quot;</div>
+                        <div className="text-sm mb-1">
+                          <strong>Loại nghệ thuật:</strong> {xray.art_type}
+                        </div>
+                        <div className="text-sm text-gray-600">
+                          <strong>Hiệu quả:</strong> {xray.effect}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="mm-stub" />
+              </div>
+            </div>
+
+            {/* ===== NÚT GỐC (giữa) ===== */}
+            <div className="mm-root-wrap flex items-center flex-none">
+              <div className="mm-root-line" />
+              <div
+                ref={rootNodeRef}
+                className="p-4 rounded-xl border-2 text-center max-w-[240px]"
+                style={{ background: 'var(--paper-light)', borderColor: 'var(--primary)' }}
+              >
+                <div className="text-2xl mb-1">🗺️</div>
+                <div className="font-bold" style={{ fontFamily: 'var(--font-serif)', color: 'var(--primary)', fontSize: '1.05rem', lineHeight: 1.35 }}>
+                  {title}
+                </div>
+              </div>
+              <div className="mm-root-line" />
+            </div>
+
+            {/* ===== CÁC NHÁNH PHẢI ===== */}
+            <div className="mm-side mm-right flex-1 flex flex-col gap-10">
+              {/* Nhánh: Dàn ý nội dung */}
+              <div className="mm-branch">
+                <div className="mm-stub" />
+                <div
+                  ref={(el) => { branchRefs.current[2] = el; }}
+                  className="mm-branch-content p-4 rounded-lg"
+                  style={{ background: 'var(--paper-light)', border: `1px solid var(--accent)` }}
+                >
+                  <h5 className="font-bold mb-3" style={{ color: 'var(--primary)' }}>📝 DÀN Ý NỘI DUNG:</h5>
+                  <div className="space-y-4">
+                    {outline.map((point, index) => (
+                      <div key={index} className="p-3 bg-white rounded-lg">
+                        <div className="font-bold mb-2" style={{ color: 'var(--primary)' }}>
+                          {index + 1}. {point.point}
+                        </div>
+                        <div className="ml-4 space-y-1">
+                          {point.details.map((detail, detailIndex) => (
+                            <div key={detailIndex} className="text-sm text-gray-700">
+                              • {detail}
+                            </div>
+                          ))}
+                        </div>
+                        {point.conclusion && (
+                          <div className="ml-4 mt-2 text-sm italic text-blue-700">
+                            → {point.conclusion}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div className="p-4 text-center text-sm text-gray-500 border-t" style={{ borderColor: 'var(--border)' }}>
+        💡 Sơ đồ này hiển thị phân tích chi tiết theo cấu trúc dữ liệu JSON — nhấn <strong>📄 Tải PDF</strong> để lưu về học tập
+      </div>
+    </div>
+  );
+}

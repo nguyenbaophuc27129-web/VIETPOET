@@ -1,0 +1,181 @@
+@import "tailwindcss";
+
+:root {
+  /* Màu sắc phong cách Cổ phong Việt Nam & Digital Heritage */
+  --background: #FAF6F0;      /* Nền giấy dó cổ */
+  --foreground: #1C1C1C;      /* Màu chữ mực tàu */
+  --primary: #9E2A2B;         /* Đỏ son cung đình */
+  --accent: #C5A059;          /* Vàng hoàng thổ */
+  --border: #C5A059;          /* Viền vàng hoàng thổ */
+  --paper-light: #F1EBE4;     /* Giấy bản nhạt */
+  --ink-dark: #0D0D0D;         /* Mực đen */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-paper-light: var(--paper-light);
+  --font-sans: var(--font-be-vietnam-pro), sans-serif;
+  --font-serif: var(--font-playfair-display), Georgia, serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-be-vietnam-pro), sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography cho tiêu đề và thơ ca */
+h1, h2, h3, h4, h5, h6, .poetry-text, .royal-title {
+  font-family: var(--font-playfair-display), Georgia, serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Màu chữ đặc biệt */
+.text-royal-red {
+  color: var(--primary);
+}
+
+.text-royal-gold {
+  color: var(--accent);
+}
+
+.bg-royal-red {
+  background-color: var(--primary);
+}
+
+.bg-royal-gold {
+  background-color: var(--accent);
+}
+
+.border-royal-gold {
+  border-color: var(--accent);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--paper-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Vietnamese royal court styling */
+.royal-border {
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+}
+
+.royal-shadow {
+  box-shadow: 0 4px 20px rgba(197, 160, 89, 0.3);
+}
+
+/* Paper texture background */
+.paper-texture {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.08'/%3E%3C/svg%3E");
+}
+
+/* ==================== SƠ ĐỒ TƯ DUY (Mindmap) ==================== */
+/* Đường nối nhánh: cột trái/phải có trục dọc, mỗi nhánh có đường ngang nối vào gốc */
+.mm-side {
+  position: relative;
+}
+
+.mm-side::before {
+  content: '';
+  position: absolute;
+  top: -24px;
+  bottom: -24px;
+  width: 2px;
+  background: var(--accent);
+}
+
+.mm-left::before {
+  right: -26px;
+}
+
+.mm-right::before {
+  left: -26px;
+}
+
+.mm-branch {
+  display: flex;
+  align-items: center;
+}
+
+.mm-left .mm-branch {
+  flex-direction: row;        /* [nội dung nhánh] → [nối vào gốc] */
+}
+
+.mm-right .mm-branch {
+  flex-direction: row-reverse;
+}
+
+.mm-stub {
+  flex: none;
+  width: 26px;
+  height: 2px;
+  background: var(--accent);
+}
+
+.mm-root-line {
+  flex: none;
+  width: 26px;
+  height: 2px;
+  background: var(--accent);
+}
+
+/* ==================== XUẤT PDF SƠ ĐỒ TƯ DUY ==================== */
+/* Khi bấm "📄 Tải PDF": chỉ in card sơ đồ, nền giấy A4 ngang, giữ nguyên màu ô */
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 10mm;
+  }
+
+  body.printing-mindmap {
+    background: white;
+  }
+
+  body.printing-mindmap * {
+    visibility: hidden;
+  }
+
+  body.printing-mindmap .mindmap-print-root,
+  body.printing-mindmap .mindmap-print-root * {
+    visibility: visible;
+  }
+
+  body.printing-mindmap .mindmap-print-root {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-height: none !important;
+    overflow: visible !important;
+    box-shadow: none;
+    border-radius: 0;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  body.printing-mindmap .no-print {
+    display: none !important;
+  }
+}

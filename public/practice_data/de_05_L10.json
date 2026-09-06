@@ -1,0 +1,119 @@
+{
+  "test_id": "de_05_viet_thuong_khong_dau",
+  "test_title": "Đề số 5",
+  "reading_section": {
+    "passage": "SỰ TRUNG THỰC CỦA TRÍ THỨC: Theo nghĩa truyền thống, kẻ sĩ là một người có học. Có học nên biết lẽ phải trái để \"tu thân, tề gia, trị quốc, bình thiên hạ\". Cái dũng của họ không phải cái dũng chém tướng đoạt thành mà là hệ quả của cái trí, nhằm làm sáng tỏ đạo thánh hiền. Đó là một công việc khó khăn, thậm chí nguy hiểm. Không phải lúc nào cũng có một Chu Văn An trước sự lộng hành của đám sủng thần, dám dâng thất trảm sớ và sau khi bị khước từ, kiên quyết từ quan về dạy học. Không phải lúc nào cũng có anh em thái sử Bá thời Xuân Thu. Thôi Trữ sau khi giết vua Tề, ra lệnh cho thái sử Bá phải ghi vào sử: \"Tề Trang Công bị bạo bệnh mà chết\". Bá ghi: \"Năm Ất Hợi, tháng Năm, Thôi Trữ giết vua\". Thôi Trữ nổi giận, lôi Bá ra chém. Bá có ba người em. Hai người noi gương anh đều bị chém. Người em út vẫn điềm nhiên viết: \"Năm Ất Hợi, tháng Năm, Thôi Trữ giết vua\". Trữ quát: \"Ba anh ngươi đều đã bị chém, ngươi không sợ sao?\" Người này nói: \"Việc của quan thái sử là ghi lại sự thật, nếu xuyên tạc thà bị chết chém còn hơn\". Nhưng không hiểu sao tôi vẫn không thích từ \"kẻ sĩ\" lắm. Có lẽ do màu sắc hơi \"hoài cổ\" của nó chăng? Đạo thánh hiền quả là cao quý và đáng trân trọng nhưng nó là một cái gì đã có. Kẻ sĩ thời nay chính là những trí thức do tính rộng mở của từ này. Nhất là vào thời đại nền kinh tế tri thức phát triển với sự bùng nổ của khoa học, đặc biệt ngành tin học. Người trí thức không những tôn trọng thánh hiền mà còn là kẻ dám mày mò vào cõi không biết, đấu tranh với những định kiến của hiện tại để phát hiện những sự thật cho tương lai. Một nước đang phát triển như nước ta cần nhanh chóng đào tạo một đội ngũ trí thức đông đảo để khỏi tụt hậu. Muốn vậy chúng ta phải lập cho được một môi trường lành mạnh trên nền tảng sự trung thực trí thức. Ít lâu nay báo chí nói nhiều đến nạn bằng giả. Đó là một hiện tượng xã hội nghiêm trọng, cần phải loại bỏ. Nhưng theo tôi, nó không nghiêm trọng bằng hội chứng \"bằng thật, người giả\" vì hội chứng này có nguy cơ gây sự lẫn lộn trong hệ giá trị và làm ô nhiễm môi trường đạo đức một xã hội trung thực, trong đó thật/ giả phải được phân định rạch ròi và minh bạch. Chúng ta thường nói nhiều đến tài năng và trí thức. Nhưng tài năng và trí thức chỉ có thể phát triển lâu dài và bền vững trên nền tảng một xã hội trung thực. (Trích từ Đối thoại với đời & thơ, Lê Đạt, NXB Trẻ, 2008, tr.14-15)",
+    "questions": [
+      {
+        "question_id": "I.1",
+        "question_text": "Văn bản trên thuộc phong cách ngôn ngữ gì?",
+        "max_score": 0.5,
+        "detailed_rubric": ["Phong cách ngôn ngữ chính luận"],
+        "barem_keywords": ["chính luận"]
+      },
+      {
+        "question_id": "I.2",
+        "question_text": "Phương thức biểu đạt chính của văn bản là",
+        "max_score": 0.5,
+        "detailed_rubric": ["nghị luận"],
+        "barem_keywords": ["nghị luận"]
+      },
+      {
+        "question_id": "I.3",
+        "question_text": "Câu chuyện Chu Văn An và anh em thái sử Bá được dẫn trong văn bản thuộc thao tác lập luận gì?",
+        "max_score": 0.5,
+        "detailed_rubric": ["Bình luận"],
+        "barem_keywords": ["bình luận"]
+      },
+      {
+        "question_id": "I.4",
+        "question_text": "Ý nào nói không đúng về tác dụng của việc dẫn lại câu chuyện Chu Văn An và anh em thái sử Bá trong văn bản?",
+        "max_score": 0.5,
+        "detailed_rubric": ["Làm sáng tỏ cái nguy hiểm để cảnh báo kẻ sĩ nên tránh"],
+        "barem_keywords": ["sáng tỏ nguy hiểm", "cảnh báo"]
+      },
+      {
+        "question_id": "I.5",
+        "question_text": "Hội chứng \"bằng thật, người giả\" được tác giả đề cập trong văn bản được hiểu là",
+        "max_score": 0.5,
+        "detailed_rubric": ["người dùng bằng thật nhưng trình độ kém cỏi, không tương xứng với bằng cấp"],
+        "barem_keywords": ["bằng thật người giả", "trình độ kém cỏi", "không tương xứng"]
+      },
+      {
+        "question_id": "I.6",
+        "question_text": "Vì sao tài năng chỉ có thể phát triển lâu dài và bền vững trên nền tảng một xã hội trung thực?",
+        "max_score": 0.5,
+        "detailed_rubric": [
+          "Xã hội trung thực mới tôn trọng/ tôn vinh thực lực, những giá trị thực",
+          "Học sinh trả lời tương đương như đáp án: 0,5 điểm",
+          "Học sinh trả lời có nội dung phù hợp nhưng diễn đạt chưa tốt: 0,25 điểm",
+          "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
+          "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
+        ],
+        "barem_keywords": ["xã hội trung thực", "tôn trọng thực lực", "giá trị thực"]
+      },
+      {
+        "question_id": "I.7",
+        "question_text": "Anh/ Chị nêu hai biểu hiện cụ thể về phẩm chất trung thực cần có của người trí thức.",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Nói đúng sự thật",
+          "Sẵn sàng tố cáo cái sai để bảo vệ lẽ phải",
+          "Học sinh trả lời tương đương như đáp án: 1,0 điểm",
+          "Học sinh trả lời đúng 1 ý: 0,5 điểm",
+          "Học sinh trả lời có nội dung phù hợp nhưng diễn đạt chưa tốt: 0,25 điểm",
+          "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
+          "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
+        ],
+        "barem_keywords": ["nói đúng sự thật", "tố cáo cái sai", "bảo vệ lẽ phải"]
+      },
+      {
+        "question_id": "I.8",
+        "question_text": "Anh/ Chị rút ra được thông điệp tích cực gì sau khi đọc văn bản?",
+        "max_score": 2.0,
+        "detailed_rubric": [
+          "Mỗi người (đặc biệt là trí thức) biết sống trung thực thì góp phần xây dựng xã hội văn minh",
+          "Sống trung thực sẽ tạo được niềm tin, sự ngưỡng mộ",
+          "Học sinh trả lời tương đương 01 ý như đáp án: 1,0 điểm",
+          "Học sinh trả lời có nội dung phù hợp nhưng diễn đạt chưa tốt: 0,25 – 0,75 điểm",
+          "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
+          "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
+        ],
+        "barem_keywords": ["sống trung thực", "xây dựng xã hội văn minh", "niềm tin", "ngưỡng mộ"]
+      }
+    ]
+  },
+  "writing_section": {
+    "questions": [
+      {
+        "question_id": "II.1",
+        "question_type": "Nghị luận văn học",
+        "question_text": "Anh/ chị hãy viết một bài văn ngắn (khoảng 500 chữ) trình bày cảm nhận của bản thân về hình ảnh của người mẹ trong đoạn thơ sau: Mỗi lần nắng mới hắt bên song / Xao xác gà trưa gáy não nùng; / Lòng rượi buồn theo thời dĩ vãng. / Chấp chờn sống lại những ngày không. / Tôi nhớ Me tôi thuở thiếu thời, / Lúc Người còn sống, tôi lên mười; / Mỗi lần nắng mới reo ngoài nội, / Áo đỏ Người đưa trước giậu phơi. / Hình dáng Me tôi chửa xóa mờ / Hãy còn mường tượng lúc vào ra / Nét cười đen nhánh sau tay áo / Trong ánh trưa hè, trước giậu thưa. (Nắng mới, Lưu Trọng Lư)",
+        "max_score": 4.0,
+        "detailed_rubric": [
+          "Đảm bảo cấu trúc bài nghị luận: Mở bài nêu được vấn đề, thân bài triển khai được vấn đề, kết bài khái quát được vấn đề (0,25 điểm)",
+          "Xác định đúng vấn đề cần nghị luận: Hình ảnh người mẹ trong đoạn thơ Nắng mới (0,25 điểm)",
+          "Về nội dung: Bài thơ trải dài theo mạch cảm xúc, kết cấu đan xen giữa quá khứ và hiện tại như một hồi ức về người mẹ thân yêu của nhà thơ",
+          "Qua hồi ức của nhà thơ, hình ảnh của người mẹ chỉ còn là chút kỷ niệm nhạt nhòa đọng lại trong tâm hồn non nớt, thơ ngây của đứa trẻ lên mười",
+          "Đó là khi mẹ thường mang áo ra phơi để áo thơm mùi nắng sau những ngày đông rét mướt",
+          "Hình ảnh người mẹ chưa hiện lên trực tiếp mà chỉ thấp thoáng, lung linh sau màu áo đỏ, sau lưng giậu. Đó có lẽ cũng là hình ảnh đẹp đẽ nhất, trìu mến thương yêu nhất mà nhà thơ còn lưu giữ, khắc sâu trong tâm trí",
+          "Hình ảnh nét cười đen nhánh sau tay áo gợi hình ảnh người mẹ vừa lấp lánh tỏa sáng, vừa e ấp, kín đáo trong nụ cười tươi tắn, hiền hậu, mang nét đẹp của người phụ nữ Việt Nam xưa",
+          "Về nghệ thuật: Thể thơ bảy chữ",
+          "Từ ngữ giản dị, mang màu sắc của làng quê bắc bộ",
+          "Ngắt nhịp linh hoạt, nhịp nhàng, phù hợp với tâm trạng của chủ thể trữ tình",
+          "Cách gieo vần độc đáo: vần chân liền và vần chân cách tạo nhạc tính cho bài thơ",
+          "Phân tích đầy đủ, sâu sắc: 2,0 điểm",
+          "Phân tích chưa đầy đủ hoặc chưa sâu: 1,0 điểm – 1,75 điểm",
+          "Phân tích chung chung, sơ sài: 0,25 điểm – 0,75 điểm",
+          "Đánh giá chung: Hình ảnh người mẹ trong bài thơ mang nét đẹp của người phụ nữ Việt Nam xưa",
+          "Đó cũng chính là những dòng hồi tưởng đẹp, đầy xúc động về mẹ, qua đó thể hiện tình yêu mẹ của tác giả",
+          "Trình bày tương đương như đáp án hoặc đúng 2 ý: 0,5 điểm",
+          "Trình bày được 1 ý: 0,25 điểm",
+          "Chính tả, ngữ pháp: Đảm bảo chuẩn chính tả, ngữ pháp Tiếng Việt. Không cho điểm nếu bài làm có quá nhiều lỗi chính tả, ngữ pháp (0,5 điểm)",
+          "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề nghị luận; có cách diễn đạt mới mẻ (0,5 điểm)"
+        ],
+        "barem_keywords": ["nắng mới", "lưu trọng lư", "hình ảnh người mẹ", "áo đỏ", "nét cười đen nhánh", "người phụ nữ việt nam", "thể thơ bảy chữ", "từ ngữ giản dị", "ngắt nhịp linh hoạt", "vần chân liền cách"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+# Dependencies & build
+node_modules/
+.next/
+out/
+
+# Python
+__pycache__/
+*.pyc
+*.log
+
+# AI models nặng (~2GB) — tải bằng: python scripts/download_models.py
+# (SETUP-BGK.bat tự chạy script này)
+python-backend/models/
+python-backend/chroma_db_v1_backup/
+
+# Biến môi trường cục bộ
+.env*
+!.env.example
+
+# Công cụ / IDE
+.claude/
+*.output
+
+# Hệ điều hành
+Thumbs.db
+.DS_Store

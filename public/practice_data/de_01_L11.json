@@ -1,0 +1,119 @@
+{
+  "test_id": "de_01_L11_viet_thuong_khong_dau",
+  "test_title": "Đề số 1 Lớp 11",
+  "reading_section": {
+    "passage": "Là thế hệ của thế kỉ 21, các em sẽ phải đối mặt với một thế giới đầy biến động: những biến đổi khí hậu bất thường, nguồn tài nguyên đang cạn kiệt, môi trường đang bị ô nhiễm và bị tàn phá ghê gớm. Ngoài ra, những định hướng nghề nghiệp em chọn cho mình trong hôm nay, chưa chắc có thể tồn tại ở ngày mai. Trong một công trình nghiên cứu của mình, Howard Gardner, cha đẻ của thuyết đa trí tuệ đã từng chỉ ra: đến năm 2030, 47% nghề nghiệp hiện nay sẽ biến mất. Nghĩa là có những nghề nghiệp mới ra đời và thay thế nghề nghiệp cũ, em đã chuẩn bị tâm thế cho mình trước sự thay đổi đó chưa? Lại thêm một câu hỏi nữa đặt ra \"Liệu chúng ta, thế hệ của một Việt Nam đầy sức trẻ có tụt hậu với cuộc cách mạng 4.0 như chúng ta tụt hậu với cuộc cách mạng 3.0 hay không? Cốt lõi của sự thay đổi là sự dũng cảm của mỗi người. Dũng cảm để thừa nhận, dũng cảm để học hỏi, dũng cảm để tìm giải pháp, cách thức, dũng cảm để đối đầu. Các em dũng cảm để đối mặt với việc lười nhác, với việc học tập thụ động. Đối mặt với những thói hư tật xấu của mình và xã hội. Đối mặt với sự vô cảm của mình ngay cả với những người thân yêu nhất. Đối mặt với thách thức để các em nhận ra mình thiếu tư duy phản biện, một phẩm chất không thể thiếu của công dân thế kỷ 21... (Bài phát biểu khai giảng - Thầy Nguyễn Minh Quý -THPT Trần Nguyên Hãn - Hải Phòng)",
+    "questions": [
+      {
+        "question_id": "I.1",
+        "question_text": "Chỉ ra những biểu hiện của một thế giới đầy biến động mà thế hệ trẻ phải đối mặt được tác giả nêu trong đoạn trích.",
+        "max_score": 0.5,
+        "detailed_rubric": [
+          "Những biểu hiện của một thế giới đầy biến động mà thế hệ trẻ phải đối mặt được tác giả nêu trong đoạn trích: những biến đổi khí hậu bất thường, nguồn tài nguyên đang cạn kiệt, môi trường đang bị ô nhiễm và bị tàn phá ghê gớm. Ngoài ra, những định hướng nghề nghiệp em chọn cho mình trong hôm nay, chưa chắc có thể tồn tại ở ngày mai",
+          "Hướng dẫn chấm:",
+          "- HS trả lời đúng nội dung đạt: 0,5 điểm",
+          "- HS trả lời thiếu ý trừ 0,25 điểm"
+        ],
+        "barem_keywords": ["biến đổi khí hậu", "tài nguyên cạn kiệt", "môi trường ô nhiễm", "nghề nghiệp biến mất"]
+      },
+      {
+        "question_id": "I.2",
+        "question_text": "Xác định các thao tác lập luận được sử dụng trong đoạn trích.",
+        "max_score": 0.5,
+        "detailed_rubric": [
+          "Các thao tác lập luận được sử dụng trong đoạn trích: phân tích, chứng minh, bình luận",
+          "Hướng dẫn chấm:",
+          "- HS trả lời đúng nội dung đạt 0,5 điểm",
+          "- HS thiếu 01 thao tác trừ 0,25 điểm"
+        ],
+        "barem_keywords": ["phân tích", "chứng minh", "bình luận"]
+      },
+      {
+        "question_id": "I.3",
+        "question_text": "Nhận xét về quan điểm của tác giả được thể hiện trong câu văn: những định hướng nghề nghiệp em chọn cho mình trong hôm nay, chưa chắc có thể tồn tại ở ngày mai.",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Nhận xét: Quan điểm trên hoàn toàn chính xác",
+          "Lí giải: Vì thế giới biến đổi không ngừng, tương lai sẽ có nhiều ngành nghề mới ra đời thay thế những nghề nghiệp cũ. Thời đại công nghệ 4.0 có những phát triển vượt bậc, máy móc, rô-bôt có thể thay thế con người trong một số hoạt động khiến những nghề nghiệp các bạn trẻ lựa chọn ở thời điểm hiện tại có thể bị thay thế trong tương lai. Thế hệ trẻ hãy trang bị cho mình những kiến thức, kĩ năng cần thiết để có thể thích ứng với sự thay đổi của thời đại",
+          "Hướng dẫn chấm:",
+          "- HS trả lời đúng nội dung đạt 1,0 điểm",
+          "- HS có cách diễn đạt tương đương vẫn đạt điểm tối đa"
+        ],
+        "barem_keywords": ["hoàn toàn chính xác", "thế giới biến đổi", "nghề nghiệp mới", "công nghệ 4.0", "rô-bốt thay thế", "thích ứng"]
+      },
+      {
+        "question_id": "I.4",
+        "question_text": "Phân tích hiệu quả nghệ thuật của phép lặp cấu trúc được sử dụng trong đoạn văn: Các em dũng cảm để đối mặt với việc lười nhác, với việc học tập thụ động. Đối mặt với những thói hư tật xấu của mình và xã hội. Đối mặt với sự vô cảm của mình ngay cả với những người thân yêu nhất. Đối mặt với thách thức để các em nhận ra mình thiếu tư duy phản biện, một phẩm chất không thể thiếu của công dân thế kỷ 21...",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Phép lặp cấu trúc: Đối mặt với....",
+          "Tác dụng: Nhấn mạnh vai trò, tầm quan trọng của việc dũng cảm đối mặt và giải quyết các vấn đề trong một thế giới đầy biến động",
+          "Tạo âm hưởng, nhịp điệu cho lời văn làm cho diễn đạt trở nên sinh động hấp dẫn, giàu sức thuyết phục",
+          "Hướng dẫn chấm:",
+          "- HS trả lời đúng nội dung đạt 1,0 điểm",
+          "- HS trả lời đúng mỗi tác dụng đạt 0,25 điểm",
+          "- HS có cách diễn đạt tương đương vẫn đạt điểm tối đa"
+        ],
+        "barem_keywords": ["phép lặp cấu trúc", "đối mặt với", "nhấn mạnh vai trò", "tạo âm hưởng nhịp điệu", "sinh động hấp dẫn", "sức thuyết phục"]
+      },
+      {
+        "question_id": "I.5",
+        "question_text": "Rút ra thông điệp có ý nghĩa nhất với anh/ chị sau khi đọc đoạn trích trên.",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Thông điệp: HS có thể nêu một trong số thông điệp sau: Chúng ta có định hướng nghề nghiệp đúng đắn; Hãy trang bị cho bản thân những kiến thức, kĩ năng cần thiết để không trở nên tụt hậu trong thời đại công nghệ 4.0; Mỗi bạn trẻ cần dũng cảm học hỏi, khắc phục những khó khăn, thách thức trong thời đại 4.0",
+          "Lí giải: HS đưa ra được lí giải phù hợp với đạo đức, pháp luật và văn hoá của dân tộc",
+          "Hướng dẫn chấm:",
+          "- HS nêu được thông điệp đạt 0,5 điểm",
+          "- HS lí giải phù hợp đạt 0,5 điểm"
+        ],
+        "barem_keywords": ["định hướng nghề nghiệp", "kiến thức kỹ năng", "tụt hậu", "công nghệ 4.0", "dũng cảm học hỏi"]
+      }
+    ]
+  },
+  "writing_section": {
+    "questions": [
+      {
+        "question_id": "II.1",
+        "question_type": "Nghị luận xã hội",
+        "question_text": "Từ nội dung đoạn trích phần Đọc hiểu, hãy viết một đoạn văn (khoảng 150 chữ) trình bày suy nghĩ của anh/ chị về những việc tuổi trẻ cần làm để không tụt hậu trong thời đại công nghệ 4.0.",
+        "max_score": 2.0,
+        "detailed_rubric": [
+          "Xác định được yêu cầu về hình thức, dung lượng của đoạn văn: Bảo đảm đúng yêu cầu về hình thức và dung lượng (khoảng 150 chữ) của đoạn văn. Học sinh có thể trình bày đoạn văn theo cách diễn dịch, quy nạp, phối hợp, móc xích hoặc song hành (0,25 điểm)",
+          "Xác định đúng vấn đề cần nghị luận: những việc tuổi trẻ cần làm để không tụt hậu trong thời đại công nghệ 4.0 (0,25 điểm)",
+          "Viết đoạn văn đảm bảo các yêu cầu - Nêu vấn đề",
+          "Triển khai vấn đề: Giải thích: Thời đại công nghệ 4.0 là thời kì hiện tại khi các công nghệ mới như trí tuệ nhân tạo (AI), internet đang thay đổi nhanh chóng cách chúng ta sống và làm việc; tụt hậu nghĩa là không theo kịp, không thích nghi kịp thời đại. Đây là một vấn đề tuổi trẻ cần phải quan tâm",
+          "Việc cần làm: Chủ động học hỏi kiến thức, kỹ năng về công nghệ, tin học, AI; Phát triển tư duy sáng tạo, phản biện, giải quyết vấn đề; Rèn luyện kỹ năng thích ứng, linh hoạt trong môi trường làm việc; Xây dựng lối sống lành mạnh, có trách nhiệm với bản thân và cộng đồng (Dẫn chứng chứng minh)",
+          "Phê phán, trao đổi ý kiến trái chiều, mở rộng",
+          "Liên hệ bản thân",
+          "Kết đoạn: Khẳng định tầm quan trọng của việc thích ứng với thời đại AI đối với sự phát triển của tuổi trẻ và đất nước (1,0 điểm)",
+          "Diễn đạt: Đảm bảo chuẩn chính tả, dùng từ, ngữ pháp tiếng Việt, liên kết câu trong đoạn văn. Không cho điểm nếu bài làm mắc quá nhiều lỗi chính tả, ngữ pháp (0,25 điểm)",
+          "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề cần nghị luận, có cách diễn đạt mới mẻ. HS huy động được kiến thức và trải nghiệm của bản thân để bàn luận về vấn đề cần nghị luận; có cách nhìn riêng, mới mẻ về vấn đề nghị luận; có sáng tạo trong viết câu, dựng đoạn, làm cho lời văn có giọng điệu, hình ảnh. Đáp ứng được 02 yêu cầu trở lên: 0,25 điểm (0,25 điểm)"
+        ],
+        "barem_keywords": ["tuổi trẻ", "tụt hậu", "công nghệ 4.0", "ai", "học hỏi kiến thức", "tư duy sáng tạo", "phản biện", "kỹ năng thích ứng", "lối sống lành mạnh", "trách nhiệm"]
+      },
+      {
+        "question_id": "II.2",
+        "question_type": "Thuyết minh",
+        "question_text": "Anh/ chị hãy viết bài văn (khoảng 400 chữ) thuyết minh về tác phẩm Bánh trôi nước của Hồ Xuân Hương. Thân em thời trắng phận em tròn, Bảy nổi ba chìm với nước non. Rắn nát mặc dầu tay kẻ nặn, Mà em vẫn giữ tấm lòng son.",
+        "max_score": 4.0,
+        "detailed_rubric": [
+          "Bảo đảm bố cục và dung lượng của bài văn thuyết minh: Bảo đảm yêu cầu về bố cục và dung lượng (khoảng 400 chữ) của bài văn (0,25 điểm)",
+          "Xác định đúng vấn đề cần thuyết minh: Nội dung và nghệ thuật của tác phẩm Bánh trôi nước của Hồ Xuân Hương (0,5 điểm)",
+          "Mở bài: Giới thiệu khái quát về tác giả, tác phẩm - Hồ Xuân Hương, nữ sĩ tài hoa nổi danh thời kỳ văn học Trung đại của dân tộc; được mệnh danh là \"Bà chúa thơ Nôm\"",
+          "Bánh trôi nước là một trong số những tác phẩm thơ Nôm xuất sắc của Xuân Hương; bài thơ có giá trị nhân văn sâu sắc",
+          "Thân bài: Giới thiệu khái quát về của tác giả",
+          "Giới thiệu hoàn cảnh sáng tác và thể loại của tác phẩm - Bánh trôi nước là một trong hơn 50 bài thơ Nôm được truyền tụng của Hồ Xuân Hương, in trong Hợp tuyển thơ văn Việt Nam tập III, NXB Văn hóa Hà Nội, năm 1963. Bài thơ hiện tại chưa xác định rõ mốc thời gian hay hoàn cảnh cụ thể, tuy nhiên theo một số ghi chép thì bài thơ ra đời vào những thập niên cuối thế kỷ XVIII – đầu thế kỷ XIX, bối cảnh xă hội Việt Nam lúc bấy giờ rối ren, loạn lạc, chế độ phong kiến cổ hủ, bất công",
+          "Bài thơ được viết bằng chữ Nôm với thể thơ thất ngôn tứ tuyệt Đường luật. Đề tài của bài thơ là vịnh vật. Bài thơ kết hợp hài hoà các phương thức biểu đạt: biểu cảm cùng miêu tả, tự sự và nghị luận. Về nhan đề, tác giả đặt nhan đề này với ý nghĩa ví người phụ nữ thời đó như chiếc bánh trôi nước, ca ngợi vẻ đẹp bên ngoài lẫn phẩm chất bên trong của người phụ nữ và sự đồng cảm sâu sắc đối với thân phận nổi chìm của họ. Bố cục bài thơ chia làm hai phần chính: Hình ảnh tả thực của bánh trôi nước và vẻ đẹp nhan sắc, phẩm chất của những người phụ nữ thân phận nhỏ bé, bất hạnh",
+          "Giới thiệu nội dung và nghệ thuật của tác phẩm - Về nội dung: Bánh trôi nước là bài thơ có nhiều tầng ý nghĩa, nghĩa đen và nghĩa bóng. Tác giả mượn hình ảnh bánh trôi nước để chỉ ra sự đối lập giữa số phận với vẻ đẹp toàn diện của người phụ nữ xưa",
+          "Giá trị nhân đạo, nhân văn của bài thơ: nỗi cảm thông, xót xa cho thân phận long đong của người phụ nữ trong xă hội cũ; trân trọng, ngợi ca vẻ đẹp phẩm chất trong sáng, tình nghĩa, sắt son của người phụ nữ Việt Nam ngày xưa. Qua đó thể hiện thái độ bất bình trước xã hội đầy rẫy những bất công",
+          "Về giá trị nghệ thuật: Bài thơ sử dụng thể thơ thất ngôn tứ tuyệt Đường luật cổ điển, bình dị, vận dụng độc đáo thành ngữ, mô-típ dân gian, phép ẩn dụ, phép đối thanh, đối ý rõ ràng, rành mạch... Đặc biệt là sự sáng tạo trong việc xây dựng nhiều tầng ý nghĩa gây ấn tượng cho bạn đọc",
+          "Kết bài: Khẳng định đóng góp của tác phẩm cho nền văn học hoặc cho đời sống văn hóa của đất nước và thế giới. Lưu ý: HS có thể bày tỏ trình bày, diễn đạt theo cách riêng nhưng phải phù hợp với chuẩn mực đạo đức và pháp luật (2,5 điểm)",
+          "Diễn đạt: Đảm bảo chuẩn chính tả, dùng từ, ngữ pháp tiếng Việt, liên kết văn bản. Không cho điểm nếu bài làm mắc quá nhiều lỗi chính tả, ngữ pháp (0,25 điểm)",
+          "Sáng tạo: Thể hiện suy nghĩ sâu sắc về đối tượng thuyết minh; có cách diễn đạt mới mẻ. HS huy động được kiến thức và trải nghiệm của bản thân để trình bày, có cách nhìn riêng, mới mẻ về vấn đề được thuyết minh; có sáng tạo trong viết câu, dựng đoạn, làm cho lời văn có giọng điệu, hình ảnh. Đáp ứng được 02 yêu cầu trở lên: 0,5 điểm (0,5 điểm)"
+        ],
+        "barem_keywords": ["hồ xuân hương", "bánh trôi nước", "bà Chúa thơ nôm", "thất ngôn tứ tuyệt", "đường luật", "vịnh vật", "giá trị nhân đạo", "ẩn dụ", "đối thanh đối ý", "nghĩa đen nghĩa bóng", "nỗi cảm thông", "người phụ nữ"]
+      }
+    ]
+  }
+}

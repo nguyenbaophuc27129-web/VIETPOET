@@ -1,0 +1,497 @@
+{
+  "document_id": "trao_duyen_trich_truyen_kieu",
+  "general_knowledge": {
+    "author_and_work": "I. Đôi nét về tác giả\n- Nguyễn Du sinh năm 1765, mất năm 1820, tên chữ là Tố Như, hiệu là Thanh Hiên.\n- Quê quán: làng Tiên Điền, huyện Nghi Xuân, tỉnh Hà Tĩnh.\n- Gia đình: Nguyễn Du sinh trưởng trong một gia đình đại quý tộc, nhiều đời làm quan và có truyền thống về văn học. Cha là Nguyễn Nghiễm, đỗ tiến sĩ, từng giữ chức Tể tướng. Chính điều này là cái nôi nuôi dưỡng tài năng văn học của Nguyễn Du.\n- Thời đại: Cuộc đời Nguyễn Du gắn bó sâu sắc với những biến cố lịch sử của giai đoạn cuối thế kỉ XVIII – XIX. Đây là giai đoạn lịch sử đầy biến động với hai đặc điểm nổi bật là chế độ phong kiến Việt Nam khủng hoảng trầm trọng và phong trào nông dân khởi nghĩa nổi lên khắp nơi, đỉnh cao là phong trào Tây Sơn. Yếu tố thời đại đã ảnh hưởng sâu sắc tới ngòi bút của Nguyễn Du khi viết về hiện thực đời sống.\n- Cuộc đời: cuộc đời từng trải, phiêu bạt nhiều năm trên đất Bắc, đi nhiều, tiếp xúc nhiều đã tạo cho Nguyễn Du vốn sống phong phú và niềm thông cảm sâu sắc với những đau khổ của nhân dân. Nguyễn Du là một thiên tài văn học, một nhà nhân đạo chủ nghĩa lớn.\n- Sự nghiệp văn học: sáng tác của Nguyễn Du gồm những tác phẩm có giá trị cả chữ Hán và chữ Nôm:\n  + Sáng tác bằng chữ Hán: gồm ba tập thơ là Thanh Hiên thi tập, Nam Trung tạp ngâm, Bắc Hành tạp lục.\n  + Sáng tác bằng chữ Nôm: Đoạn trường tân thanh (thường gọi là Truyện Kiều), Văn chiêu hồn\n- Đặc điểm sáng tác: các tác phẩm đều thể hiện tư tưởng, tình cảm, nhân cách của tác giả\n  + Thể hiện tư tưởng nhân đạo: đề cao giá trị nhân văn con người. Các tác phẩm đó đều thể hiện sự cảm thông sấu sắc của Nguyễn Du đối với cuộc sống của con người, nhất là những người nhỏ bé, bất hạnh, ... đó là kết quả của quá trình quan sát, suy ngẫm về cuộc đời, về con người của tác giả.\n  + Lên án, tố cáo những thế lực đen tối chà đạp con người.\n\nII. Đôi nét về tác phẩm Trao duyên\n1. Vị trí đoạn trích\nĐoạn trích từ câu 711 đến câu 756 trong Truyện Kiều, là lời của Thúy Kiều nói với Thúy Vân\n2. Bố cục (3 phần)\n- Phần 1 (12 câu đầu): Kiều thuyết phục và trao duyên cho Thúy Vân\n- Phần 2 (14 câu tiếp): Kiều trao kỉ vật và dặn dò\n- Phần 3 (còn lại): Kiều đau đớn và độc thoại nội tâm\n3. Giá trị nội dung\nĐoạn trích thể hiện bi kịch trong tình yêu của Thúy Kiều qua đó thể hiện tiếng kêu đau đớn của tác giả về số phận con người trong xã hội phong kiến\n4. Giá trị nghệ thuật\nBằng hình thức độc thoại và kết hợp sử dụng giữa ngôn ngữ trang trọng với lối nói dân giản dị, tác giả đã thể hiện đặc sắc diễn biến tâm trạng phức tạp và bế tắc của Thúy Kiều trong đêm trao duyên."
+  },
+  "detailed_analysis": [
+    {
+      "section_name": "Phần mở đầu: Cảnh khuya - Thúy Vân tỉnh giấc",
+      "original_text": [
+        "Nỗi riêng riêng những bàn hoàn",
+        "Dầu chong trắng đĩa lệ tràn thấm khăn.",
+        "Thuý Vân chợt tỉnh giấc xuân,",
+        "Dưới đèn ghé đến ân cần hỏi han:",
+        "Cơ trời dâu bể đa đoan,",
+        "Một nhà để chị riêng oan một mình.",
+        "Cớ chi ngồi nhẫn tàn canh,",
+        "Nỗi riêng còn mắc mối tình chi đây?"
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Nỗi riêng",
+          "art_type": "Điệp ngữ",
+          "effect": "Nhấn mạnh nỗi niềm riêng tư, bí mật, dồn nén trong lòng Thúy Kiều"
+        },
+        {
+          "target_words": "Dầu chong trắng đĩa",
+          "art_type": "Thành ngữ",
+          "effect": "Chỉ đêm đã quá khuya, chong dầu đã cạn, đĩa trắng đã sạch, gợi không khí tĩnh lặng, trang nghiêm"
+        },
+        {
+          "target_words": "Lệ tràn thấm khăn",
+          "art_type": "Liệt kê + Ẩn dụ",
+          "effect": "Miêu tả nước mắt nhiều đến mức thấm ướt khăn gói, thể hiện nỗi đau khổ tột cùng"
+        },
+        {
+          "target_words": "Tỉnh giấc xuân",
+          "art_type": "Ẩn dụ",
+          "effect": "Chỉ giấc mơ của người trẻ, của tuổi xuân thì, đối lập với nỗi đau của Kiều"
+        },
+        {
+          "target_words": "Dâu bể",
+          "art_type": "Thành ngữ",
+          "effect": "Chia ly, dâu bể là cách nói ước lệ chỉ sự chia ly, rủi ro, bất trắc"
+        },
+        {
+          "target_words": "Ngồi nhẫn tàn canh",
+          "art_type": "Hình ảnh thực",
+          "effect": "Kiều ngồi thâu đêm suốt sáng, không ngủ được, thể hiện nỗi lòng day dứt"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Bối cảnh không gian và thời gian",
+          "details": [
+            "Đêm khuya tĩnh lặng, chong dầu cạn, đĩa trắng sạch",
+            "Không khí trang nghiêm, thiêng liêng"
+          ],
+          "conclusion": "Gợi cảm giác kịch tính, hệ trọng trước một sự việc quan trọng sắp diễn ra"
+        },
+        {
+          "point": "Hành động của Thúy Vân",
+          "details": [
+            "Vấn ân cần hỏi han",
+            "Thúy Vân tỉnh giấc và ghé đến hỏi thăm chị"
+          ],
+          "conclusion": "Sự quan tâm, tình cảm chị em ruột thịt"
+        },
+        {
+          "point": "Nỗi lòng của Thúy Kiều",
+          "details": [
+            "Nỗi riêng dồn nén",
+            "Nỗi oan khiên của một mình",
+            "Mắc mối tình còn dang dở"
+          ],
+          "conclusion": "Kiều đang mang nỗi đau khổ tột cùng về chuyện tình và gia đình"
+        }
+      ],
+      "section_full_essay": [
+        "\"Truyện Kiều\" của Nguyễn Du không còn là tác phẩm xa lạ đối với các thế hệ bạn đọc. \"Trao duyên\" là một trong những đoạn trích tiêu biểu của thiên kiệt tác này. Nhận xét về \"Trao duyên\", Tản Đà từng viết: \"Trong cả quyển Kiều, văn tả tình không mấy đoạn dài hơn như vậy. Đoạn này thật lâm ly, mà như thế mới biết hết tình sự\".",
+        "\"Trao duyên\" là đoạn thơ bắt đầu từ câu 711 đến câu 756 của \"Truyện Kiều\". Đoạn trích đã khắc họa những tâm trạng đớn đau, giằng xé của Thúy Kiều khi nhờ Thúy Vân thay mình kết duyên với Kim Trọng để làm trọn chữ \"tình\". Ngay từ nhan đề, đoạn trích đã gây nên sự tò mò cho bạn đọc. Chúng ta thường trao lại cho người khác vàng bạc, châu báu hay những thứ vật chất dễ nhìn thấy, dễ cầm nắm chứ mấy ai lại trao cho người khác thứ khó xác định, khó hình dung như trao duyên? \"Duyên\" là thứ con người khó có thể lí giải một cách thỏa đáng và nó rất khó để định hình. Vậy mà Thúy Kiều lại có hành động trao duyên, phải chăng có điều gì khó nói, uẩn khúc ở đây?",
+        "Phải từ bỏ tình yêu của mình là điều không ai mong muốn nhưng trong trường hợp này, Thúy Kiều không thể làm khác. Nàng buộc phải hi sinh tình cảm, hạnh phúc riêng tư của bản thân để chuộc cha và em trai. Đêm cuối cùng ở nhà trước khi theo Mã Giám Sinh ra đi, Thúy Kiều đã nhờ cậy Thúy Vân trả nghĩa cho Kim Trọng."
+      ],
+      "barem_keywords": [
+        "Bối cảnh không gian thời gian",
+        "Đêm khuya trang nghiêm",
+        "Nỗi riêng",
+        "Tỉnh giấc xuân",
+        "Dâu bể đa đoan"
+      ]
+    },
+    {
+      "section_name": "Kiều thuyết phục và trao duyên cho Thúy Vân (12 câu: 723-734)",
+      "original_text": [
+        "Rằng:",
+        "Lòng dường thốn thức đầy,",
+        "Tơ duyên còn vướng mối này chưa xong.",
+        "Hở môi ra cũng thẹn thùng,",
+        "Để lòng thì phụ tấm lòng với ai!",
+        "Cậy em em có chịu lời,",
+        "Ngồi lên cho chị lạy rồi sẽ thưa.",
+        "Giữa đường đứt gánh tương tư,",
+        "Keo loan chắp mối tơ thừa mặc em.",
+        "Kể từ khi gặp chàng Kim,",
+        "Khi ngày quạt ước khi đêm chén thề.",
+        "Sự đâu sóng gió bất kì,",
+        "Hiếu tình khó lẽ hai bề vẹn hai."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Cậy em",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Ngoài ý nghĩa nhờ vả còn hàm chứa cả lòng tin tưởng, sự hi vọng vào người được nhờ vả"
+        },
+        {
+          "target_words": "Chịu lời",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Sự chấp nhận bắt buộc, không còn sự lựa chọn nào khác"
+        },
+        {
+          "target_words": "Lạy, thưa",
+          "art_type": "Lễ nghi trang trọng",
+          "effect": "Thể hiện sự trang nghiêm, thiêng liêng của việc trao duyên"
+        },
+        {
+          "target_words": "Đứt gánh tương tư",
+          "art_type": "Ẩn dụ",
+          "effect": "Mối tình thắm thiết bị đứt quãng giữa đường, đột ngột"
+        },
+        {
+          "target_words": "Keo loan chắp mối tơ thừa",
+          "art_type": "Ẩn dụ + Thành ngữ",
+          "effect": "Dùng keo gắn chắc được chế từ máu của loài chim loan để nối tiếp mối duyên"
+        },
+        {
+          "target_words": "Mặc em",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Phó mặc, uỷ thác nhưng cũng chứa ý ép buộc"
+        },
+        {
+          "target_words": "Khi ngày quạt ước khi đêm chén thề",
+          "art_type": "Điệp từ + Hình ảnh ước lệ",
+          "effect": "Nhấn mạnh tình cảm khăng khít, sâu nặng, gợi nhắc đêm thề nguyền thiêng liêng"
+        },
+        {
+          "target_words": "Sóng gió bất kì",
+          "art_type": "Thành ngữ",
+          "effect": "Tai họa bất ngờ ập đến, không thể đoán trước"
+        },
+        {
+          "target_words": "Hiếu tình khó lẽ hai bề vẹn hai",
+          "art_type": "Câu đối",
+          "effect": "Lựa chọn khó khăn giữa hiếu và tình, không thể vẹn cả hai"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "a) Hai câu đầu: Lời nhờ cậy",
+          "details": [
+            "Lạy: trang nghiêm, hệ trọng",
+            "Thưa: kính cẩn, trang trọng với bề trên hoặc người lớn tuổi hơn mình"
+          ],
+          "conclusion": "Không khí trao duyên trang trọng, thiêng liêng. Sự việc bất ngờ, phi lý mà lại hợp lý, nhấn mạnh tầm quan trọng của việc sắp nhờ, thấy được sự nhạy cảm, tinh tế và khôn khéo của Thuý Kiều"
+        },
+        {
+          "point": "b) Mười câu còn lại: Lí lẽ trao duyên của Thúy Kiều",
+          "details": [
+            "Cảnh ngộ của Thúy Kiều: 'đứt gánh tương tư' - mối tình dở dang, đứt quãng",
+            "'sóng gió bất kì' - tai họa ập đến gia đình nàng",
+            "'Hiếu tình khôn lẽ hai bề vẹn hai' - Lựa chọn giữa hiếu và tình",
+            "'mối tơ thừa' - mối tình duyên Kim-Kiều",
+            "'chắp mối' - Thuý Vân là người nhận lại mối tình dang dở đó",
+            "'mặc em' - phó mặc, uỷ thác → vừa có ý mong muốn vừa có ý ép buộc Thuý Vân phải nhận lời"
+          ],
+          "conclusion": "Thúy Kiều kể vắn tắt mối tình với Kim Trọng - Mối tình còn giang dở, lời hẹn ước của Thúy Kiều với Kim Trọng vẫn còn đó - Lời lẽ thuyết phục Thúy Vân hết sức chặt chẽ, thấu tình"
+        },
+        {
+          "point": "Thúy Kiều kể mối tình với Kim Trọng",
+          "details": [
+            "Khi gặp chàng Kim",
+            "Khi ngày quạt ước",
+            "Khi đêm chén thề"
+          ],
+          "conclusion": "Mối tình còn giang dở, lời hẹn ước của Thúy Kiều với Kim Trọng vẫn còn đó"
+        }
+      ],
+      "section_full_essay": [
+        "\"Cậy\" và \"nhờ\" là hai từ đồng nghĩa nhưng tại sao trong trường hợp này, Thúy Kiều lại nhờ từ \"cậy\"? Ngoài ý nghĩa nhờ vả, mong muốn người khác giúp đỡ mình thì từ \"cậy\" còn hàm chứa cả lòng tin tưởng, sự hi vọng vào người được nhờ vả của chủ thể. Thúy Kiều và Thúy Vân là hai chị em ruột, vì thế nàng Kiều đã dốc hết lòng tin để gửi gắm mối duyên tình. Thanh trắc ở từ \"cậy\" khiến âm hưởng câu thơ trở nên nặng nề hơn, đồng thời cũng thể hiện mức độ quan trọng của việc nhờ vả. Người được nhờ có thể nhận lời hoặc từ chối giúp đỡ nhưng trong trường hợp này, Thúy Kiều đã đặt Thúy Vân vào hoàn cảnh mà nàng chỉ có thể \"chịu lời\".",
+        "\"Chịu lời\" là một sự chấp nhận bắt buộc, không còn sự lựa chọn nào khác. Biết mình đã khiến Thúy Vân rơi vào hoàn cảnh khó xử và có lẽ sẽ khiến Thúy Vân phải chịu nhiều thiệt thòi nên nàng đã dùng lễ nghi trang trọng để bày tỏ nỗi lòng của mình với em. \"Lạy\", \"thưa\" là những lễ nghi trang trọng thường dùng đối với các bậc bề trên trong xã hội phong kiến, đồng thời hành động ấy cũng được dành cho những bậc ân nhân, những người có ơn đối với mình. Trong trường hợp này, Thúy Vân là người mà Thúy Kiều sẽ mang ơn suốt cả cuộc đời nên hành động mời em gái \"ngồi lên\" để mình \"lạy\", \"thưa\" cũng là điều dễ hiểu.",
+        "Chuyện tình yêu của nàng đang tốt đẹp thì bỗng nhiên tai ương xảy đến: \"Giữa đường đứt gánh tương tư, Keo loan chắp mối tơ thừa mặc em\". \"Gánh tương tư\" bị \"đứt\" giữa đường thật đột ngột, đây là điều mà Thúy Kiều không ngờ tới. Hình ảnh \"gánh tương tư\" chính là ẩn dụ cho mối tình thắm thiết đó. Chỉ còn đêm nay là đêm cuối cùng ở nhà bởi ngày mai nàng đã trở thành vợ lẽ của người khác, tình yêu với Kim Trọng chỉ còn trong kí ức chứ không thể nào tiếp tục được nữa.",
+        "Vậy mà giờ đây, nàng phải thay chị kết duyên với một người mà mình không hề yêu, hoàn cảnh ấy thật khó xử. Dân gian có câu \"Ép dầu ép mỡ ai nỡ ép duyên\", duyên là thứ con người không nên ép buộc nhưng Thúy Vân là người mà Thúy Kiều tin tưởng nhất, ngoài Thúy Vân ra thì không ai có thể giúp nàng chuyện này. Chỉ có Thúy Vân mới có thể thay Kiều kết duyên cùng chàng Kim và cũng chỉ có Thúy Vân mới khiến nàng yên tâm gửi gắm mối duyên tình. Thúy Kiều để \"mặc em\" quyết định nhưng thực chất là phó thác, ép buộc Thúy Vân phải đồng ý giúp đỡ.",
+        "Không chỉ bằng lời nói, lễ nghi trang trọng mà Thúy Kiều còn kể cho Vân nghe chi tiết chuyện tình yêu của mình để thuyết phục em: \"Kể từ khi gặp chàng Kim, Khi ngày quạt ước khi đêm chén thề\". Những đôi trai gái yêu nhau thường hay tặng nhau chiếc quạt vì chiếc quạt có hai mặt giấy hoặc lụa được dán áp sát vào nhau tượng trưng cho sự gắn kết, hòa hợp, Thúy Kiều và Kim Trong cũng như vậy. Thúy Kiều đã tặng Kim Trọng chiếc quạt trong đêm thề nguyền, ước hẹn. Điệp từ \"khi\" được lặp lại ba lần đã cho thấy tình cảm của họ thật khăng khít, sâu nặng.",
+        "\"Tiên thề cùng thảo một chương, Tóc mây một món dao vàng chia đôi\". Lời thề \"Trăm năm tạc một chữ đồng đến xương\" đến nay đã không thể thực hiện bởi \"sóng gió bất kì\". Trong hoàn cảnh éo le như vậy, giữa chữ \"hiếu\" và chữ \"tình\", nàng bắt buộc chỉ được chọn một. Và với sự hiếu thảo của một người con, nàng đã chọn chữ \"hiếu\" còn chữ \"tình\" nàng trông cậy Thúy Vân nhận lời giúp mình.",
+        "Trong xã hội phong kiến, có mấy ai làm trọn vẹn được cả \"tình\" cả \"hiếu\" và Thúy Kiều cũng vậy, nàng thật vị tha khi luôn nghĩ cho người khác mà quên đi bản thân mình. Sự lựa chọn chữ \"hiếu\" của nàng cũng là điều hợp tình hợp lí bởi cha mẹ đã dành cả cuộc đời để chăm lo cho mỗi chúng ta, công ơn ấy chúng ta không thể nào đền đáp hết. Nàng thực sự là \"người thục nữ đủ đường hiếu nghĩa\" (Chu Mạnh Trinh)."
+      ],
+      "barem_keywords": [
+        "Lễ nghi trang trọng",
+        "Cậy - Chịu lời",
+        "Đứt gánh tương tư",
+        "Keo loan chắp mối tơ thừa",
+        "Quạt ước chén thề",
+        "Hiếu tình",
+        "Sóng gió bất kì",
+        "Thúy Kiều khôn khéo tinh tế",
+        "Đức hi sinh"
+      ]
+    },
+    {
+      "section_name": "Kiều thuyết phục Thúy Vân tiếp (câu 735-740)",
+      "original_text": [
+        "Ngày xuân em hãy còn dài,",
+        "Xót tình máu mủ thay lời nước non.",
+        "Chị dù thịt nát xương mòn,",
+        "Ngậm cười chín suối hãy còn thơm lây.",
+        "Chiếc vành với bức tờ mây,",
+        "Duyên này thì giữ, vật này của chung."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Ngày xuân",
+          "art_type": "Ẩn dụ",
+          "effect": "Chỉ tuổi trẻ, tương lai còn phía trước của Thúy Vân"
+        },
+        {
+          "target_words": "Tình máu mủ",
+          "art_type": "Thành ngữ",
+          "effect": "Tình chị em ruột thịt thiêng liêng, gắn bó"
+        },
+        {
+          "target_words": "Thịt nát xương mòn",
+          "art_type": "Thành ngữ",
+          "effect": "Nàng tưởng tượng đến cái chết của mình để gợi sự thương cảm ở Thúy Vân"
+        },
+        {
+          "target_words": "Ngậm cười chín suối",
+          "art_type": "Hình ảnh ước lệ",
+          "effect": "Dù ở chốn cửu tuyền, cửu huyệt thì cũng được \"thơm lây\" với hạnh phúc của Thúy Vân và Kim Trọng"
+        },
+        {
+          "target_words": "Chiếc vành với bức tờ mây",
+          "art_type": "Kỉ vật",
+          "effect": "Những kỉ vật thiêng liêng, quan trọng đối với Thúy Kiều và Kim Trọng"
+        },
+        {
+          "target_words": "Vật này của chung",
+          "art_type": "Nghệ thuật đối lập",
+          "effect": "Vốn là kỉ vật riêng của Kim-Kiều giờ trở thành kỉ vật chung của cả ba người"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Lời lẽ thuyết phục Thúy Vân",
+          "details": [
+            "\"ngày xuân\": Thúy Vân còn trẻ, còn có tương lai",
+            "\"xót tình máu mủ\": Tình chị em, tình ruột thịt thiêng liêng",
+            "\"thịt nát xương mòn\", \"ngậm cười chín suối\": Nàng tưởng tượng đến cái chết của mình để gợi sự thương cảm ở Thúy Vân"
+          ],
+          "conclusion": "Cách lập luận hết sức chặt chẽ, thấu tình cho thấy Thúy Kiều là người sắc sảo tinh tế, có đức hi sinh, một người con hiếu thảo, trọng tình nghĩa"
+        },
+        {
+          "point": "Kiều trao kỉ vật cho em",
+          "details": [
+            "Kỉ vật: Chiếc vành, bức tờ mây, phím đàn, mảnh hương nguyền",
+            "Những kỉ vật thiêng liêng, quan trọng đối với Thúy Kiều và Kim Trọng",
+            "Cách sử dụng từ ngữ: Duyên này thì giữ, vật này của chung"
+          ],
+          "conclusion": "Sự giằng xé trong tâm trạng của Thúy Kiều"
+        }
+      ],
+      "section_full_essay": [
+        "Tha thiết mong muốn Thúy Vân chấp nhận lời khẩn cầu của mình, Thúy Kiều đã dùng những lí lẽ xác đáng: \"Ngày xuân em hãy còn dài, Xót tình máu mủ thay lời nước non. Chị dù thịt nát xương mòn, Ngậm cười chín suối hãy còn thơm lây\". So sánh với Thúy Kiều thì những ngày xuân của Thúy Vân vẫn còn dài, Thúy Vân hoàn toàn có thể giúp được việc mà Thúy Kiều nhờ vả. Hơn nữa, Thúy Kiều còn nhắc tới cả \"tình máu mủ\", tình chị em ruột thịt thì làm sao Vân có thể từ chối. Ở một thế giới khác, Kiều vẫn vui vẻ, mãn nguyện vì em đã \"chắp mối tơ thừa\" giúp mình. Tâm trạng ấy đã được Nguyễn Du thể hiện qua thành ngữ \"thịt nát xương mòn\", \"ngậm cười chín suối\". Dù nàng ở chốn âm phủ, cửu tuyền thì cũng được \"thơm lây\" với hạnh phúc của Thúy Vân và Kim Trọng. Nhắc đến cái chết của chính mình, Thúy Kiều đau đớn biết nhường nào.",
+        "Dù không muốn thì nàng cũng trao lại những kỉ vật tình yêu của mình để em gìn giữ, trân trọng mối tơ duyên đó: \"Chiếc vành với bức tờ mây, Duyên này thì giữ, vật này của chung\". Người ta thường nói mối tình đầu là mối tình đẹp nhất nhưng cũng là mối tình gây cho ta nhiều đau khổ nhất, điều ấy quả không sai. Mối tình đầu với Kim Trọng đẹp đẽ, thắm thiết là thế mà bây giờ lỡ dở, làm sao Thúy Kiều không khỏi xót xa, dằn vặt? Chiếc vòng xuyến đeo tay và tờ giấy ghi lời thề ước của hai người giờ đây đã trở thành kỉ vật chung của cả Thúy Kiều, Kim Trọng và Thúy Vân. Đó vốn là những kỉ vật gắn với những kỉ niệm riêng tư của chuyện tình Kim - Kiều nhưng vì hoàn cảnh trớ trêu mà nó trở thành \"của chung\". Nỗi đau đớn của nàng dường như đã bật thành tiếng nấc nghẹn ngào. Nàng đâu muốn trao duyên lại cho một người khác, nàng đâu muốn phụ bạc chàng Kim nhưng hoàn cảnh nghiệt ngã đã buộc nàng phải làm như vậy.",
+        "Mảnh trầm hương đốt trong buổi thề nguyền và những giây phút Kiều gảy đàn bên Kim Trọng giờ đây đã trở thành quá khứ - một quá khứ gợi bao nỗi xót xa, tiếc nuối. Lí trí và tình cảm đã có sự mâu thuẫn khi nàng muốn giữ lại chữ \"duyên\" cho bản thân mình làm của riêng. Nàng đã hi sinh tình cảm cá nhân vì gia đình, nàng đã trao duyên lại cho Thúy Vân để mong Kim Trọng được hạnh phúc vậy thì một chút \"duyên\" nàng xin được giữ lại cũng là điều dễ thấu hiểu."
+      ],
+      "barem_keywords": [
+        "Ngày xuân",
+        "Tình máu mủ",
+        "Thịt nát xương mòn",
+        "Ngậm cười chín suối",
+        "Chiếc vành bức tờ mây",
+        "Kỉ vật",
+        "Vật này của chung",
+        "Sự hi sinh"
+      ]
+    },
+    {
+      "section_name": "Kiều trao kỉ vật và dặn dò em tiếp (câu 741-748)",
+      "original_text": [
+        "Dù em nên vợ nên chồng,",
+        "Xót người bạc mệnh ắt lòng chẳng quên.",
+        "Mất người còn chút của tin,",
+        "Phím đàn với mảnh hương nguyện ngày xưa.",
+        "Mai sau dù có bao giờ,",
+        "Đốt lò hương ấy so tơ phím này.",
+        "Trông ra ngọn cỏ lá cây,",
+        "Thấy hiu hiu gió thì hay chị về."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Nên vợ nên chồng",
+          "art_type": "Thành ngữ",
+          "effect": "Chỉ hôn nhân, sự kết đôi thành lứa"
+        },
+        {
+          "target_words": "Người bạc mệnh",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Người có số phận bạc bẽo, kém may mắn - chỉ chính Kiều"
+        },
+        {
+          "target_words": "Của tin",
+          "art_type": "Kỉ vật",
+          "effect": "Những kỉ vật gắn bó, chứng giám cho tình yêu của Kim, Kiều"
+        },
+        {
+          "target_words": "Phím đàn với mảnh hương nguyện",
+          "art_type": "Kỉ vật",
+          "effect": "Nhắc nhớ về những khoảnh khắc đáng nhớ của mối tình Kim-Kiều"
+        },
+        {
+          "target_words": "Mai sau dù có bao giờ",
+          "art_type": "Từ ngữ mang tính giả định",
+          "effect": "Kiều tưởng tượng về cảnh ngộ của mình trong tương lai"
+        },
+        {
+          "target_words": "Lò hương so tơ phím",
+          "art_type": "Hình ảnh đối lập",
+          "effect": "Lò hương đốt để tưởng niệm người đã khuất và tơ phím gảy đàn cho tình yêu"
+        },
+        {
+          "target_words": "Ngọn cỏ lá cây hiu hiu gió",
+          "art_type": "Hình ảnh ước lệ",
+          "effect": "Gợi không khí u tịch, vắng vẻ, ma mị của cõi âm"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Kỉ vật: Chiếc vành, bức tờ mây, phím đàn, mảnh hương nguyền",
+          "details": [
+            "Những kỉ vật thiêng liêng, quan trọng đối với Thúy Kiều và Kim Trọng",
+            "Cách sử dụng từ ngữ: Duyên này thì giữ, vật này của chung",
+            "Duyên này: tình riêng của Kiều với Kim Trọng",
+            "Vật này của chung: của Kim, Kiều và của cả Vân nữa",
+            "Của tin: những kỉ vật gắn bó, chứng giám cho tình yêu của Kim, Kiều"
+          ],
+          "conclusion": "Sự giằng xé trong tâm trạng của Thúy Kiều"
+        },
+        {
+          "point": "Tám câu còn lại: Lời dặn dò của Thúy Kiều",
+          "details": [
+            "Từ ngữ mang tính giả định: mai này, dù có",
+            "Kiều tưởng tượng về cảnh ngộ của mình trong tương lai",
+            "Hình ảnh: lò hương, ngọn cỏ, lá cấy, hiu hiu gió, hồn, thân bồ liễu, đền nghì trúc mai, dạ đài, giọt nước, người thác oan",
+            "Nhịp điệu: chậm rãi, nhịp nhàng, thiết tha, tức tưởi như tiếng khóc não nùng, cố nén lại để không bật lên thành lời"
+          ],
+          "conclusion": "Sự dằng xé, đau đớn và nhớ thương Kim Trọng đến tột cùng của Kiều"
+        }
+      ],
+      "section_full_essay": [
+        "Mảnh trầm hương đốt trong buổi thề nguyền và những giây phút Kiều gảy đàn bên Kim Trọng giờ đây đã trở thành quá khứ - một quá khứ gợi bao nỗi xót xa, tiếc nuối. Lí trí và tình cảm đã có sự mâu thuẫn khi nàng muốn giữ lại chữ \"duyên\" cho bản thân mình làm của riêng. Nàng đã hi sinh tình cảm cá nhân vì gia đình, nàng đã trao duyên lại cho Thúy Vân để mong Kim Trọng được hạnh phúc vậy thì một chút \"duyên\" nàng xin được giữ lại cũng là điều dễ thấu hiểu.",
+        "Lại thêm một lần nữa, Thúy Kiều nghĩ về cái chết. Phải chăng nàng đã dự đoán được số phận nổi trôi, vô định, hẩm hiu của mình? Nàng hình dung ra viễn cảnh Thúy Vân và Kim Trọng \"nên vợ nên chồng\", chung sống hạnh phúc còn mình là \"người mệnh bạc\", số phận bạc bẽo, không may mắn.",
+        "Tuy kỉ vật đã trao nhưng dường như Thúy Kiều không thoát khỏi được sự ám ảnh về cái chết, nàng vẫn chưa thể yên lòng: \"Mai sau dù có bao giờ, Đốt lò hương ấy, so tơ phím này. Trông ra ngọn cỏ gió cây, Thấy hiu hiu gió, thì hay chị về\". Kiều nhắc em mai sau có đốt lò hương hay đánh đàn thì hãy nhớ đến mình, lúc ấy nàng mong Vân hãy \"trông ra ngọn cỏ lá cây\" để thấy được linh hồn oan khuất của mình. Lời nhắn nhủ ấy tức tưởi và đau xót biết bao."
+      ],
+      "barem_keywords": [
+        "Nên vợ nên chồng",
+        "Người bạc mệnh",
+        "Của tin",
+        "Phím đàn mảnh hương nguyện",
+        "Lò hương tơ phím",
+        "Ngọn cỏ lá cây",
+        "Hiu hiu gió",
+        "Lời dặn dò"
+      ]
+    },
+    {
+      "section_name": "Kiều trao kỉ vật và dặn dò tiếp (câu 749-756)",
+      "original_text": [
+        "Hồn còn mang nặng lời thề,",
+        "Nát thân bồ liễu đền nghị trúc mai.",
+        "Dạ đài cách mặt khuất lời,",
+        "Rưới xin giọt lệ cho người thác oan.",
+        "Bây giờ trâm gãy hương tan,",
+        "Kể làm sao xiết muôn vàn ái ân.",
+        "Trăm nghìn gửi lạy tình quân,",
+        "Tơ duyên ngắn ngủi có ngần ấy thôi.",
+        "Phận sao phận bạc như vôi,",
+        "Đã đành nước chảy hoa trôi lỡ làng.",
+        "Ôi Kim lang! Hỡi Kim lang!",
+        "Thôi thôi thiếp đã phụ chàng từ đây!",
+        "Cạn lời hồn dứt máu say,",
+        "Một hơi lặng ngắt đôi tay giá đồng."
+      ],
+      "x_ray_data": [
+        {
+          "target_words": "Hồn còn mang nặng lời thề",
+          "art_type": "Hình ảnh ẩn dụ",
+          "effect": "Thể hiện sự trung thành tuyệt đối với lời thề nguyền"
+        },
+        {
+          "target_words": "Nát thân bồ liễu đền nghị trúc mai",
+          "art_type": "Hình ảnh ước lệ",
+          "effect": "Thân xác bị hủy hoại vẫn cố gắng trả nghĩa cho người mình yêu"
+        },
+        {
+          "target_words": "Dạ đài cách mặt khuất lời",
+          "art_type": "Thành ngữ",
+          "effect": "Trần gian và cõi âm phủ xa cách, không thể giao tiếp"
+        },
+        {
+          "target_words": "Giọt lệ",
+          "art_type": "Hình ảnh so sánh",
+          "effect": "Thường người ta rảy cả chén nước nhưng nàng chỉ xin một giọt nước ít ỏi"
+        },
+        {
+          "target_words": "Trâm gãy hương tan",
+          "art_type": "Thành ngữ",
+          "effect": "Biểu hiện cho sự tan vỡ của tình yêu"
+        },
+        {
+          "target_words": "Muôn vàn ái ân",
+          "art_type": "Từ ngữ đắt",
+          "effect": "Ân tình với chàng Kim càng lớn thì nàng cảm thấy có lỗi"
+        },
+        {
+          "target_words": "Phận bạc như vôi",
+          "art_type": "Thành ngữ",
+          "effect": "Số phận bạc bẽo, trắng bạchnh như vôi"
+        },
+        {
+          "target_words": "Nước chảy hoa trôi lỡ làng",
+          "art_type": "Thành ngữ",
+          "effect": "Tình yêu dở dang, lỡ làng, trôi nổi"
+        },
+        {
+          "target_words": "Kim lang",
+          "art_type": "Điệp ngữ",
+          "effect": "Tiếng gọi tha thiết, đau đớn hướng về người yêu"
+        },
+        {
+          "target_words": "Thôi thôi",
+          "art_type": "Điệp ngữ",
+          "effect": "Sự buông xuôi, cam chịu đau đớn tột cùng"
+        },
+        {
+          "target_words": "Cạn lời hồn dứt máu say",
+          "art_type": "Hình ảnh ẩn dụ",
+          "effect": "Nói không nên lời, đau đớn đến tận cùng"
+        },
+        {
+          "target_words": "Một hơi lặng ngắt đôi tay giá đồng",
+          "art_type": "Hình ảnh thực",
+          "effect": "Kiều ngất đi vì đau đớn, hai buông xuôi, lặng ngắt"
+        }
+      ],
+      "section_outline": [
+        {
+          "point": "Bát câu thơ đầu: Kiều đau đớn nghĩ về cái chết",
+          "details": [
+            "Từ ngữ mang tính giả định: mai này, dù có",
+            "Kiều tưởng tượng về cảnh ngộ của mình trong tương lai",
+            "Hình ảnh: lò hương, ngọn cỏ, lá cấy, hiu hiu gió, hồn, thân bồ liễu, đền nghì trúc mai, dạ đài, giọt nước, người thác oan",
+            "Nhịp điệu: chậm rãi, nhịp nhàng, thiết tha, tức tưởi như tiếng khóc não nùng, cố nén lại để không bật lên thành lời"
+          ],
+          "conclusion": "Gợi ra cuộc sống cõi âm, đầy thần linh, ma mị. Sự dằng xé, đau đớn và nhớ thương Kim Trọng đến tột cùng của Kiều"
+        },
+        {
+          "point": "Sáu câu còn lại: Kiều độc thoại nội tâm",
+          "details": [
+            "Sử dụng các thành ngữ chỉ sự tan vỡ, dở dang, bạc bẽo, trôi nổi của tình duyên và số phận con người: trâm gãy gương tan, hoa trôi lỡ làng, phận bạc như vôi",
+            "Nghệ thuật đối lập giữa quá khứ và hiện tại gợi nên nỗi đau của Kiều ở hiện tại",
+            "Nghệ thuật độc thoại nội tâm: Lời nói hướng đến Kim Trọng (người vắng mặt) nhưng lại là tự dằn vặt, dày vò chính mình"
+          ],
+          "conclusion": "Tâm trạng của Thúy Kiều: vật vã, đau đớn rồi ngất đi trong tiếng kêu thảng thốt, ai oán"
+        }
+      ],
+      "section_full_essay": [
+        "Nàng đã mường tượng ra thảm cảnh của mình nhưng ngay cả khi trở thành một linh hồn thì nàng vẫn mang theo lời thề nguyền cùng Kim Trọng. Đó là lời thề \"Trăm năm tạc một chữ đồng đến xương\" mà cho dù Thúy Kiều có phải \"nát thân bồ liễu\" cũng mong trả được nghĩa cho chàng Kim, dù tấm thân nữ nhi yếu đuối, mỏng manh không còn sống trên cõi đời thì nàng vẫn muốn mình giữ trọn lời thề của tình yêu đôi lứa. Do trần gian và cõi âm phủ \"cách mặt\", \"khuất lời\" nên Thúy Kiều cũng chỉ xin em \"rảy\" giọt nước cho linh hồn oan khuất, đáng thương của mình. Thông thường, người ta thường \"rảy\" cả một chén nước nhưng nàng chỉ xin một giọt nước ít ỏi để rửa oan.",
+        "Tình yêu tan vỡ, Thúy Kiều đau đớn tự độc thoại với chính mình: \"Bây giờ trâm gãy gương tan, Kể làm sao xiết muôn vàn ái ân. Trăm nghìn gửi lạy tình quân, Tơ duyên ngắn ngủi có ngần ấy thôi! Phận sao phận bạc như vôi, Đã đành nước chảy, hoa trôi lỡ làng. Ôi Kim lang! Hỡi Kim lang! Thôi thôi thiếp đã phụ chàng từ đây\".",
+        "Hơn ai hết, nàng ý thức rất rõ về thực tại của mình. \"Trâm gẩy gương tan\" là biểu hiện cho sự tan vỡ của tình yêu. Mọi việc xảy đến bất ngờ, đột ngột quá nên \"muôn vàn ái ân\" với Kim Trọng làm sao nàng có thể kể xiết. Ân tình với chàng Kim càng lớn thì nàng cảm thấy có lỗi bởi đã phụ lòng chàng. Tơ duyên chỉ ngắn ngủi có ngần ấy, số phận thì bạc bẽo như vôi, tình yêu thì dở dang, lỡ làng đã khiến Thúy Kiều có những dằn vặt, giằng xé trong nội tâm.",
+        "Nàng chỉ có thể gửi đến người yêu của mình trăm nghìn cái lạy. Đó là cái lạy từ biệt nhưng cũng là cái lạy tạ lỗi với người \"tình quân\" vì nàng đã tự coi mình là kẻ phụ bạc đã phá đi lời thề nguyền trước đây. Nàng Kiều đâu có lỗi gì trong chuyện này, có trách thì hãy trách xã hội đồng tiền đầy rẫy những bất công, đẩy con người rơi vào bi bịch. Tiếng gọi \"Kim lang\" vang lên hai lần nghe mới tha thiết làm sao. Nàng là người nặng tình nghĩa đã nhận hết lỗi lầm về mình và luôn mong cho người mình yêu được hạnh phúc. Đức hi sinh của nàng thật đáng quý!",
+        "Sau khi phân tích bài Trao duyên, chúng ta có thể thấy được nghệ thuật miêu tả tâm lí nhân vật đạt đến đỉnh cao của Nguyễn Du. Ông đã sử dụng những hình ảnh ẩn dụ, những thành ngữ dân gian cùng sự kết hợp ngôn ngữ bác học trang trọng và ngôn ngữ dân gian để diễn tả những tâm trạng đau khổ, xót xa của Thúy Kiều khi trao duyên lại cho Thúy Vân. Ngôn ngữ đối thoại và ngôn ngữ độc thoại được sử dụng một cách linh hoạt. Bên cạnh đó, thể thơ lục bát uyển chuyển, nhịp nhàng cũng góp một phần không nhỏ vào sự thành công của đoạn trích.",
+        "\"Trao duyên\" đã thể hiện tấm lòng nhân đạo, thể hiện sự đồng cảm sâu sắc của nhà thơ đối với số phận những người phụ nữ. Chẳng vậy mà ông đã viết: \"Thương thay cũng một kiếp người, Hại thay mang lấy sắc tài làm chi, Những là oan khổ lưu li, Chờ cho hết kiếp còn gì là thân\"."
+      ],
+      "barem_keywords": [
+        "Nát thân bồ liễu",
+        "Đền nghị trúc mai",
+        "Dạ đài cách mặt",
+        "Giọt lệ cho người thác oan",
+        "Trâm gãy hương tan",
+        "Muôn vàn ái ân",
+        "Phận bạc như vôi",
+        "Nước chảy hoa trôi",
+        "Kim lang tình quân",
+        "Độc thoại nội tâm",
+        "Cạn lời hồn dứt"
+      ]
+    }
+  ]
+}

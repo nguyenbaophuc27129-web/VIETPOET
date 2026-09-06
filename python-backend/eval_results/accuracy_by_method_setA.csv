@@ -1,0 +1,6 @@
+﻿method,n,top1,top3,mrr,macro_f1,latency_ms
+Random (baseline),96,0.0625,0.1875,0.2113,0.0074,0.0
+TF-IDF + Cosine,96,0.8438,0.9479,0.8986,0.8491,0.7
+TF-IDF + SVM (LinearSVC),96,0.7083,0.875,0.8047,0.7163,0.4
+SBERT + ChromaDB,96,0.4792,0.625,0.5959,0.4771,91.3
+Hybrid SBERT+TF-IDF (RRF),96,0.6875,0.8542,0.7818,0.6745,91.9

@@ -1,0 +1,114 @@
+{
+  "test_id": "de_01_viet_thuong_khong_dau",
+  "test_title": "Đề số 1",
+  "reading_section": {
+    "passage": "Khi nỗ lực kiên trì mỗi ngày để thẳng đến mục tiêu, áp dụng những nền tảng vững chắc cho thành công, bạn sẽ đến nơi mình hằng mong ước. Thành công không phải là một trò chơi phức tạp. Thành công chỉ có khi bạn thực hiện những điều xuất sắc giản đơn với lòng kiên trì đầy đam mê. Tôi thích từ kiên trì. Bạn có thể đạt tới những thành tựu đáng kinh ngạc nếu kiên trì với điều gì đó đủ lâu. Đa số người ta từ bỏ quá sớm. Có lẽ sự sợ hãi lớn hơn lòng tin của họ. Hãy bám vào những nền tảng mà bạn thực tâm biết rằng nó đúng đắn, rồi mọi chuyện sẽ tốt đẹp. Những nền tảng nào? Đó là suy nghĩ tích cực, chịu trách nhiệm về vai trò của mình khi công việc không trôi chảy, cư xử tốt với mọi người, chăm chỉ làm việc, làm một nhà cách tân hơn là một kẻ theo đuôi, dậy sớm, đặt ra mục tiêu, nói lên sự thật, kỷ luật tự giác, tiết kiệm tiền bạc, chăm sóc sức khỏe và trân trọng gia đình. (Trích Điều vĩ đại đời thường - Robin Sharma, NXB Trẻ)",
+    "questions": [
+      {
+        "question_id": "I.1",
+        "question_text": "Vấn đề chính được trình bày trong văn bản là gì?",
+        "max_score": 0.75,
+        "detailed_rubric": [
+          "Vấn đề chính được bàn luận trong văn bản: Sự kiên trì",
+          "Trả lời được như đáp án hoặc tương đương: 0,75 điểm",
+          "Trả lời sai/ Không trả lời: 0 điểm"
+        ],
+        "barem_keywords": ["sự kiên trì", "vấn đề chính", "văn bản"]
+      },
+      {
+        "question_id": "I.2",
+        "question_text": "Theo văn bản, những yếu tố nào là nền tảng cho sự kiên trì?",
+        "max_score": 0.75,
+        "detailed_rubric": [
+          "Những nền tảng cho sự kiên trì gồm: \"suy nghĩ tích cực, chịu trách nhiệm về vai trò của mình khi công việc không trôi chảy, cư xử tốt với mọi người, chăm chỉ làm việc, làm một nhà cách tân hơn là một kẻ theo đuôi, dậy sớm, đặt ra mục tiêu, nói lên sự thật, kỷ luật tự giác, tiết kiệm tiền bạc, chăm sóc sức khỏe và trân trọng gia đình.\"",
+          "Trả lời được như đáp án: 0,75 điểm",
+          "Trả lời sai/ Không trả lời: 0 điểm"
+        ],
+        "barem_keywords": ["suy nghĩ tích cực", "chịu trách nhiệm", "cư xử tốt", "chăm chỉ", "nhà cách tân", "dậy sớm", "mục tiêu", "sự thật", "kỷ luật", "tiết kiệm", "sức khỏe", "gia đình"]
+      },
+      {
+        "question_id": "I.3",
+        "question_text": "Phép liên kết nào được sử dụng trong đoạn sau, hãy chỉ rõ dấu hiệu và nêu tác dụng của phép liên kết đó \"Thành công không phải là một trò chơi phức tạp. Thành công chỉ có khi bạn thực hiện những điều xuất sắc giản đơn với lòng kiên trì đầy đam mê.\"?",
+        "max_score": 0.75,
+        "detailed_rubric": [
+          "Phép liên kết: Phép lặp (0,25 điểm)",
+          "Dấu hiệu: Từ \"Thành công\" lặp lại ở đầu mỗi câu (0,25 điểm)",
+          "Tác dụng: nối câu, nối ý, tăng tính liên kết giữa các câu trong văn bản. (0,25 điểm)",
+          "Học sinh trả lời tương đương như đáp án: 0,75 điểm",
+          "Học sinh làm sai hoặc không làm: 0,0 điểm"
+        ],
+        "barem_keywords": ["phép lặp", "thành công", "nối câu nối ý", "tăng tính liên kết"]
+      },
+      {
+        "question_id": "I.4",
+        "question_text": "Em hiểu như thế nào về câu \"Bạn có thể đạt tới những thành tựu đáng kinh ngạc nếu kiên trì với điều gì đó đủ lâu.\"?",
+        "max_score": 0.75,
+        "detailed_rubric": [
+          "Giải thích câu \"Bạn có thể đạt tới những thành tựu đáng kinh ngạc nếu kiên trì với điều gì đó đủ lâu\": Khi nỗ lực rèn luyện và quyết tâm bền bĩ theo đuổi một mục tiêu nào đó trong một thời gian dài, chúng ta có thể vượt qua những giới hạn của bản thân để đạt được kết quả tốt đẹp.",
+          "Học sinh trả lời tương đương như đáp án: 0,75 điểm",
+          "Học sinh trả lời có ý nhưng chưa rõ ràng: 0,5 điểm",
+          "Học sinh làm sai hoặc không làm: 0,0 điểm"
+        ],
+        "barem_keywords": ["nỗ lực rèn luyện", "quyết tâm bền bỉ", "mục tiêu", "vượt qua giới hạn", "kết quả tốt đẹp"]
+      },
+      {
+        "question_id": "I.5",
+        "question_text": "Bài học cuộc sống nào em nhận ra được từ văn bản? Giải thích?",
+        "max_score": 1.0,
+        "detailed_rubric": [
+          "Nêu được bài học phù hợp, lí giải hợp lí",
+          "Gợi ý: Cần kiên trì theo đuổi những mục tiêu cuộc sống/ Thành công chỉ đến với những người kiên trì, nỗ lực, …",
+          "Học sinh trả lời tương đương như đáp án và lí giải hợp lí: 1,0 điểm",
+          "Học sinh trả lời được và giải thích khá hợp lí nhưng chưa sâu: 0,75 điểm",
+          "Học sinh nêu được nhưng chưa giải thích hợp lí 0,5",
+          "Học sinh làm sai hoặc không làm: 0,0 điểm",
+          "HS có thể diễn đạt theo cách khác miễn hợp lý"
+        ],
+        "barem_keywords": ["bài học", "kiên trì", "mục tiêu", "thành công", "nỗ lực"]
+      }
+    ]
+  },
+  "writing_section": {
+    "questions": [
+      {
+        "question_id": "II.1",
+        "question_type": "Nghị luận xã hội",
+        "question_text": "Viết đoạn văn nghị luận (khoảng 200 chữ) bàn về ý nghĩa của tinh thần vượt khó trong cuộc sống.",
+        "max_score": 2.0,
+        "detailed_rubric": [
+          "Xác định được yêu cầu về hình thức, dung lượng của đoạn văn: Xác định đúng yêu cầu về hình thức và dung lượng (khoảng 200 chữ) của đoạn văn. Thí sinh có thể trình bày đoạn văn theo cách diễn dịch, quy nạp, tổng – phân – hợp, móc xích hoặc song hành (0,25 điểm)",
+          "Xác định đúng vấn đề cần nghị luận: Ý nghĩa của tinh thần vượt khó (0,25 điểm)",
+          "Giải thích: Tinh thần vượt khó là sẵn sàng đối mặt với khó khăn, thử thách, nghịch cảnh trong cuộc sống một cách tích cực. Đó là thái độ sống dũng cảm, không khuất phục trước số phận hoặc đổ lỗi cho thất bại, hoàn cảnh",
+          "Ý nghĩa: Giúp mỗi người nỗ lực không ngừng để vươn lên trong cuộc sống, dễ đạt được thành công và hạnh phúc",
+          "Nhờ tinh thần vượt khó, mỗi người sẽ khám phá, phát hiện những năng lực, sở trưởng và vượt qua những giới hạn để hoàn thiện mỗi ngày",
+          "Lan tỏa tinh thần, thái độ sống tích cực tới mọi người xung quanh, được cộng đồng yêu mến, tin tưởng, quý trọng; góp phần tích cực thúc đẩy sự phát triển của xã hội (1,0 điểm)",
+          "Bài học nhận thức và hành động",
+          "Diễn đạt: Đảm bảo chuẩn chính tả, dùng từ, ngữ pháp tiếng Việt, liên kết câu trong đoạn văn (0,25 điểm)",
+          "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề nghị luận; có cách diễn đạt mới mẻ (0,25 điểm)"
+        ],
+        "barem_keywords": ["tinh thần vượt khó", "đối mặt khó khăn", "thái độ sống dũng cảm", "vươn lên", "thành công", "năng lực sở trường", "hoàn thiện", "lan tỏa", "thái độ tích cực"]
+      },
+      {
+        "question_id": "II.2",
+        "question_type": "Nghị luận văn học",
+        "question_text": "Viết bài văn nghị luận (khoảng 600 chữ) phân tích, đánh giá nội dung và nghệ thuật của bài thơ Buổi gặt chiều của Anh Thơ. Mặt trời lặn, mây còn tươi ráng đỏ, Cò từng đàn bay trắng cánh đồng xa. Tiếng diều sáo véo von cùng tiếng gió, Hoà nhịp nhàng giọng ả hái dâu ca. Trong đồng lúa tươi vàng bông rủ chín, Những trai tơ từng bọn gặt vui cười. Cùng trong lúc ông già che nón kín, Ngồi đầu bờ hút thuốc thổi từng hơi. Trên đê trắng, chỏm đầu phơ phất gió, Lũ cu con mê mải chạy theo diều. Bỏ mặc cả trâu bò nằm vệ cỏ, Mắt mơ màng trong gợn gió hiu hiu.",
+        "max_score": 4.0,
+        "detailed_rubric": [
+          "Bảo đảm bố cục và dung lượng của bài văn nghị luận: Bảo đảm yêu cầu về bố cục và dung lượng (khoảng 600 chữ) của bài văn (0,25 điểm)",
+          "Xác định đúng vấn đề cần nghị luận: Viết bài văn khoảng 600 chữ phân tích đánh giá về nội dung và nghệ thuật bài thơ Buổi gặt chiều của Anh Thơ (0,5 điểm)",
+          "Mở bài: Dẫn dắt, giới thiệu vấn đề cần nghị luận",
+          "Nhan đề, đề tài, cảm hứng, mạch thơ, …",
+          "Bức tranh thiên nhiên mang vẻ đẹp yên ả, thanh bình, tươi vui, thân thuộc, bình dị… của một buổi chiều quê, hiện lên qua những hình ảnh chân thực, cụ thể, sinh động: mặt trời lặn, mây ráng đỏ, xa xa trên những cánh đồng lúa chín vàng từng đàn cò trắng bay liệng, trên đê làng những cánh diều bay lượn, đàn trâu bò nằm trên vệ cỏ…; màu sắc rực rỡ, tràn đầy sức sống: màu đỏ của ánh mặt trời chiều, màu trắng của cánh cò, màu vàng của lúa chín…; âm thanh tươi vui: tiếng sáo diều, tiếng gió…",
+          "Bức tranh cuộc sống lao động của con người thôn quê với tinh thần lao động vui tươi, phấn khởi, lạc quan, yêu đời và với tình yêu lao động, tình yêu cuộc sống tha thiết, hiện lên qua những âm thanh, hình ảnh: tiếng hát của cô gái hái dâu, tiếng cười nói của những chàng trai khi gặt lúa. Cuộc sống bình yên hiện lên qua hình ảnh ông già ngồi hút thuốc, lũ trẻ con chạy đuổi theo cánh diều…",
+          "Vẻ đẹp nghệ thuật: Thể thơ 8 chữ, ngắt nhịp chung 3/5, gieo vần chân, vần cách…tạo ra nhịp điệu đều đặn, cân xứng và giọng thơ nhẹ nhàng, trong trẻo, tha thiết và sâu lắng",
+          "Ngôn ngữ giản dị, trong sáng, sử dụng nhiều từ láy giàu tính tạo hình; kết hợp các biện pháp tu từ như: đảo ngữ, nhân hóa, kiểu câu thơ vắt dòng,… làm tăng tính trữ tình cho bài thơ",
+          "Hình ảnh thơ gần gũi, mộc mạc, tươi vui; bút pháp tả thực",
+          "Đánh giá chung: Bài thơ thể hiện tình yêu của tác giả với thiên nhiên và cuộc sống con người nơi miền quê thanh bình. Qua đó bộc lộ tình yêu quê hương đất nước và làm nổi bật lối viết độc đáo, giàu nữ tính khi viết về vẻ đẹp của làng quê Việt Nam. Buổi gặt chiều là một bài thơ tiêu biểu cho phong cách thơ của Anh Thơ và là một trong những bài thơ đặc sắc của phong trào Thơ mới (2,5 điểm)",
+          "Diễn đạt: Đảm bảo chuẩn chính tả, dùng từ, ngữ pháp tiếng Việt, liên kết văn bản (0,25 điểm)",
+          "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề nghị luận; có cách diễn đạt mới mẻ (0,5 điểm)"
+        ],
+        "barem_keywords": ["buổi gặt chiều", "anh thơ", "bức tranh thiên nhiên", "yên ả thanh bình", "mặt trời lặn", "cò trắng", "đàn diều", "trâu bò", "lao động vui tươi", "thể thơ 8 chữ", "ngắt nhịp 3/5", "từ láy", "nhân hóa", "vắt dòng", "bút pháp tả thực", "phong trào thơ mới"]
+      }
+    ]
+  }
+}
