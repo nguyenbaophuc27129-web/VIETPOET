@@ -73,8 +73,10 @@ function hasToken(answerTokens: Set<string>, token: string): boolean {
  */
 export function yMatched(answerTokens: Set<string>, y: string): boolean {
   const tokens = contentTokens(y);
-  const digits = tokens.filter((t) => /^[0-9]+$/.test(t));
-  const words = tokens.filter((t) => !/^[0-9]+$/.test(t));
+  const digits = [...new Set(tokens.filter((t) => /^[0-9]+$/.test(t)))];
+  // khử từ trùng lặp trong ý ("nhớ nhà NHÓ mẹ") — tránh 1 từ khớp bị đếm 2 lần
+  // thành đủ ngưỡng (bug phát hiện bởi eval_barem_scientific)
+  const words = [...new Set(tokens.filter((t) => !/^[0-9]+$/.test(t)))];
 
   for (const d of digits) {
     if (!answerTokens.has(d)) return false;

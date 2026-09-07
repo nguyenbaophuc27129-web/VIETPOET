@@ -1,0 +1,270 @@
+{
+  "thoi_diem": "2026-09-07T13:56:41.967Z",
+  "mo_ta": "Kiểm định khoa học bộ chấm barem theo ý — VIET-POET EXAM. Nhãn người lệ do đội chấm tay theo barem giáo viên trên barem thật 10 đề.",
+  "du_lieu": {
+    "nguon": "public/practice_data/de_*.json (barem thật 13 câu Viết văn)",
+    "so_cau": 13,
+    "so_y": 151,
+    "so_mau": 106,
+    "so_quyet_dinh_per_phuong_phap": 1240
+  },
+  "phuong_phap": {
+    "old_baseline": "so nguyen van: answer.toLowerCase().includes(y.toLowerCase())",
+    "new": "src/lib/baremGrader.ts: khử dấu + từ nội dung (bỏ stopword) + gốc từ + đồng nghĩa + ý thuần số bắt buộc đúng số"
+  },
+  "ket_qua": {
+    "old": {
+      "precision": 1,
+      "recall": 0.7291311754684838,
+      "f1": 0.8433497536945812,
+      "accuracy": 0.8717741935483871,
+      "confusion": {
+        "tp": 428,
+        "fp": 0,
+        "fn": 159,
+        "tn": 653
+      },
+      "mae_diem": 0.5008333909277305,
+      "bai_truot_oan": 23,
+      "bai_diem_ao": 0
+    },
+    "new": {
+      "precision": 0.9948979591836735,
+      "recall": 0.9965928449744463,
+      "f1": 0.9957446808510638,
+      "accuracy": 0.9959677419354839,
+      "confusion": {
+        "tp": 585,
+        "fp": 3,
+        "fn": 2,
+        "tn": 650
+      },
+      "mae_diem": 0.013195452346395742,
+      "bai_truot_oan": 2,
+      "bai_diem_ao": 3
+    }
+  },
+  "per_question": {
+    "de_01_L10:1": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.6388888888888888,
+        "f1": 0.7796610169491525,
+        "accuracy": 0.8194444444444444
+      },
+      "new": {
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "accuracy": 1
+      },
+      "mae_old": 0.36111111111111116,
+      "mae_new": 0
+    },
+    "de_01_L10:2": {
+      "samples": 10,
+      "old": {
+        "precision": 1,
+        "recall": 0.703125,
+        "f1": 0.8256880733944955,
+        "accuracy": 0.88125
+      },
+      "new": {
+        "precision": 1,
+        "recall": 0.984375,
+        "f1": 0.9921259842519685,
+        "accuracy": 0.99375
+      },
+      "mae_old": 0.475,
+      "mae_new": 0.025
+    },
+    "de_01_L11:1": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "accuracy": 0.875
+      },
+      "new": {
+        "precision": 1,
+        "recall": 0.975,
+        "f1": 0.9873417721518987,
+        "accuracy": 0.9875
+      },
+      "mae_old": 0.25,
+      "mae_new": 0.024999999999999994
+    },
+    "de_01_L11:2": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.723404255319149,
+        "f1": 0.8395061728395062,
+        "accuracy": 0.8645833333333334
+      },
+      "new": {
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "accuracy": 1
+      },
+      "mae_old": 0.5416666666666667,
+      "mae_new": 0
+    },
+    "de_02_L10:1": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.8043478260869565,
+        "f1": 0.891566265060241,
+        "accuracy": 0.90625
+      },
+      "new": {
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "accuracy": 1
+      },
+      "mae_old": 0.375,
+      "mae_new": 0
+    },
+    "de_02_L11:1": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.7333333333333333,
+        "f1": 0.846153846153846,
+        "accuracy": 0.875
+      },
+      "new": {
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "accuracy": 1
+      },
+      "mae_old": 0.75,
+      "mae_new": 0
+    },
+    "de_03_L10:1": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.6956521739130435,
+        "f1": 0.8205128205128205,
+        "accuracy": 0.8541666666666666
+      },
+      "new": {
+        "precision": 0.9787234042553191,
+        "recall": 1,
+        "f1": 0.989247311827957,
+        "accuracy": 0.9895833333333334
+      },
+      "mae_old": 0.5833333333333333,
+      "mae_new": 0.041666666666666664
+    },
+    "de_03_L11:1": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "accuracy": 0.875
+      },
+      "new": {
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "accuracy": 1
+      },
+      "mae_old": 0.25,
+      "mae_new": 0
+    },
+    "de_03_L11:2": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.7551020408163265,
+        "f1": 0.8604651162790697,
+        "accuracy": 0.8846153846153846
+      },
+      "new": {
+        "precision": 0.9607843137254902,
+        "recall": 1,
+        "f1": 0.98,
+        "accuracy": 0.9807692307692307
+      },
+      "mae_old": 0.46153846153846156,
+      "mae_new": 0.07692307692307693
+    },
+    "de_04_L10:1": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.7441860465116279,
+        "f1": 0.8533333333333333,
+        "accuracy": 0.875
+      },
+      "new": {
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "accuracy": 1
+      },
+      "mae_old": 0.5,
+      "mae_new": 0
+    },
+    "de_04_L11:1": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.7222222222222222,
+        "f1": 0.8387096774193548,
+        "accuracy": 0.8660714285714286
+      },
+      "new": {
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "accuracy": 1
+      },
+      "mae_old": 0.6696428571428572,
+      "mae_new": 0
+    },
+    "de_05_L10:1": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.717948717948718,
+        "f1": 0.835820895522388,
+        "accuracy": 0.8625
+      },
+      "new": {
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "accuracy": 1
+      },
+      "mae_old": 0.55,
+      "mae_new": 0
+    },
+    "de_05_L11:1": {
+      "samples": 8,
+      "old": {
+        "precision": 1,
+        "recall": 0.7407407407407407,
+        "f1": 0.851063829787234,
+        "accuracy": 0.875
+      },
+      "new": {
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "accuracy": 1
+      },
+      "mae_old": 0.75,
+      "mae_new": 0
+    }
+  }
+}

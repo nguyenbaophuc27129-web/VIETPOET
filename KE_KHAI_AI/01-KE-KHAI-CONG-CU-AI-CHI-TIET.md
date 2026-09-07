@@ -102,6 +102,7 @@ Nguyên tắc làm việc: **đội đưa yêu cầu + tiêu chí nghiệm thu �
 | Tài liệu `CODE_LOGIC/` (30 file) | "Mỗi file code một tài liệu giải thích logic để BGK hỏi là trả lời được" | Soạn thảo theo mẫu 6 mục đội duyệt | **Đội tự đọc lại, đối chiếu từng dòng với code thật** — đây chính là hành động "chứng minh hiểu sản phẩm" theo Điều 5.4 |
 | Hạ tầng GitHub + deploy | "Cho BGK tải về cài 1 lệnh là chạy; làm bản demo online miễn phí" | Viết script cài, Dockerfile, hướng dẫn | Cài thử từ repo sạch theo chính README |
 | Phần LUYỆN THI (EXAM) — 07/9 | "Thơ trong đề bị dồn một dòng — phải tách thành từng dòng"; "chấm bài phải bám sát barem theo ý: ý đúng là được điểm, không cần nguyên văn" | Rà 99 dấu "/" → sửa 117 ngắt dòng thơ; render theo dòng; viết module `src/lib/baremGrader.ts` chấm từng ý barem (khử dấu, chia từ nội dung, đồng nghĩa cơ bản, ý chứa số bắt buộc đúng số, điểm = max_score × tỷ lệ ý) + bộ test 17 tình huống | `npx tsx test_barem.ts` → 17 PASS / 0 FAIL (test tự bắt được 2 bug thật: điểm ảo với ý rỗng từ nội dung, trượt oan do từ hướng "lên"); tsc 0 lỗi. Chi tiết: BUG_NOTE_EXAM-01 |
+| Kiểm định bộ chấm EXAM — 07/9 | "kiểm định bằng các thang đo AI đối với phần VIET POET EXAM" | Viết `eval_barem_scientific.ts`: 106 bài làm mẫu có nhãn người lệ trên barem thật 13 câu / 151 ý; đo Accuracy/Precision/Recall/F1 + ma trận nhầm lẫn + MAE; so sánh baseline so-nguyên-văn vs barem-theo-ý | Đội soi TỪNG ca lệch nhãn (9 ca): bắt được 1 bug thật — từ lặp trong ý ("nhớ nhà nhớ mẹ") bị đếm 2 lần → sửa `baremGrader.ts` + 4 test hồi quy (21/21 pass), chạy lại eval. Kết quả cuối: F1 84.3% → **99.6%**, MAE 0.501đ → 0.013đ; 5 ca lệch còn lại giữ nguyên làm "giới hạn đã biết". Số liệu: `python-backend/eval_results/barem_*.csv/json` |
 
 ### 4.3. PHẦN KẾ THỪA NGUỒN MỞ (không tự phát triển, chỉ sử dụng đúng licence)
 
@@ -113,9 +114,10 @@ Next.js, React, Tailwind, TypeScript, reactflow, react-simple-maps, next-pwa, Fa
 
 1. **Kiểm thử tự động:** bộ 12 tình huống hội thoại thực tế của học sinh (`test_chatbot_fix.ts`) — 12/12 pass; đo thời gian phản hồi trung bình ~75ms cho truy vấn RAG (không LLM) và ~7s/câu khi bật LLM CPU.
 2. **Đánh giá truy xuất có kiểm soát:** `eval_retrieval_scientific.py` (seed=42, n=192, 16 lớp) — kết quả đầy đủ trong `python-backend/eval_results/` (CSV mở bằng Excel), gồm cả bảng so sánh 5 phương pháp và kết quả per-poem.
-3. **Kiểm chứng hỏng chủ động (fault injection):** tắt máy chủ RAG / ngắt mạng / xoá file — kiểm tra app tự fallback đúng tầng, không crash.
-4. **Kiểm chứng bằng con người:** đọc đối chiếu nội dung phân tích trong JSON với SGK; tra lại nguồn gốc mỗi mô hình/thư viện trước khi dùng.
-5. **Sẵn sàng đối chất:** BGK có thể mở bất kỳ file nào trong repo và hỏi "vì sao code thế này" — câu trả lời nằm trong `CODE_LOGIC/` (30 tài liệu) và Prompt Log gốc.
+3. **Kiểm định bộ chấm bài EXAM bằng thang đo AI chuẩn:** `eval_barem_scientific.ts` — bộ dữ liệu 106 bài làm mẫu có **nhãn người lệ** trên barem thật 13 câu Viết văn (151 ý), đo **Accuracy / Precision / Recall / F1 + ma trận nhầm lẫn + sai số điểm (MAE)**, so sánh baseline "so nguyên văn" (F1 84.3%, Recall 72.9% — học sinh diễn đạt lại bị trượt oan 23/106 bài) với bộ chấm barem theo ý (F1 99.6%, MAE 0.013đ). Kiểm định bắt được 1 lỗi thật (từ lặp trong ý bị đếm 2 lần) → sửa + thêm test hồi quy (21/21 pass). Số liệu: `barem_per_sample_results.csv`, `barem_summary.json`.
+4. **Kiểm chứng hỏng chủ động (fault injection):** tắt máy chủ RAG / ngắt mạng / xoá file — kiểm tra app tự fallback đúng tầng, không crash.
+5. **Kiểm chứng bằng con người:** đọc đối chiếu nội dung phân tích trong JSON với SGK; tra lại nguồn gốc mỗi mô hình/thư viện trước khi dùng.
+6. **Sẵn sàng đối chất:** BGK có thể mở bất kỳ file nào trong repo và hỏi "vì sao code thế này" — câu trả lời nằm trong `CODE_LOGIC/` (30 tài liệu) và Prompt Log gốc.
 
 ---
 

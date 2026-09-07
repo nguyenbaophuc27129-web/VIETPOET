@@ -78,3 +78,37 @@ không tin Output "ok" của chính nó.**
 - **Minh chứng:** `test_barem.ts` (17 tình huống: nguyên văn / không dấu / paraphrase / từ đồng nghĩa /
   sai số / bài trắng / tính điểm theo max_score) — chạy `npx tsx test_barem.ts` → **17 PASS / 0 FAIL**;
   `npx tsc --noEmit` 0 lỗi; server 200. Bản trước nâng cấp: `PracticePage.tsx.TRUOC-BAREM-THEO-Y` (thư mục này).
+
+---
+
+## 7. KIỂM ĐỊNH KHOA HỌC BỘ CHẤM bằng thang đo AI chuẩn (07/09/2026)
+
+- **Chỉ đạo của đội:** *"kiểm định bằng các thang đo AI đối với phần VIET POET EXAM"* — muốn có
+  Accuracy/Precision/Recall/F1, ma trận nhầm lẫn, sai số điểm và **so sánh baseline** (đúng yêu cầu
+  "AI evaluation metrics + baseline/ablation" của Thể lệ), theo chuẩn đã làm ở
+  `eval_retrieval_scientific.py` (truy xuất RAG).
+- **Bộ dữ liệu có nhãn người lệ (ground truth):** `eval_barem_scientific.ts` nạp barem **THẬT** của
+  13 câu Viết văn / **151 ý** trong 10 đề (`public/practice_data/`); đội tự viết **106 bài làm mẫu**
+  theo 9 kiểu (nguyên văn đủ ý / không dấu / diễn đạt lại đủ ý / diễn đạt lại một phần / nửa ý nguyên văn /
+  màu mè không nội dung / lệch đề tài / câu quà ngắn / biên dạng số đúng-sai) và **chấm tay gắn nhãn**
+  theo barem giáo viên → **1.240 quyết định ĐẠT/KHÔNG-ĐẠT** mỗi phương pháp.
+- **So sánh 2 phương pháp trên cùng bộ mẫu:**
+
+  | Phương pháp | Accuracy | Precision | Recall | F1 | MAE điểm | Bài trượt oan | Bài điểm ảo |
+  |---|---|---|---|---|---|---|---|
+  | Bản cũ — so nguyên văn `includes()` | 87.2% | 100% | 72.9% | 84.3% | 0.501đ | 23/106 | 0 |
+  | **Bản mới — barem theo ý** | **99.6%** | **99.5%** | **99.7%** | **99.6%** | **0.013đ** | 2/106 | 3/106 |
+
+  Bản cũ Precision 100% nhưng Recall 72.9% (HS diễn đạt lại = trượt oan 23 bài, mất trung bình 0.5đ/câu);
+  bản mới tăng Recall lên 99.7% mà Precision gần như không đổi.
+- **Lỗi thật bị kiểm định bắt được (trung thực ghi lại):** vòng chạy đầu có 7 điểm ảo — soi từng ca
+  phát hiện **ý có từ lặp ("nhớ nhà NHÓ mẹ", "nghĩa đen NGHĨA bóng", "gợi hình GỌI cảm", "đối thanh ĐỐI ý")
+  bị đếm hit 2 lần cho cùng một từ khớp** → 1 từ trong bài lệch đề đủ ngưỡng là "đạt". Sửa: khử trùng lặp
+  từ trong ý (`baremGrader.ts`), thêm 4 test hồi quy (`test_barem.ts` → **21 PASS / 0 FAIL**),
+  chạy lại eval → điểm ảo 7→3. *Bài học: thang đo không phải để khoe — nó phải bắt được lỗi thật.*
+- **5 ca lệch còn lại được soi và giữ nguyên (giới hạn đã biết của bộ chấm, không bịa fix):**
+  2 trượt oan — số viết bằng chữ ("thơ **tám** chữ" không ra digit 8) và đồng nghĩa ngoài bảng
+  ("người trẻ" vs "tuổi trẻ"); 3 điểm ảo — trùng âm sau khử dấu ("điều"="điệu", "tắm"="tâm") và 1 ca
+  dán nhãn bảo thủ. → hướng cải thiện tiếp theo: bảng số-chữ, mở rộng đồng nghĩa, khớp cụm 2 từ.
+- **Số liệu chi tiết:** `python-backend/eval_results/barem_per_sample_results.csv` (utf-8-sig, mở Excel —
+  từng mẫu: điểm GV vs máy, ý trượt/ảo #k kèm tên) + `barem_summary.json` (tổng hợp + per-question).

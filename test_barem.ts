@@ -99,5 +99,17 @@ console.log('== 9. Tiện ích chuẩn hoá ==');
   check('contentTokens bỏ stopword "của/và"', JSON.stringify(contentTokens(normVN('bức tranh của thiên nhiên và làng quê'))) === JSON.stringify(['buc', 'tranh', 'thien', 'nhien', 'lang', 'que']));
 }
 
+console.log('== 10. Hồi quy từ-eval-scientific: từ TRÙNG trong ý không được đếm 2 lần ==');
+{
+  const g = gradeQuestion(['nhớ nhà nhớ mẹ'], 'Kỷ niệm ấy là điều em nhớ mãi trong đời.');
+  check('1 từ "nhớ" khớp 2 lần → không đủ 2 từ riêng biệt → 0 ý', g.matchedCount === 0, `ra ${g.matchedCount}`);
+  const g2 = gradeQuestion(['nghĩa đen nghĩa bóng'], 'Bài thơ này rất hay và ý nghĩa.');
+  check('"nghĩa" lặp 2 lần trong ý → 1 từ "nghĩa" ngoài bài không đủ ngưỡng', g2.matchedCount === 0, `ra ${g2.matchedCount}`);
+  const g3 = gradeQuestion(['đối thanh đối ý'], 'Kỷ niệm ấy là điều em nhớ mãi trong đời.');
+  check('"đối" lặp + "điều"≈"đối" → không đủ ngưỡng', g3.matchedCount === 0, `ra ${g3.matchedCount}`);
+  const g4 = gradeQuestion(['nhớ nhà nhớ mẹ'], 'Em nhớ nhà và nhớ mẹ vô cùng.');
+  check('2 từ riêng biệt ("nhớ nhà","mẹ") → vẫn đạt ý (không làm hỏng case thật)', g4.matchedCount === 1, `ra ${g4.matchedCount}`);
+}
+
 console.log(`\nKET QUA: ${pass} PASS / ${fail} FAIL`);
 process.exit(fail > 0 ? 1 : 0);
