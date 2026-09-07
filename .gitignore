@@ -20,6 +20,11 @@ python-backend/chroma_db_v1_backup/
 # Công cụ / IDE
 .claude/
 *.output
+tsconfig.tsbuildinfo
+
+# Prompt Log xuất từ log cục bộ — nộp minh chứng qua Google Drive,
+# không công khai toàn bộ hội thoại làm việc trên GitHub
+KE_KHAI_AI/PROMPT-LOG/
 
 # Hệ điều hành
 Thumbs.db

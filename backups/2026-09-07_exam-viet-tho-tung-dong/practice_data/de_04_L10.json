@@ -8,82 +8,50 @@
         "question_id": "I.1",
         "question_text": "Xác định thể loại của văn bản trên. A. Cổ tích B. Truyền thuyết C. Thần thoại D. Sử thi",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: C"
-        ],
-        "barem_keywords": [
-          "thần thoại"
-        ]
+        "detailed_rubric": ["Đáp án: C"],
+        "barem_keywords": ["thần thoại"]
       },
       {
         "question_id": "I.2",
         "question_text": "Câu chuyện diễn ra trong không gian nào? A. Không gian rừng núi rộng lớn, kì vĩ. B. Không gian thiên đình và hạ giới. C. Không gian cõi âm ti. D. Không gian nhà của một cô gái.",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: B"
-        ],
-        "barem_keywords": [
-          "thiên đình",
-          "hạ giới"
-        ]
+        "detailed_rubric": ["Đáp án: B"],
+        "barem_keywords": ["thiên đình", "hạ giới"]
       },
       {
         "question_id": "I.3",
         "question_text": "Nhân vật Nữ thần Lúa được khắc hoạ thông qua những phương diện nào? A. lai lịch, ngoại hình, tính khí, tâm trạng, công việc B. công việc, ngoại hình, tính khí, lời nói C. lai lịch, công việc, ngoại hình, tính khí D. lai lịch, tính khí, ngoại hình, lời nói",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: C"
-        ],
-        "barem_keywords": [
-          "lai lịch",
-          "công việc",
-          "ngoại hình",
-          "tính khí"
-        ]
+        "detailed_rubric": ["Đáp án: C"],
+        "barem_keywords": ["lai lịch", "công việc", "ngoại hình", "tính khí"]
       },
       {
         "question_id": "I.4",
         "question_text": "Cốt truyện được sắp xếp theo trình tự nào? A. Trình tự thời gian B. Trình tự tâm lí C. Quan hệ sở hữuD. Quan hệ nhân quả",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: A"
-        ],
-        "barem_keywords": [
-          "trình tự thời gian"
-        ]
+        "detailed_rubric": ["Đáp án: A"],
+        "barem_keywords": ["trình tự thời gian"]
       },
       {
         "question_id": "I.5",
         "question_text": "Biện pháp tu từ nào được sử dụng trong câu văn sau: \"Từ thời vua Hùng dựng nước đã truyền lại câu chuyện về nữ thần Lúa, một vị thần xinh đẹp, dáng người ẻo lả, và có tính hay hờn dỗi\"? A. So sánh B. Liệt kê C. Nhân hoáD. Nói quá",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: B"
-        ],
-        "barem_keywords": [
-          "liệt kê"
-        ]
+        "detailed_rubric": ["Đáp án: B"],
+        "barem_keywords": ["liệt kê"]
       },
       {
         "question_id": "I.6",
         "question_text": "Phương thức biểu đạt chính của văn bản là: A. Tự sự B. Miêu tả C. Nghị luậnD. Thuyết minh",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: A"
-        ],
-        "barem_keywords": [
-          "tự sự"
-        ]
+        "detailed_rubric": ["Đáp án: A"],
+        "barem_keywords": ["tự sự"]
       },
       {
         "question_id": "I.7",
         "question_text": "Văn bản trên thuộc loại thần thoại nào? A. Thần thoại về nguồn gốc vũ trụ và các hiện tượng tự nhiên. B. Thần thoại về nguồn gốc con người và nguồn gốc các dân tộc ở Việt Nam. C. Thần thoại về các anh hùng thời khuyết sử, các anh hùng văn hoá, tổ sư các nghề. D. Thần thoại về nguồn gốc các loài động thực vật.",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: D"
-        ],
-        "barem_keywords": [
-          "nguồn gốc động thực vật"
-        ]
+        "detailed_rubric": ["Đáp án: D"],
+        "barem_keywords": ["nguồn gốc động thực vật"]
       },
       {
         "question_id": "I.8",
@@ -92,13 +60,7 @@
         "detailed_rubric": [
           "Năng lực siêu nhiên của Nữ thần Lúa: làm phép cho những hạt giống gieo xuống đất nảy mầm, mọc thành cây, kết bông mẩy hạt. Lúa chín tự về nhà không cần gặt và không phải phơi phóng gì cả. Cần ăn, cứ ngắt bông vào nồi là lúa sẽ thành cơm"
         ],
-        "barem_keywords": [
-          "làm phép",
-          "nảy mầm",
-          "kết bông mẩy hạt",
-          "lúa chín tự về",
-          "thành cơm"
-        ]
+        "barem_keywords": ["làm phép", "nảy mầm", "kết bông mẩy hạt", "lúa chín tự về", "thành cơm"]
       },
       {
         "question_id": "I.9",
@@ -107,10 +69,7 @@
         "detailed_rubric": [
           "Văn bản trên ra đời để lí giải nguồn gốc cây lúa và lễ cúng cơm mới"
         ],
-        "barem_keywords": [
-          "nguồn gốc cây lúa",
-          "lễ cúng cơm mới"
-        ]
+        "barem_keywords": ["nguồn gốc cây lúa", "lễ cúng cơm mới"]
       },
       {
         "question_id": "I.10",
@@ -120,11 +79,7 @@
           "Nhân dân sáng tạo ra các chi tiết kì ảo nhằm dựng lên câu chuyện thần kì, giải thích những sự kiện, sự việc chưa thể giải thích theo cách thông thường",
           "HS có thể chọn một chi tiết kì ảo bất kì và chia sẻ cảm nhận của cá nhân"
         ],
-        "barem_keywords": [
-          "chi tiết kì ảo",
-          "câu chuyện thần kì",
-          "giải thích sự kiện"
-        ]
+        "barem_keywords": ["chi tiết kì ảo", "câu chuyện thần kì", "giải thích sự kiện"]
       }
     ]
   },
@@ -133,7 +88,7 @@
       {
         "question_id": "II.1",
         "question_type": "Nghị luận văn học",
-        "question_text": "Quê hương là nơi đẹp nhất đối với mỗi người. Hãy viết bài văn trình bày cảm nhận của anh/chị về vẻ đẹp của quê hương trong đoạn thơ sau: \"Quê hương là chùm khế ngọt\nCho con trèo hái mỗi ngày\nQuê hương là đường đi học\nCon về rợp bướm vàng bay\nQuê hương là con diều biếc\nTuổi thơ con thả trên đồng\nQuê hương là con đò nhỏ\nÊm đềm khua nước ven sông\nQuê hương là cầu tre nhỏ\nMẹ về nón lá nghiêng che\nLà hương hoa đồng cỏ nội\nBay trong giấc ngủ đêm hè\" (Trích Bài học đầu cho con-Đỗ Trung Quân)",
+        "question_text": "Quê hương là nơi đẹp nhất đối với mỗi người. Hãy viết bài văn trình bày cảm nhận của anh/chị về vẻ đẹp của quê hương trong đoạn thơ sau: \"Quê hương là chùm khế ngọt / Cho con trèo hái mỗi ngày / Quê hương là đường đi học / Con về rợp bướm vàng bay / Quê hương là con diều biếc / Tuổi thơ con thả trên đồng / Quê hương là con đò nhỏ / Êm đềm khua nước ven sông / Quê hương là cầu tre nhỏ / Mẹ về nón lá nghiêng che / Là hương hoa đồng cỏ nội / Bay trong giấc ngủ đêm hè\" (Trích Bài học đầu cho con-Đỗ Trung Quân)",
         "max_score": 4.0,
         "detailed_rubric": [
           "Đảm bảo cấu trúc bài nghị luận văn học: Mở bài nêu được vấn đề, thân bài triển khai được vấn đề, kết bài khái quát được vấn đề (0,25 điểm)",
@@ -146,19 +101,7 @@
           "Chính tả, ngữ pháp: Đảm bảo chuẩn chính tả, ngữ pháp Tiếng Việt (0,25 điểm)",
           "Sáng tạo: Bài viết có giọng điệu riêng; cách diễn đạt sáng tạo, văn phong trôi chảy (0,5 điểm)"
         ],
-        "barem_keywords": [
-          "quê hương",
-          "chùm khế ngọt",
-          "đường đi học",
-          "con diều biếc",
-          "con đò nhỏ",
-          "cầu tre nhỏ",
-          "hương hoa đồng",
-          "thân thuộc gần gũi",
-          "bình dị mộc mạc",
-          "gắn bó sâu nặng",
-          "đỗ trung quân"
-        ]
+        "barem_keywords": ["quê hương", "chùm khế ngọt", "đường đi học", "con diều biếc", "con đò nhỏ", "cầu tre nhỏ", "hương hoa đồng", "thân thuộc gần gũi", "bình dị mộc mạc", "gắn bó sâu nặng", "đỗ trung quân"]
       }
     ]
   }

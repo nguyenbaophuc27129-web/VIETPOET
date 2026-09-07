@@ -14,16 +14,7 @@
           "Nối dài trong hiện tại: Thế hệ hiện tại sử dụng tiếng nói tức là thừa hưởng, phát huy và sáng tạo di sản của cha ông",
           "Bắc cầu đến tương lai: Thế hệ hiện tại sử dụng tiếng nói còn là cách để gìn giữ, lưu truyền cho con cháu mai sau"
         ],
-        "barem_keywords": [
-          "di sản đặc biệt",
-          "kí ức",
-          "hiện tại",
-          "tương lai",
-          "thừa hưởng",
-          "phát huy",
-          "giữ gìn",
-          "lưu truyền"
-        ]
+        "barem_keywords": ["di sản đặc biệt", "kí ức", "hiện tại", "tương lai", "thừa hưởng", "phát huy", "giữ gìn", "lưu truyền"]
       },
       {
         "question_id": "I.2",
@@ -33,24 +24,14 @@
           "Trân trọng tiếng nói của dân tộc mình và tất cả tiếng nói của dân tộc khác",
           "Biết nói những lời tốt đẹp, những lời yêu thương, những lời thành thực và tránh xa lộng ngữ, tà ngôn"
         ],
-        "barem_keywords": [
-          "trân trọng tiếng nói",
-          "lời tốt đẹp",
-          "lời yêu thương",
-          "lời thành thực",
-          "tránh lộng ngữ tà ngôn"
-        ]
+        "barem_keywords": ["trân trọng tiếng nói", "lời tốt đẹp", "lời yêu thương", "lời thành thực", "tránh lộng ngữ tà ngôn"]
       },
       {
         "question_id": "I.3",
         "question_text": "Xác định phương thức biểu đạt chính của văn bản.",
         "max_score": 1.0,
-        "detailed_rubric": [
-          "Phương thức nghị luận"
-        ],
-        "barem_keywords": [
-          "nghị luận"
-        ]
+        "detailed_rubric": ["Phương thức nghị luận"],
+        "barem_keywords": ["nghị luận"]
       },
       {
         "question_id": "I.4",
@@ -60,11 +41,7 @@
           "Văn bản: Tiếng mẹ đẻ - nguồn giải phóng các dân tộc bị áp bức",
           "Tác giả: Nguyễn An Ninh"
         ],
-        "barem_keywords": [
-          "tiếng mẹ đẻ",
-          "nguyễn an ninh",
-          "nguồn giải phóng"
-        ]
+        "barem_keywords": ["tiếng mẹ đẻ", "nguyễn an ninh", "nguồn giải phóng"]
       }
     ]
   },
@@ -73,7 +50,7 @@
       {
         "question_id": "II.1",
         "question_type": "Nghị luận văn học",
-        "question_text": "Cảm nhận của em về hai khổ thơ đầu của bài thơ \"Tràng Giang\" (Huy Cận)? \"Sóng gợn tràng giang buồn điệp điệp,\nCon thuyền xuôi mái nước song song,\nThuyền về nước lại, sầu trăm ngả;\nCủi một cành khô lạc mấy dòng.\nLơ thơ cồn nhỏ gió đìu hiu,\nĐâu tiếng làng xa vãn chợ chiều.\nNắng xuống, trời lên sâu chót vót;\nSông dài, trời rộng, bến cô liêu\". (Trích – Tràng giang – Huy Cận)",
+        "question_text": "Cảm nhận của em về hai khổ thơ đầu của bài thơ \"Tràng Giang\" (Huy Cận)? \"Sóng gợn tràng giang buồn điệp điệp, / Con thuyền xuôi mái nước song song, / Thuyền về nước lại, sầu trăm ngả; / Củi một cành khô lạc mấy dòng. / Lơ thơ cồn nhỏ gió đìu hiu, / Đâu tiếng làng xa vãn chợ chiều. / Nắng xuống, trời lên sâu chót vót; / Sông dài, trời rộng, bến cô liêu\". (Trích – Tràng giang – Huy Cận)",
         "max_score": 6.0,
         "detailed_rubric": [
           "Mở Bài: Trong phần mở đề, cần khẳng định Huy Cận (1919-2005) là một trong những nhà thơ xuất sắc nhất của phong trào \"Thơ Mới\" (1932-1945), bài thơ Tràng giang trong tập Lửa thiêng là một trong những bài thơ nổi tiếng nhất của Huy Cận. Bài thơ mang vẻ đẹp vừa cổ điển vừa hiện đại",
@@ -84,22 +61,7 @@
           "Kết bài: \"Tràng giang\" của Huy Cận đẹp vì những hình ảnh, những từ ngữ đẹp như thơ cổ, cho người đọc thưởng thức những bức tranh quen thuộc của phong cảnh sông nước quê hương",
           "Tràng giang của Huy Cận thực sự là một bài thơ của thơ hiện đại, mang cảm nhận về nỗi buồn và nỗi cô đơn của con người hiện đại, nhất là con người trong khoảng những năm ba mươi của thế kỉ trước"
         ],
-        "barem_keywords": [
-          "tràng giang",
-          "huy cận",
-          "thơ mới",
-          "lửa thiêng",
-          "cổ điển",
-          "hiện đại",
-          "con thuyền",
-          "buồn cô đơn",
-          "cành củi khô",
-          "tĩnh lặng",
-          "hiu quạnh",
-          "bút pháp tả cảnh",
-          "từ láy",
-          "nghệ thuật đối"
-        ]
+        "barem_keywords": ["tràng giang", "huy cận", "thơ mới", "lửa thiêng", "cổ điển", "hiện đại", "con thuyền", "buồn cô đơn", "cành củi khô", "tĩnh lặng", "hiu quạnh", "bút pháp tả cảnh", "từ láy", "nghệ thuật đối"]
       }
     ]
   }

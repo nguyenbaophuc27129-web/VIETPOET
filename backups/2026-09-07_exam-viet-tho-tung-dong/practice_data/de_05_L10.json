@@ -8,59 +8,36 @@
         "question_id": "I.1",
         "question_text": "Văn bản trên thuộc phong cách ngôn ngữ gì?",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Phong cách ngôn ngữ chính luận"
-        ],
-        "barem_keywords": [
-          "chính luận"
-        ]
+        "detailed_rubric": ["Phong cách ngôn ngữ chính luận"],
+        "barem_keywords": ["chính luận"]
       },
       {
         "question_id": "I.2",
         "question_text": "Phương thức biểu đạt chính của văn bản là",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "nghị luận"
-        ],
-        "barem_keywords": [
-          "nghị luận"
-        ]
+        "detailed_rubric": ["nghị luận"],
+        "barem_keywords": ["nghị luận"]
       },
       {
         "question_id": "I.3",
         "question_text": "Câu chuyện Chu Văn An và anh em thái sử Bá được dẫn trong văn bản thuộc thao tác lập luận gì?",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Bình luận"
-        ],
-        "barem_keywords": [
-          "bình luận"
-        ]
+        "detailed_rubric": ["Bình luận"],
+        "barem_keywords": ["bình luận"]
       },
       {
         "question_id": "I.4",
         "question_text": "Ý nào nói không đúng về tác dụng của việc dẫn lại câu chuyện Chu Văn An và anh em thái sử Bá trong văn bản?",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Làm sáng tỏ cái nguy hiểm để cảnh báo kẻ sĩ nên tránh"
-        ],
-        "barem_keywords": [
-          "sáng tỏ nguy hiểm",
-          "cảnh báo"
-        ]
+        "detailed_rubric": ["Làm sáng tỏ cái nguy hiểm để cảnh báo kẻ sĩ nên tránh"],
+        "barem_keywords": ["sáng tỏ nguy hiểm", "cảnh báo"]
       },
       {
         "question_id": "I.5",
         "question_text": "Hội chứng \"bằng thật, người giả\" được tác giả đề cập trong văn bản được hiểu là",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "người dùng bằng thật nhưng trình độ kém cỏi, không tương xứng với bằng cấp"
-        ],
-        "barem_keywords": [
-          "bằng thật người giả",
-          "trình độ kém cỏi",
-          "không tương xứng"
-        ]
+        "detailed_rubric": ["người dùng bằng thật nhưng trình độ kém cỏi, không tương xứng với bằng cấp"],
+        "barem_keywords": ["bằng thật người giả", "trình độ kém cỏi", "không tương xứng"]
       },
       {
         "question_id": "I.6",
@@ -73,11 +50,7 @@
           "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
           "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
         ],
-        "barem_keywords": [
-          "xã hội trung thực",
-          "tôn trọng thực lực",
-          "giá trị thực"
-        ]
+        "barem_keywords": ["xã hội trung thực", "tôn trọng thực lực", "giá trị thực"]
       },
       {
         "question_id": "I.7",
@@ -92,11 +65,7 @@
           "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
           "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
         ],
-        "barem_keywords": [
-          "nói đúng sự thật",
-          "tố cáo cái sai",
-          "bảo vệ lẽ phải"
-        ]
+        "barem_keywords": ["nói đúng sự thật", "tố cáo cái sai", "bảo vệ lẽ phải"]
       },
       {
         "question_id": "I.8",
@@ -110,12 +79,7 @@
           "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
           "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
         ],
-        "barem_keywords": [
-          "sống trung thực",
-          "xây dựng xã hội văn minh",
-          "niềm tin",
-          "ngưỡng mộ"
-        ]
+        "barem_keywords": ["sống trung thực", "xây dựng xã hội văn minh", "niềm tin", "ngưỡng mộ"]
       }
     ]
   },
@@ -124,7 +88,7 @@
       {
         "question_id": "II.1",
         "question_type": "Nghị luận văn học",
-        "question_text": "Anh/ chị hãy viết một bài văn ngắn (khoảng 500 chữ) trình bày cảm nhận của bản thân về hình ảnh của người mẹ trong đoạn thơ sau: Mỗi lần nắng mới hắt bên song\nXao xác gà trưa gáy não nùng;\nLòng rượi buồn theo thời dĩ vãng.\nChấp chờn sống lại những ngày không.\nTôi nhớ Me tôi thuở thiếu thời,\nLúc Người còn sống, tôi lên mười;\nMỗi lần nắng mới reo ngoài nội,\nÁo đỏ Người đưa trước giậu phơi.\nHình dáng Me tôi chửa xóa mờ\nHãy còn mường tượng lúc vào ra\nNét cười đen nhánh sau tay áo\nTrong ánh trưa hè, trước giậu thưa. (Nắng mới, Lưu Trọng Lư)",
+        "question_text": "Anh/ chị hãy viết một bài văn ngắn (khoảng 500 chữ) trình bày cảm nhận của bản thân về hình ảnh của người mẹ trong đoạn thơ sau: Mỗi lần nắng mới hắt bên song / Xao xác gà trưa gáy não nùng; / Lòng rượi buồn theo thời dĩ vãng. / Chấp chờn sống lại những ngày không. / Tôi nhớ Me tôi thuở thiếu thời, / Lúc Người còn sống, tôi lên mười; / Mỗi lần nắng mới reo ngoài nội, / Áo đỏ Người đưa trước giậu phơi. / Hình dáng Me tôi chửa xóa mờ / Hãy còn mường tượng lúc vào ra / Nét cười đen nhánh sau tay áo / Trong ánh trưa hè, trước giậu thưa. (Nắng mới, Lưu Trọng Lư)",
         "max_score": 4.0,
         "detailed_rubric": [
           "Đảm bảo cấu trúc bài nghị luận: Mở bài nêu được vấn đề, thân bài triển khai được vấn đề, kết bài khái quát được vấn đề (0,25 điểm)",
@@ -148,18 +112,7 @@
           "Chính tả, ngữ pháp: Đảm bảo chuẩn chính tả, ngữ pháp Tiếng Việt. Không cho điểm nếu bài làm có quá nhiều lỗi chính tả, ngữ pháp (0,5 điểm)",
           "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề nghị luận; có cách diễn đạt mới mẻ (0,5 điểm)"
         ],
-        "barem_keywords": [
-          "nắng mới",
-          "lưu trọng lư",
-          "hình ảnh người mẹ",
-          "áo đỏ",
-          "nét cười đen nhánh",
-          "người phụ nữ việt nam",
-          "thể thơ bảy chữ",
-          "từ ngữ giản dị",
-          "ngắt nhịp linh hoạt",
-          "vần chân liền cách"
-        ]
+        "barem_keywords": ["nắng mới", "lưu trọng lư", "hình ảnh người mẹ", "áo đỏ", "nét cười đen nhánh", "người phụ nữ việt nam", "thể thơ bảy chữ", "từ ngữ giản dị", "ngắt nhịp linh hoạt", "vần chân liền cách"]
       }
     ]
   }

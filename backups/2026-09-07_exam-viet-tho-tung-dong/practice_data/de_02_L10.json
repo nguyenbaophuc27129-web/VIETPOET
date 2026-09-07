@@ -8,88 +8,50 @@
         "question_id": "I.1",
         "question_text": "Xác định thể loại của văn bản trên: A. Cổ tích B. Truyền thuyết C. Thần thoại D. Sử thi",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: C"
-        ],
-        "barem_keywords": [
-          "thần thoại"
-        ]
+        "detailed_rubric": ["Đáp án: C"],
+        "barem_keywords": ["thần thoại"]
       },
       {
         "question_id": "I.2",
         "question_text": "Phương thức biểu đạt chính của văn bản là: A. Nghị luận B. Tự sự C. Miêu tả D. Biểu cảm",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: B"
-        ],
-        "barem_keywords": [
-          "tự sự"
-        ]
+        "detailed_rubric": ["Đáp án: B"],
+        "barem_keywords": ["tự sự"]
       },
       {
         "question_id": "I.3",
         "question_text": "Theo văn bản, nhân vật thần Mưa có thân hình như thế nào? A. Thần có hình rồng, lúc thu nhỏ lại như con cá, lúc lại giãn người ra hàng nghìn trượng. B. Thân hình của thần rất to lớn, to lớn không thể nào ước lượng được C. Thân hình khổng lồ, chân bước một bước từ đỉnh núi này sang đỉnh núi nọ D. Thân hình kì quặc, không có đầu.",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: A"
-        ],
-        "barem_keywords": [
-          "hình rồng",
-          "thu nhỏ con cá",
-          "giãn người nghìn trượng"
-        ]
+        "detailed_rubric": ["Đáp án: A"],
+        "barem_keywords": ["hình rồng", "thu nhỏ con cá", "giãn người nghìn trượng"]
       },
       {
         "question_id": "I.4",
         "question_text": "Công việc của thần Mưa là: A. nằm yên lặng, không ăn uống, không ngủ. B. hô hấp, hít vào thì nước biển tuôn vào bụng, mỗi lần thở ra thì khối lượng nước đó ùa ra hết C. xuống hạ giới uống hút nước sông, nước biển no căng rồi bay đi, có thể rất xa, phun nước cho cả thế gian ăn uống, cày cấy và cây cỏ tốt tươi. D. nằm yên lặng nhưng đôi khi mệt mỏi, phải cựa quậy",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: C"
-        ],
-        "barem_keywords": [
-          "hạ giới",
-          "uống hút nước sông nước biển",
-          "phun nước",
-          "cày cấy",
-          "cây cỏ tốt tươi"
-        ]
+        "detailed_rubric": ["Đáp án: C"],
+        "barem_keywords": ["hạ giới", "uống hút nước sông nước biển", "phun nước", "cày cấy", "cây cỏ tốt tươi"]
       },
       {
         "question_id": "I.5",
         "question_text": "Chuyện \"Thần Mưa\" thể hiện nội dung nào dưới đây? A. Giải thích hiện tượng mưa. B. Ngợi ca thiên nhiên. C. Giải thích vì sao có biển. D. Biết ơn thần linh và con người.",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: A"
-        ],
-        "barem_keywords": [
-          "giải thích hiện tượng mưa"
-        ]
+        "detailed_rubric": ["Đáp án: A"],
+        "barem_keywords": ["giải thích hiện tượng mưa"]
       },
       {
         "question_id": "I.6",
         "question_text": "Truyện \"thần Mưa\" được kể từ ngôi thứ mấy? Tác giả là ai? A. Truyện được kể từ ngôi thứ hai, tác giả dân gian B. Truyện được kể từ ngôi thứ nhất, tác giả Bùi Mạnh Nhị C. Truyện được kể từ ngôi thứ ba, tác giả Bùi Mạnh Nhị D. Truyện được kể từ ngôi thứ ba, tác giả dân gian",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: D"
-        ],
-        "barem_keywords": [
-          "ngôi thứ ba",
-          "tác giả dân gian"
-        ]
+        "detailed_rubric": ["Đáp án: D"],
+        "barem_keywords": ["ngôi thứ ba", "tác giả dân gian"]
       },
       {
         "question_id": "I.7",
         "question_text": "Truyện \"Thần Mưa\" hấp dẫn người đọc bởi yếu tố nào sau đây: A. Ngắn gọn, cốt truyện đơn giản B. Chi tiết hoang đường, kì ảo C. Ngôn ngữ giản dị, gần gũi D. Tất cả các đáp án trên",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Đáp án: D"
-        ],
-        "barem_keywords": [
-          "ngắn gọn",
-          "cốt truyện đơn giản",
-          "hoang đường kì ảo",
-          "ngôn ngữ giản dị"
-        ]
+        "detailed_rubric": ["Đáp án: D"],
+        "barem_keywords": ["ngắn gọn", "cốt truyện đơn giản", "hoang đường kì ảo", "ngôn ngữ giản dị"]
       },
       {
         "question_id": "I.8",
@@ -103,13 +65,7 @@
           "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
           "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
         ],
-        "barem_keywords": [
-          "thần gió",
-          "thần thoại dân gian",
-          "thần thoại suy nguyên",
-          "cốt truyện đơn giản",
-          "yếu tố kì ảo"
-        ]
+        "barem_keywords": ["thần gió", "thần thoại dân gian", "thần thoại suy nguyên", "cốt truyện đơn giản", "yếu tố kì ảo"]
       },
       {
         "question_id": "I.9",
@@ -124,15 +80,7 @@
           "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
           "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
         ],
-        "barem_keywords": [
-          "hồn nhiên ngây thơ",
-          "tư duy thuở sơ khai",
-          "không còn hợp lý",
-          "khoa học",
-          "hơi nước",
-          "ngưng tụ",
-          "giọt nước"
-        ]
+        "barem_keywords": ["hồn nhiên ngây thơ", "tư duy thuở sơ khai", "không còn hợp lý", "khoa học", "hơi nước", "ngưng tụ", "giọt nước"]
       },
       {
         "question_id": "I.10",
@@ -146,11 +94,7 @@
           "Học sinh trả lời không thuyết phục hoặc không trả lời: 0,0 điểm",
           "Lưu ý: Học sinh có thể trả lời khác đáp án nhưng thuyết phục, diễn đạt nhiều cách miễn hợp lý là chấp nhận được"
         ],
-        "barem_keywords": [
-          "việc có ích",
-          "sáng suốt",
-          "nhầm lẫn tai hại"
-        ]
+        "barem_keywords": ["việc có ích", "sáng suốt", "nhầm lẫn tai hại"]
       }
     ]
   },
@@ -159,7 +103,7 @@
       {
         "question_id": "II.1",
         "question_type": "Nghị luận văn học",
-        "question_text": "Viết bài văn nghị luận cảm nhận đoạn thơ sau: …Thời gian chạy qua tóc mẹ\nMột màu trắng đến nôn nao\nLưng mẹ cứ còng dần xuống\nCho con ngày một thêm cao.\nMẹ ơi, trong lời mẹ hát\nCó cả cuộc đời hiện ra\nLời ru chắp con đôi cánh\nLớn rồi con sẽ bay xa. (Trong lời mẹ hát, Trương Nam Hương)",
+        "question_text": "Viết bài văn nghị luận cảm nhận đoạn thơ sau: …Thời gian chạy qua tóc mẹ / Một màu trắng đến nôn nao / Lưng mẹ cứ còng dần xuống / Cho con ngày một thêm cao. / Mẹ ơi, trong lời mẹ hát / Có cả cuộc đời hiện ra / Lời ru chắp con đôi cánh / Lớn rồi con sẽ bay xa. (Trong lời mẹ hát, Trương Nam Hương)",
         "max_score": 4.0,
         "detailed_rubric": [
           "Đảm bảo cấu trúc bài nghị luận: Mở bài nêu được vấn đề, thân bài triển khai được vấn đề, kết bài khái quát được vấn đề (0,5 điểm)",
@@ -177,20 +121,7 @@
           "Chính tả, ngữ pháp: Đảm bảo chuẩn chính tả, ngữ pháp Tiếng Việt. Không cho điểm nếu bài làm có quá nhiều lỗi chính tả, ngữ pháp (0,25 điểm)",
           "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề nghị luận; có cách diễn đạt mới mẻ (0,5 điểm)"
         ],
-        "barem_keywords": [
-          "thời gian",
-          "tóc mẹ trắng",
-          "lưng mẹ còng",
-          "lời ru",
-          "đôi cánh",
-          "bay xa",
-          "tình thương",
-          "bao dung",
-          "hi sinh",
-          "điểm tựa tinh thần",
-          "thể thơ 6 chữ",
-          "hàm súc"
-        ]
+        "barem_keywords": ["thời gian", "tóc mẹ trắng", "lưng mẹ còng", "lời ru", "đôi cánh", "bay xa", "tình thương", "bao dung", "hi sinh", "điểm tựa tinh thần", "thể thơ 6 chữ", "hàm súc"]
       }
     ]
   }

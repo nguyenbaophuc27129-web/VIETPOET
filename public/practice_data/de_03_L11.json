@@ -2,21 +2,33 @@
   "test_id": "de_03_L11_viet_thuong_khong_dau",
   "test_title": "Đề số 3 Lớp 11",
   "reading_section": {
-    "passage": "ANH ĐỘC THOẠI TRƯỚC CON ĐƯỜNG (Đoàn Trọng Hải) (1) Con đường lơ lửng chân trời / Con đường dài hơn số phận (2) Đã bao lần bóng anh mất hút / Đã bao lần tâm hồn anh bệnh tật / Đã bao lần anh ngã gục trên đường (3) Nhưng trước con đường / Bàn chân anh vẫn bước / Như trước cuộc đời / Anh mãi còn có em (4) Anh không sợ gai cuộc đời găm vào chân đau đớn / Anh không sợ nỗi cô đơn trong suốt cuộc hành trình đơn độc / Anh chỉ sợ gặp lại những dấu chân mìn / Những dấu chân quen đã bước trên con đường hôm trước / Những dấu chân mở ra những lối mòn / Những dấu chân làm tâm hồn anh rách rưới / Những dấu chân khép lại cánh cửa cuộc đời (5) Anh sẽ là anh khi bước trên đường / Những dấu chân đằng sau không còn dấu vết / Những dấu chân cỏ lấp đầy trổ hoa nước mắt / Phía trước anh là những bước lối ban mai (6) Anh sẽ là anh với những chuyến đi dài / Con đường trước anh là hơi thở / Anh yêu từng dấu chân mới mẻ / Như yêu cuộc đời và như đã yêu em. (Tạp chí Quân đội, số 1033, tháng 3-2024, trang 37)",
+    "passage": "ANH ĐỘC THOẠI TRƯỚC CON ĐƯỜNG (Đoàn Trọng Hải) (1) Con đường lơ lửng chân trời\nCon đường dài hơn số phận (2) Đã bao lần bóng anh mất hút\nĐã bao lần tâm hồn anh bệnh tật\nĐã bao lần anh ngã gục trên đường (3) Nhưng trước con đường\nBàn chân anh vẫn bước\nNhư trước cuộc đời\nAnh mãi còn có em (4) Anh không sợ gai cuộc đời găm vào chân đau đớn\nAnh không sợ nỗi cô đơn trong suốt cuộc hành trình đơn độc\nAnh chỉ sợ gặp lại những dấu chân mìn\nNhững dấu chân quen đã bước trên con đường hôm trước\nNhững dấu chân mở ra những lối mòn\nNhững dấu chân làm tâm hồn anh rách rưới\nNhững dấu chân khép lại cánh cửa cuộc đời (5) Anh sẽ là anh khi bước trên đường\nNhững dấu chân đằng sau không còn dấu vết\nNhững dấu chân cỏ lấp đầy trổ hoa nước mắt\nPhía trước anh là những bước lối ban mai (6) Anh sẽ là anh với những chuyến đi dài\nCon đường trước anh là hơi thở\nAnh yêu từng dấu chân mới mẻ\nNhư yêu cuộc đời và như đã yêu em. (Tạp chí Quân đội, số 1033, tháng 3-2024, trang 37)",
     "questions": [
       {
         "question_id": "I.1",
         "question_text": "Xác định nhân vật trữ tình của bài thơ trên.",
         "max_score": 0.5,
-        "detailed_rubric": ["Đáp án: Anh - người đi trên con đường đời"],
-        "barem_keywords": ["anh", "nhân vật trữ tình", "con đường đời"]
+        "detailed_rubric": [
+          "Đáp án: Anh - người đi trên con đường đời"
+        ],
+        "barem_keywords": [
+          "anh",
+          "nhân vật trữ tình",
+          "con đường đời"
+        ]
       },
       {
         "question_id": "I.2",
         "question_text": "Chỉ ra những hình ảnh diễn tả sự đau đớn, thất bại của nhân vật trữ tình ở đoạn thơ (2).",
         "max_score": 0.5,
-        "detailed_rubric": ["Bóng anh mất hút, tâm hồn anh bệnh tật, anh ngã gục trên đường"],
-        "barem_keywords": ["bóng mất hút", "tâm hồn bệnh tật", "ngã gục"]
+        "detailed_rubric": [
+          "Bóng anh mất hút, tâm hồn anh bệnh tật, anh ngã gục trên đường"
+        ],
+        "barem_keywords": [
+          "bóng mất hút",
+          "tâm hồn bệnh tật",
+          "ngã gục"
+        ]
       },
       {
         "question_id": "I.3",
@@ -27,7 +39,14 @@
           "Tác dụng: Nhấn mạnh sự khẳng định cái tôi, bản lĩnh của nhân vật trữ tình",
           "Tạo nhịp điệu mạnh mẽ, thể hiện quyết tâm vượt qua thử thách"
         ],
-        "barem_keywords": ["anh sẽ là anh", "lặp cấu trúc", "khẳng định cái tôi", "bản lĩnh", "nhịp điệu", "quyết tâm"]
+        "barem_keywords": [
+          "anh sẽ là anh",
+          "lặp cấu trúc",
+          "khẳng định cái tôi",
+          "bản lĩnh",
+          "nhịp điệu",
+          "quyết tâm"
+        ]
       },
       {
         "question_id": "I.4",
@@ -38,7 +57,15 @@
           "Con đường đại diện cho hành trình trưởng thành và phát triển của con người",
           "Con đường thể hiện những lựa chọn, quyết định trong đời mỗi người"
         ],
-        "barem_keywords": ["con đường", "biểu tượng", "cuộc đời", "thử thách", "hành trình", "trưởng thành", "lựa chọn"]
+        "barem_keywords": [
+          "con đường",
+          "biểu tượng",
+          "cuộc đời",
+          "thử thách",
+          "hành trình",
+          "trưởng thành",
+          "lựa chọn"
+        ]
       },
       {
         "question_id": "I.5",
@@ -49,7 +76,13 @@
           "Nếu đồng tình: Vì những dấu chân cũ là sai lầm, lỗi lầm trong quá khứ cần tránh lặp lại",
           "Nếu không đồng tình: Vì từ sai lầm ta học hỏi và trưởng thành, không cần sợ gặp lại"
         ],
-        "barem_keywords": ["dấu chân", "sai lầm", "quá khứ", "trưởng thành", "học hỏi"]
+        "barem_keywords": [
+          "dấu chân",
+          "sai lầm",
+          "quá khứ",
+          "trưởng thành",
+          "học hỏi"
+        ]
       }
     ]
   },
@@ -68,12 +101,19 @@
           "Chính tả, ngữ pháp đảm bảo",
           "Sáng tạo trong diễn đạt"
         ],
-        "barem_keywords": ["là chính mình", "bản lĩnh", "cái tôi", "quyết tâm", "trưởng thành", "khẳng định"]
+        "barem_keywords": [
+          "là chính mình",
+          "bản lĩnh",
+          "cái tôi",
+          "quyết tâm",
+          "trưởng thành",
+          "khẳng định"
+        ]
       },
       {
         "question_id": "II.2",
         "question_type": "Nghị luận văn học",
-        "question_text": "Viết bài văn nghị luận (khoảng 600 chữ) phân tích, đánh giá bài thơ Gửi mẹ (Lưu Quang Vũ): Trên đời chẳng ai lo cho ta bằng mẹ / Cũng chẳng ai ta làm khổ nhiều như mẹ của ta / Mẹ ơi nếu con được sống lại tuổi thơ / Con sẽ chẳng bao giờ mải chơi trốn học / Đứa con trai nhiều lỗi lầm ương ngạnh / Sẽ không lần nào làm mẹ xót xa. / Ước mẹ trẻ hoài như buổi mới gặp cha / Ước con được sống suốt đời bên mẹ / Mẹ muốn ăn cá thu con chẳng nề xuống bể / Chẳng ngại lên ngàn kiếm đọt măng mai / Nhưng xứ sở ta quân Mỹ tới rồi / Cùng bạn bè con lên đường đuổi giặc. / Mẹ vui vẻ gánh lấy phần khó nhọc / Việc cơ quan, việc Đảng, việc nhà / Đánh Pháp năm xưa, đánh Mỹ bây giờ / Quen vất vả, mẹ quản gì sương nắng. / Đêm nay con nằm rừng xa gió lạnh / Mẹ nghỉ chưa hay mẹ thức rồi? / Suốt một đời chưa có lúc nghỉ ngơi / Nghĩ thương mẹ, giận quân thù quá đỗi. / Lo trước mọi điều mẹ thường ít nói / Mắt tin yêu nhìn thấu tận đường xa / Mọi giả dối quanh co mọi tàn bạo hận thù / Đều nát vụn trước mắt hiền của mẹ. / Dầu cuộc đời là con đường dài thế / Con sẽ đi qua mọi đèo dốc chông gai / Bằng đôi chân của mẹ, mẹ ơi! / 1969 (Gió và tình yêu thổi trên đất nước tôi, Nhà xuất bản Hội Nhà văn, trang 123-124)",
+        "question_text": "Viết bài văn nghị luận (khoảng 600 chữ) phân tích, đánh giá bài thơ Gửi mẹ (Lưu Quang Vũ): Trên đời chẳng ai lo cho ta bằng mẹ\nCũng chẳng ai ta làm khổ nhiều như mẹ của ta\nMẹ ơi nếu con được sống lại tuổi thơ\nCon sẽ chẳng bao giờ mải chơi trốn học\nĐứa con trai nhiều lỗi lầm ương ngạnh\nSẽ không lần nào làm mẹ xót xa.\nƯớc mẹ trẻ hoài như buổi mới gặp cha\nƯớc con được sống suốt đời bên mẹ\nMẹ muốn ăn cá thu con chẳng nề xuống bể\nChẳng ngại lên ngàn kiếm đọt măng mai\nNhưng xứ sở ta quân Mỹ tới rồi\nCùng bạn bè con lên đường đuổi giặc.\nMẹ vui vẻ gánh lấy phần khó nhọc\nViệc cơ quan, việc Đảng, việc nhà\nĐánh Pháp năm xưa, đánh Mỹ bây giờ\nQuen vất vả, mẹ quản gì sương nắng.\nĐêm nay con nằm rừng xa gió lạnh\nMẹ nghỉ chưa hay mẹ thức rồi?\nSuốt một đời chưa có lúc nghỉ ngơi\nNghĩ thương mẹ, giận quân thù quá đỗi.\nLo trước mọi điều mẹ thường ít nói\nMắt tin yêu nhìn thấu tận đường xa\nMọi giả dối quanh co mọi tàn bạo hận thù\nĐều nát vụn trước mắt hiền của mẹ.\nDầu cuộc đời là con đường dài thế\nCon sẽ đi qua mọi đèo dốc chông gai\nBằng đôi chân của mẹ, mẹ ơi!\n1969 (Gió và tình yêu thổi trên đất nước tôi, Nhà xuất bản Hội Nhà văn, trang 123-124)",
         "max_score": 4.0,
         "detailed_rubric": [
           "Bảo đảm bố cục và dung lượng bài văn nghị luận khoảng 600 chữ",
@@ -86,7 +126,21 @@
           "Chính tả, ngữ pháp đảm bảo",
           "Sáng tạo trong diễn đạt"
         ],
-        "barem_keywords": ["gửi mẹ", "lưu quang vũ", "tình yêu mẹ", "hối lỗi", "hy sinh", "yêu nước", "cách mạng", "thể thơ tự do", "giọng điệu tâm tình", "xưng hô", "giản dị", "nhân văn", "nghệ thuật"]
+        "barem_keywords": [
+          "gửi mẹ",
+          "lưu quang vũ",
+          "tình yêu mẹ",
+          "hối lỗi",
+          "hy sinh",
+          "yêu nước",
+          "cách mạng",
+          "thể thơ tự do",
+          "giọng điệu tâm tình",
+          "xưng hô",
+          "giản dị",
+          "nhân văn",
+          "nghệ thuật"
+        ]
       }
     ]
   }

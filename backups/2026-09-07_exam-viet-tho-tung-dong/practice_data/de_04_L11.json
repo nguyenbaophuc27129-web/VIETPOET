@@ -2,73 +2,43 @@
   "test_id": "de_04_L11_viet_thuong_khong_dau",
   "test_title": "Đề số 4 Lớp 11",
   "reading_section": {
-    "passage": "ĐỒNG ĐỘI TÔI TRÊN ĐẢO THUYỀN CHÀI (Trần Đăng Khoa) Lều bạt chung chiêng giữa nước, giữa trời\nĐến một cái gai cũng không sống được\nSớm mở mắt, nắng lùa ngun ngút\nĐêm trong lều như trôi trong mây...\nNhững con chim kỳ quái thấy hơi người\nMừng rỡ quá, cánh bay như bão thốc\nChỉ tiếng cánh chim bay quanh lều nghe đã căng nhức óc\nSủi tăm dưới chân sàn, bóng mập lượn vòng quanh...\nĐảo tự giấu mình trong màu nước lam xanh\nCái giọt máu thiêng dưới ngầu ngầu bọt sóng\nTổ quốc ơi! Tiếng chúng tôi kêu lên mà mắt chúng tôi nhìn xuống\nBóng chúng tôi trùm khắp đảo Thuyền Chài.\nĐảo Thuyền Chài, 5 - 1978 (In trong Bên cửa sổ máy bay, NXB Tác phẩm mới, 1985)",
+    "passage": "ĐỒNG ĐỘI TÔI TRÊN ĐẢO THUYỀN CHÀI (Trần Đăng Khoa) Lều bạt chung chiêng giữa nước, giữa trời / Đến một cái gai cũng không sống được / Sớm mở mắt, nắng lùa ngun ngút / Đêm trong lều như trôi trong mây... / Những con chim kỳ quái thấy hơi người / Mừng rỡ quá, cánh bay như bão thốc / Chỉ tiếng cánh chim bay quanh lều nghe đã căng nhức óc / Sủi tăm dưới chân sàn, bóng mập lượn vòng quanh... / Đảo tự giấu mình trong màu nước lam xanh / Cái giọt máu thiêng dưới ngầu ngầu bọt sóng / Tổ quốc ơi! Tiếng chúng tôi kêu lên mà mắt chúng tôi nhìn xuống / Bóng chúng tôi trùm khắp đảo Thuyền Chài. / Đảo Thuyền Chài, 5 - 1978 (In trong Bên cửa sổ máy bay, NXB Tác phẩm mới, 1985)",
     "questions": [
       {
         "question_id": "I.1",
         "question_text": "Chỉ ra dấu hiệu xác định thể thơ của văn bản.",
         "max_score": 0.5,
-        "detailed_rubric": [
-          "Dấu hiệu: Thơ tự do với các câu thơ dài ngần khác nhau, ngắt nhịp linh hoạt"
-        ],
-        "barem_keywords": [
-          "tự do",
-          "câu thơ dài ngần",
-          "ngắt nhịp linh hoạt"
-        ]
+        "detailed_rubric": ["Dấu hiệu: Thơ tự do với các câu thơ dài ngần khác nhau, ngắt nhịp linh hoạt"],
+        "barem_keywords": ["tự do", "câu thơ dài ngần", "ngắt nhịp linh hoạt"]
       },
       {
         "question_id": "I.2",
         "question_text": "Nêu hai từ ngữ, hình ảnh miêu tả cuộc sống của những người lính đảo, trong khổ thơ thứ nhất.",
         "max_score": 1.0,
-        "detailed_rubric": [
-          "Lều bạt chung chiêng, nắng lùa ngun ngút, đêm trong lều, chim kỳ quái, sủi tăm, bóng mập"
-        ],
-        "barem_keywords": [
-          "lều bạt",
-          "chung chiêng",
-          "nắng lùa",
-          "chim kỳ quái",
-          "sủi tăm",
-          "bóng mập"
-        ]
+        "detailed_rubric": ["Lều bạt chung chiêng, nắng lùa ngun ngút, đêm trong lều, chim kỳ quái, sủi tăm, bóng mập"],
+        "barem_keywords": ["lều bạt", "chung chiêng", "nắng lùa", "chim kỳ quái", "sủi tăm", "bóng mập"]
       },
       {
         "question_id": "I.3",
-        "question_text": "Tác dụng biện pháp tu từ so sánh trong hai câu thơ: Sớm mở mắt, nắng lùa ngun ngút\nĐêm trong lều như trôi trong mây...",
+        "question_text": "Tác dụng biện pháp tu từ so sánh trong hai câu thơ: Sớm mở mắt, nắng lùa ngun ngút / Đêm trong lều như trôi trong mây...",
         "max_score": 1.0,
         "detailed_rubric": [
           "Biện pháp so sánh: \"Đêm trong lều như trôi trong mây\"",
           "Tác dụng: Gợi tả sự lơ lửng, chông chênh của cuộc sống lính đảo giữa biển khơi",
           "Tăng tính biểu cảm, làm nổi bật sự khắc nghiệt của môi trường sống"
         ],
-        "barem_keywords": [
-          "so sánh",
-          "trôi trong mây",
-          "lơ lửng",
-          "chông chênh",
-          "khắc nghiệt",
-          "biểu cảm"
-        ]
+        "barem_keywords": ["so sánh", "trôi trong mây", "lơ lửng", "chông chênh", "khắc nghiệt", "biểu cảm"]
       },
       {
         "question_id": "I.4",
-        "question_text": "Hình ảnh \"Cái giọt máu thiêng\" trong khổ thơ sau có ý nghĩa gì? Đảo tự giấu mình trong màu nước lam xanh\nCái giọt máu thiêng dưới ngầu ngầu bọt sóng\nTổ quốc ơi! Tiếng chúng tôi kêu lên mà mắt chúng tôi nhìn xuống\nBóng chúng tôi trùm khắp đảo Thuyền Chài.",
+        "question_text": "Hình ảnh \"Cái giọt máu thiêng\" trong khổ thơ sau có ý nghĩa gì? Đảo tự giấu mình trong màu nước lam xanh / Cái giọt máu thiêng dưới ngầu ngầu bọt sóng / Tổ quốc ơi! Tiếng chúng tôi kêu lên mà mắt chúng tôi nhìn xuống / Bóng chúng tôi trùm khắp đảo Thuyền Chài.",
         "max_score": 1.0,
         "detailed_rubric": [
           "Cái giọt máu thiêng là biểu tượng của sự hy sinh, máu xương của lính đảo vì Tổ quốc",
           "Thiêng: thể hiện tình yêu đất nước thiêng liêng, thiêng liêng",
           "Ý nghĩa: Ca ngợi sự hy sinh cao cả của người lính đảo trong công cuộc bảo vệ chủ quyền biển đảo"
         ],
-        "barem_keywords": [
-          "giọt máu thiêng",
-          "biểu tượng",
-          "hy sinh",
-          "tổ quốc",
-          "thiêng liêng",
-          "bảo vệ chủ quyền",
-          "biển đảo"
-        ]
+        "barem_keywords": ["giọt máu thiêng", "biểu tượng", "hy sinh", "tổ quốc", "thiêng liêng", "bảo vệ chủ quyền", "biển đảo"]
       },
       {
         "question_id": "I.5",
@@ -78,14 +48,7 @@
           "Thông điệp: Ca ngợi sự hy sinh, kiên cường của người lính đảo trong bảo vệ chủ quyền biển đảo Tổ quốc",
           "Bày tỏ tình yêu đất nước sâu sắc của nhà thơ"
         ],
-        "barem_keywords": [
-          "hy sinh",
-          "kiên cường",
-          "lính đảo",
-          "chủ quyền biển đảo",
-          "tổ quốc",
-          "tình yêu đất nước"
-        ]
+        "barem_keywords": ["hy sinh", "kiên cường", "lính đảo", "chủ quyền biển đảo", "tổ quốc", "tình yêu đất nước"]
       },
       {
         "question_id": "I.6",
@@ -95,12 +58,7 @@
           "Đồng tình (vì tình yêu Tổ quốc cần được thể hiện bằng hành động thực tế)",
           "Lí giải phù hợp"
         ],
-        "barem_keywords": [
-          "đồng tình",
-          "tình yêu tổ quốc",
-          "hành động cụ thể",
-          "việc làm nhỏ nhất"
-        ]
+        "barem_keywords": ["đồng tình", "tình yêu tổ quốc", "hành động cụ thể", "việc làm nhỏ nhất"]
       }
     ]
   },
@@ -122,22 +80,7 @@
           "Chính tả, ngữ pháp đảm bảo",
           "Sáng tạo trong diễn đạt"
         ],
-        "barem_keywords": [
-          "đồng đội tôi trên đảo thuyền chai",
-          "trần đăng khoa",
-          "chủ đề",
-          "nghệ thuật",
-          "lính đảo",
-          "kiên cường",
-          "yêu đất nước",
-          "hy sinh",
-          "chủ quyền",
-          "thể thơ tự do",
-          "hào hùng",
-          "xúc động",
-          "hiện thực",
-          "lãng mạn"
-        ]
+        "barem_keywords": ["đồng đội tôi trên đảo thuyền chai", "trần đăng khoa", "chủ đề", "nghệ thuật", "lính đảo", "kiên cường", "yêu đất nước", "hy sinh", "chủ quyền", "thể thơ tự do", "hào hùng", "xúc động", "hiện thực", "lãng mạn"]
       }
     ]
   }

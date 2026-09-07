@@ -13,11 +13,7 @@
           "Trả lời được như đáp án hoặc tương đương: 0,75 điểm",
           "Trả lời sai/ Không trả lời: 0 điểm"
         ],
-        "barem_keywords": [
-          "sự kiên trì",
-          "vấn đề chính",
-          "văn bản"
-        ]
+        "barem_keywords": ["sự kiên trì", "vấn đề chính", "văn bản"]
       },
       {
         "question_id": "I.2",
@@ -28,20 +24,7 @@
           "Trả lời được như đáp án: 0,75 điểm",
           "Trả lời sai/ Không trả lời: 0 điểm"
         ],
-        "barem_keywords": [
-          "suy nghĩ tích cực",
-          "chịu trách nhiệm",
-          "cư xử tốt",
-          "chăm chỉ",
-          "nhà cách tân",
-          "dậy sớm",
-          "mục tiêu",
-          "sự thật",
-          "kỷ luật",
-          "tiết kiệm",
-          "sức khỏe",
-          "gia đình"
-        ]
+        "barem_keywords": ["suy nghĩ tích cực", "chịu trách nhiệm", "cư xử tốt", "chăm chỉ", "nhà cách tân", "dậy sớm", "mục tiêu", "sự thật", "kỷ luật", "tiết kiệm", "sức khỏe", "gia đình"]
       },
       {
         "question_id": "I.3",
@@ -54,12 +37,7 @@
           "Học sinh trả lời tương đương như đáp án: 0,75 điểm",
           "Học sinh làm sai hoặc không làm: 0,0 điểm"
         ],
-        "barem_keywords": [
-          "phép lặp",
-          "thành công",
-          "nối câu nối ý",
-          "tăng tính liên kết"
-        ]
+        "barem_keywords": ["phép lặp", "thành công", "nối câu nối ý", "tăng tính liên kết"]
       },
       {
         "question_id": "I.4",
@@ -71,13 +49,7 @@
           "Học sinh trả lời có ý nhưng chưa rõ ràng: 0,5 điểm",
           "Học sinh làm sai hoặc không làm: 0,0 điểm"
         ],
-        "barem_keywords": [
-          "nỗ lực rèn luyện",
-          "quyết tâm bền bỉ",
-          "mục tiêu",
-          "vượt qua giới hạn",
-          "kết quả tốt đẹp"
-        ]
+        "barem_keywords": ["nỗ lực rèn luyện", "quyết tâm bền bỉ", "mục tiêu", "vượt qua giới hạn", "kết quả tốt đẹp"]
       },
       {
         "question_id": "I.5",
@@ -92,13 +64,7 @@
           "Học sinh làm sai hoặc không làm: 0,0 điểm",
           "HS có thể diễn đạt theo cách khác miễn hợp lý"
         ],
-        "barem_keywords": [
-          "bài học",
-          "kiên trì",
-          "mục tiêu",
-          "thành công",
-          "nỗ lực"
-        ]
+        "barem_keywords": ["bài học", "kiên trì", "mục tiêu", "thành công", "nỗ lực"]
       }
     ]
   },
@@ -120,22 +86,12 @@
           "Diễn đạt: Đảm bảo chuẩn chính tả, dùng từ, ngữ pháp tiếng Việt, liên kết câu trong đoạn văn (0,25 điểm)",
           "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề nghị luận; có cách diễn đạt mới mẻ (0,25 điểm)"
         ],
-        "barem_keywords": [
-          "tinh thần vượt khó",
-          "đối mặt khó khăn",
-          "thái độ sống dũng cảm",
-          "vươn lên",
-          "thành công",
-          "năng lực sở trường",
-          "hoàn thiện",
-          "lan tỏa",
-          "thái độ tích cực"
-        ]
+        "barem_keywords": ["tinh thần vượt khó", "đối mặt khó khăn", "thái độ sống dũng cảm", "vươn lên", "thành công", "năng lực sở trường", "hoàn thiện", "lan tỏa", "thái độ tích cực"]
       },
       {
         "question_id": "II.2",
         "question_type": "Nghị luận văn học",
-        "question_text": "Viết bài văn nghị luận (khoảng 600 chữ) phân tích, đánh giá nội dung và nghệ thuật của bài thơ Buổi gặt chiều của Anh Thơ. Mặt trời lặn, mây còn tươi ráng đỏ,\nCò từng đàn bay trắng cánh đồng xa.\nTiếng diều sáo véo von cùng tiếng gió,\nHoà nhịp nhàng giọng ả hái dâu ca.\nTrong đồng lúa tươi vàng bông rủ chín,\nNhững trai tơ từng bọn gặt vui cười.\nCùng trong lúc ông già che nón kín,\nNgồi đầu bờ hút thuốc thổi từng hơi.\nTrên đê trắng, chỏm đầu phơ phất gió,\nLũ cu con mê mải chạy theo diều.\nBỏ mặc cả trâu bò nằm vệ cỏ,\nMắt mơ màng trong gợn gió hiu hiu.",
+        "question_text": "Viết bài văn nghị luận (khoảng 600 chữ) phân tích, đánh giá nội dung và nghệ thuật của bài thơ Buổi gặt chiều của Anh Thơ. Mặt trời lặn, mây còn tươi ráng đỏ, Cò từng đàn bay trắng cánh đồng xa. Tiếng diều sáo véo von cùng tiếng gió, Hoà nhịp nhàng giọng ả hái dâu ca. Trong đồng lúa tươi vàng bông rủ chín, Những trai tơ từng bọn gặt vui cười. Cùng trong lúc ông già che nón kín, Ngồi đầu bờ hút thuốc thổi từng hơi. Trên đê trắng, chỏm đầu phơ phất gió, Lũ cu con mê mải chạy theo diều. Bỏ mặc cả trâu bò nằm vệ cỏ, Mắt mơ màng trong gợn gió hiu hiu.",
         "max_score": 4.0,
         "detailed_rubric": [
           "Bảo đảm bố cục và dung lượng của bài văn nghị luận: Bảo đảm yêu cầu về bố cục và dung lượng (khoảng 600 chữ) của bài văn (0,25 điểm)",
@@ -151,24 +107,7 @@
           "Diễn đạt: Đảm bảo chuẩn chính tả, dùng từ, ngữ pháp tiếng Việt, liên kết văn bản (0,25 điểm)",
           "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề nghị luận; có cách diễn đạt mới mẻ (0,5 điểm)"
         ],
-        "barem_keywords": [
-          "buổi gặt chiều",
-          "anh thơ",
-          "bức tranh thiên nhiên",
-          "yên ả thanh bình",
-          "mặt trời lặn",
-          "cò trắng",
-          "đàn diều",
-          "trâu bò",
-          "lao động vui tươi",
-          "thể thơ 8 chữ",
-          "ngắt nhịp 3/5",
-          "từ láy",
-          "nhân hóa",
-          "vắt dòng",
-          "bút pháp tả thực",
-          "phong trào thơ mới"
-        ]
+        "barem_keywords": ["buổi gặt chiều", "anh thơ", "bức tranh thiên nhiên", "yên ả thanh bình", "mặt trời lặn", "cò trắng", "đàn diều", "trâu bò", "lao động vui tươi", "thể thơ 8 chữ", "ngắt nhịp 3/5", "từ láy", "nhân hóa", "vắt dòng", "bút pháp tả thực", "phong trào thơ mới"]
       }
     ]
   }

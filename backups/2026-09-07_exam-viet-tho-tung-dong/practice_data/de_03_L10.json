@@ -13,9 +13,7 @@
           "Học sinh trả lời như đáp án: 0,5 điểm",
           "Học sinh không trả lời được không có điểm"
         ],
-        "barem_keywords": [
-          "tự sự"
-        ]
+        "barem_keywords": ["tự sự"]
       },
       {
         "question_id": "I.2",
@@ -26,11 +24,7 @@
           "Học sinh trả lời được như trong đáp án: 0,5 điểm",
           "Học sinh không trả lời được không có điểm"
         ],
-        "barem_keywords": [
-          "mang lửa",
-          "tiêu diệt",
-          "sánh ngang thần thánh"
-        ]
+        "barem_keywords": ["mang lửa", "tiêu diệt", "sánh ngang thần thánh"]
       },
       {
         "question_id": "I.3",
@@ -49,15 +43,7 @@
           "Học sinh trả lời được 02 ý: 0,5 điểm",
           "Học sinh trả lời được 01 ý: 0.25 điểm"
         ],
-        "barem_keywords": [
-          "dớt tạo ra loài người",
-          "prômêtê mang lửa",
-          "sánh ngang thần linh",
-          "păngđo",
-          "trừng phạt",
-          "hêraclet",
-          "tự do"
-        ]
+        "barem_keywords": ["dớt tạo ra loài người", "prômêtê mang lửa", "sánh ngang thần linh", "păngđo", "trừng phạt", "hêraclet", "tự do"]
       },
       {
         "question_id": "I.4",
@@ -66,12 +52,7 @@
         "detailed_rubric": [
           "Thần prômêtê mang lửa xuống cho loài người bằng cách: chàng châm ngọn lửa, giấu kín trong ruột một loại cây sậy, rồi chạy như bay xuống trần thế"
         ],
-        "barem_keywords": [
-          "châm ngọn lửa",
-          "giấu kín",
-          "cây sậy",
-          "trần thế"
-        ]
+        "barem_keywords": ["châm ngọn lửa", "giấu kín", "cây sậy", "trần thế"]
       },
       {
         "question_id": "I.5",
@@ -87,16 +68,7 @@
           "Học sinh trả lời1/2 ý: 0,5 điểm",
           "Học sinh không trả lời được không có điểm"
         ],
-        "barem_keywords": [
-          "ăn cắp ngọn lửa",
-          "thiên đình",
-          "đóng đinh",
-          "đại bàng mổ bụng",
-          "buồng gan mọc ra",
-          "lí giải thiên nhiên",
-          "trí tưởng tượng",
-          "thần thánh hóa"
-        ]
+        "barem_keywords": ["ăn cắp ngọn lửa", "thiên đình", "đóng đinh", "đại bàng mổ bụng", "buồng gan mọc ra", "lí giải thiên nhiên", "trí tưởng tượng", "thần thánh hóa"]
       },
       {
         "question_id": "I.6",
@@ -108,11 +80,7 @@
           "Học sinh trả lời1/2 ý: 0,5 điểm",
           "Học sinh có cách lí giải hợp lí khác: Gv linh hoạt cho điểm"
         ],
-        "barem_keywords": [
-          "nguồn gốc ngọn lửa",
-          "vai trò ngọn lửa",
-          "cuộc sống con người"
-        ]
+        "barem_keywords": ["nguồn gốc ngọn lửa", "vai trò ngọn lửa", "cuộc sống con người"]
       },
       {
         "question_id": "I.7",
@@ -125,15 +93,7 @@
           "Học sinh trả lời được 1 ý: 0.25 điểm",
           "Học sinh không trả lời được không có điểm"
         ],
-        "barem_keywords": [
-          "yêu thương",
-          "trí tuệ",
-          "nhân ái",
-          "dũng cảm",
-          "gan dạ",
-          "hiên ngang",
-          "bất khuất"
-        ]
+        "barem_keywords": ["yêu thương", "trí tuệ", "nhân ái", "dũng cảm", "gan dạ", "hiên ngang", "bất khuất"]
       },
       {
         "question_id": "I.8",
@@ -146,12 +106,7 @@
           "Học sinh hiểu nhưng lí giải chưa rõ ràng, chưa đầy đủ: 0.5 điểm",
           "Học sinh trả lời chung chung, chưa thuyết phục: 0.25 điểm"
         ],
-        "barem_keywords": [
-          "chi tiết",
-          "lí giải hợp lí",
-          "lập luận chặt chẽ",
-          "thuyết phục"
-        ]
+        "barem_keywords": ["chi tiết", "lí giải hợp lí", "lập luận chặt chẽ", "thuyết phục"]
       }
     ]
   },
@@ -160,7 +115,7 @@
       {
         "question_id": "II.1",
         "question_type": "Nghị luận văn học",
-        "question_text": "Cảm nhận về vẻ đẹp của đoạn thơ sau: \"Mưa đổ bụi êm êm trên bến vắng,\nĐò biếng lười nằm mặc nước sông trôi;\nQuán tranh đứng im lìm trong vắng lặng\nBên chòm xoan hoa tím rụng tơi bời.\" (Chiều Xuân, Anh Thơ, trích Những nhà thơ mới Việt Nam, NXB, Hội nhà văn 2014)",
+        "question_text": "Cảm nhận về vẻ đẹp của đoạn thơ sau: \"Mưa đổ bụi êm êm trên bến vắng, / Đò biếng lười nằm mặc nước sông trôi; / Quán tranh đứng im lìm trong vắng lặng / Bên chòm xoan hoa tím rụng tơi bời.'' (Chiều Xuân, Anh Thơ, trích Những nhà thơ mới Việt Nam, NXB, Hội nhà văn 2014)",
         "max_score": 4.0,
         "detailed_rubric": [
           "Đảm bảo cấu trúc bài nghị luận: Mở bài nêu được vấn đề, Thân bài triển khai được vấn đề, Kết bài khái quát được vấn đề (0,25 điểm)",
@@ -181,20 +136,7 @@
           "Học sinh đáp ứng được 2 yêu cầu trở lên: 0,5 điểm",
           "Học sinh đáp ứng được 1 yêu cầu: 0,25 điểm (0,25 điểm)"
         ],
-        "barem_keywords": [
-          "chiều xuân",
-          "anh thơ",
-          "mưa đổ bụi",
-          "bến vắng",
-          "đò biếng lười",
-          "quán tranh",
-          "chòm xoan hoa tím",
-          "tĩnh lặng yên bình",
-          "nhân hóa",
-          "gợi hình gợi cảm",
-          "so sánh",
-          "giọng điệu vui tươi"
-        ]
+        "barem_keywords": ["chiều xuân", "anh thơ", "mưa đổ bụi", "bến vắng", "đò biếng lười", "quán tranh", "chòm xoan hoa tím", "tĩnh lặng yên bình", "nhân hóa", "gợi hình gợi cảm", "so sánh", "giọng điệu vui tươi"]
       }
     ]
   }

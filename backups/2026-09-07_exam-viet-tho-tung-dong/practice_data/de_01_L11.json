@@ -14,12 +14,7 @@
           "- HS trả lời đúng nội dung đạt: 0,5 điểm",
           "- HS trả lời thiếu ý trừ 0,25 điểm"
         ],
-        "barem_keywords": [
-          "biến đổi khí hậu",
-          "tài nguyên cạn kiệt",
-          "môi trường ô nhiễm",
-          "nghề nghiệp biến mất"
-        ]
+        "barem_keywords": ["biến đổi khí hậu", "tài nguyên cạn kiệt", "môi trường ô nhiễm", "nghề nghiệp biến mất"]
       },
       {
         "question_id": "I.2",
@@ -31,11 +26,7 @@
           "- HS trả lời đúng nội dung đạt 0,5 điểm",
           "- HS thiếu 01 thao tác trừ 0,25 điểm"
         ],
-        "barem_keywords": [
-          "phân tích",
-          "chứng minh",
-          "bình luận"
-        ]
+        "barem_keywords": ["phân tích", "chứng minh", "bình luận"]
       },
       {
         "question_id": "I.3",
@@ -48,14 +39,7 @@
           "- HS trả lời đúng nội dung đạt 1,0 điểm",
           "- HS có cách diễn đạt tương đương vẫn đạt điểm tối đa"
         ],
-        "barem_keywords": [
-          "hoàn toàn chính xác",
-          "thế giới biến đổi",
-          "nghề nghiệp mới",
-          "công nghệ 4.0",
-          "rô-bốt thay thế",
-          "thích ứng"
-        ]
+        "barem_keywords": ["hoàn toàn chính xác", "thế giới biến đổi", "nghề nghiệp mới", "công nghệ 4.0", "rô-bốt thay thế", "thích ứng"]
       },
       {
         "question_id": "I.4",
@@ -70,14 +54,7 @@
           "- HS trả lời đúng mỗi tác dụng đạt 0,25 điểm",
           "- HS có cách diễn đạt tương đương vẫn đạt điểm tối đa"
         ],
-        "barem_keywords": [
-          "phép lặp cấu trúc",
-          "đối mặt với",
-          "nhấn mạnh vai trò",
-          "tạo âm hưởng nhịp điệu",
-          "sinh động hấp dẫn",
-          "sức thuyết phục"
-        ]
+        "barem_keywords": ["phép lặp cấu trúc", "đối mặt với", "nhấn mạnh vai trò", "tạo âm hưởng nhịp điệu", "sinh động hấp dẫn", "sức thuyết phục"]
       },
       {
         "question_id": "I.5",
@@ -90,13 +67,7 @@
           "- HS nêu được thông điệp đạt 0,5 điểm",
           "- HS lí giải phù hợp đạt 0,5 điểm"
         ],
-        "barem_keywords": [
-          "định hướng nghề nghiệp",
-          "kiến thức kỹ năng",
-          "tụt hậu",
-          "công nghệ 4.0",
-          "dũng cảm học hỏi"
-        ]
+        "barem_keywords": ["định hướng nghề nghiệp", "kiến thức kỹ năng", "tụt hậu", "công nghệ 4.0", "dũng cảm học hỏi"]
       }
     ]
   },
@@ -119,18 +90,7 @@
           "Diễn đạt: Đảm bảo chuẩn chính tả, dùng từ, ngữ pháp tiếng Việt, liên kết câu trong đoạn văn. Không cho điểm nếu bài làm mắc quá nhiều lỗi chính tả, ngữ pháp (0,25 điểm)",
           "Sáng tạo: Thể hiện suy nghĩ sâu sắc về vấn đề cần nghị luận, có cách diễn đạt mới mẻ. HS huy động được kiến thức và trải nghiệm của bản thân để bàn luận về vấn đề cần nghị luận; có cách nhìn riêng, mới mẻ về vấn đề nghị luận; có sáng tạo trong viết câu, dựng đoạn, làm cho lời văn có giọng điệu, hình ảnh. Đáp ứng được 02 yêu cầu trở lên: 0,25 điểm (0,25 điểm)"
         ],
-        "barem_keywords": [
-          "tuổi trẻ",
-          "tụt hậu",
-          "công nghệ 4.0",
-          "ai",
-          "học hỏi kiến thức",
-          "tư duy sáng tạo",
-          "phản biện",
-          "kỹ năng thích ứng",
-          "lối sống lành mạnh",
-          "trách nhiệm"
-        ]
+        "barem_keywords": ["tuổi trẻ", "tụt hậu", "công nghệ 4.0", "ai", "học hỏi kiến thức", "tư duy sáng tạo", "phản biện", "kỹ năng thích ứng", "lối sống lành mạnh", "trách nhiệm"]
       },
       {
         "question_id": "II.2",
@@ -152,20 +112,7 @@
           "Diễn đạt: Đảm bảo chuẩn chính tả, dùng từ, ngữ pháp tiếng Việt, liên kết văn bản. Không cho điểm nếu bài làm mắc quá nhiều lỗi chính tả, ngữ pháp (0,25 điểm)",
           "Sáng tạo: Thể hiện suy nghĩ sâu sắc về đối tượng thuyết minh; có cách diễn đạt mới mẻ. HS huy động được kiến thức và trải nghiệm của bản thân để trình bày, có cách nhìn riêng, mới mẻ về vấn đề được thuyết minh; có sáng tạo trong viết câu, dựng đoạn, làm cho lời văn có giọng điệu, hình ảnh. Đáp ứng được 02 yêu cầu trở lên: 0,5 điểm (0,5 điểm)"
         ],
-        "barem_keywords": [
-          "hồ xuân hương",
-          "bánh trôi nước",
-          "bà Chúa thơ nôm",
-          "thất ngôn tứ tuyệt",
-          "đường luật",
-          "vịnh vật",
-          "giá trị nhân đạo",
-          "ẩn dụ",
-          "đối thanh đối ý",
-          "nghĩa đen nghĩa bóng",
-          "nỗi cảm thông",
-          "người phụ nữ"
-        ]
+        "barem_keywords": ["hồ xuân hương", "bánh trôi nước", "bà Chúa thơ nôm", "thất ngôn tứ tuyệt", "đường luật", "vịnh vật", "giá trị nhân đạo", "ẩn dụ", "đối thanh đối ý", "nghĩa đen nghĩa bóng", "nỗi cảm thông", "người phụ nữ"]
       }
     ]
   }

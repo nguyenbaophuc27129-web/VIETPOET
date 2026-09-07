@@ -3,12 +3,6 @@
  * VIET-POET TEST/PRACTICE with Reading & Writing sections
  */
 import React, { useState, useEffect } from 'react';
-import { gradeQuestion } from '@/lib/baremGrader';
-
-/** "2.0" -> "2", "2.50" -> "2.5" — hiển thị điểm gọn */
-function trimScore(n: number): string {
-  return n.toFixed(2).replace(/\.00$/, '');
-}
 
 interface PracticePageProps {
   poems: any[];
@@ -38,6 +32,19 @@ interface PracticeTest {
     prompt?: string;
     questions: PracticeQuestion[];
   };
+}
+
+/**
+ * Chuẩn hoá chuỗi tiếng Việt: viết thường + bỏ dấu + đ→d.
+ * Mục đích: học sinh gõ câu trả lời KHÔNG DẤU vẫn được chấm đúng
+ * (trước đây "buoi gat chieu" không khớp keyword "Buổi gặt chiều" → bị trượt oan).
+ */
+function normVN(s: string): string {
+  return s
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g, 'd');
 }
 
 export default function PracticePage({ poems, loading }: PracticePageProps) {
@@ -119,55 +126,37 @@ export default function PracticePage({ poems, loading }: PracticePageProps) {
         ? test.reading_section.questions
         : test.writing_section.questions;
 
-      // Chấm BAREM THEO Ý: mỗi ý đúng được tính điểm một phần theo max_score,
-      // không yêu cầu viết đúng nguyên văn (xem src/lib/baremGrader.ts)
       let correctCount = 0;
-      let earnedPoints = 0;
-      let maxPoints = 0;
-      let totalY = 0;
-      let matchedYTotal = 0;
       const feedbackParts: string[] = [];
 
       for (const question of questions) {
-        const g = gradeQuestion(question.barem_keywords || [], userAnswers[question.question_id] || '');
-        const maxScore = Number(question.max_score) || 0;
+        // So khớp trên bản đã chuẩn hoá (bỏ dấu) — gõ có dấu hay không dấu đều được chấm
+        const userAnswer = normVN(userAnswers[question.question_id] || '');
+        const keywords = question.barem_keywords || [];
+        const normKeywords = keywords.map((k: string) => normVN(k));
 
-        maxPoints += maxScore;
-        earnedPoints += maxScore * g.ratio;
-        totalY += g.totalCount;
-        matchedYTotal += g.matchedCount;
-        if (g.ratio >= 0.5) correctCount++;
+        const matchedKeywords = normKeywords.filter((k: string) => userAnswer.includes(k));
 
-        const diem = trimScore(Math.round(maxScore * g.ratio * 100) / 100);
-        const rubricNote = question.detailed_rubric?.[0] ? `\n   Gợi ý: ${question.detailed_rubric[0]}` : '';
+        const keywordMatchRate = keywords.length > 0 ? matchedKeywords.length / keywords.length : 0;
+        const isCorrect = keywordMatchRate >= 0.5;
+        const matchInfo = `khớp ${matchedKeywords.length}/${keywords.length} ý barem`;
 
-        if (g.ratio >= 0.5) {
-          feedbackParts.push(
-            `✅ Câu ${question.question_id}: ${diem}/${trimScore(maxScore)} điểm — đạt ${g.matchedCount}/${g.totalCount} ý barem.` +
-            `\n   Ý đạt: ${g.matchedY.join('; ')}` +
-            (g.missingY.length > 0 ? `\n   Ý chưa nêu: ${g.missingY.join('; ')}` : '') +
-            rubricNote
-          );
-        } else if (g.matchedCount > 0) {
-          feedbackParts.push(
-            `⚠️ Câu ${question.question_id}: ${diem}/${trimScore(maxScore)} điểm — mới đạt ${g.matchedCount}/${g.totalCount} ý, cần viết sâu hơn.` +
-            `\n   Ý đạt: ${g.matchedY.join('; ')}` +
-            `\n   Ý còn thiếu: ${g.missingY.join('; ')}` +
-            rubricNote
-          );
+        if (isCorrect) {
+          correctCount++;
+          feedbackParts.push(`✅ Câu ${question.question_id}: Đạt yêu cầu (${matchInfo}). ${question.detailed_rubric?.[0] || ''}`);
         } else {
-          feedbackParts.push(
-            `❌ Câu ${question.question_id}: 0/${trimScore(maxScore)} điểm — chưa có ý barem nào trong bài làm.` +
-            `\n   Cần đạt các ý: ${g.missingY.join('; ')}` +
-            rubricNote
-          );
+          const missingList = normKeywords
+            .map((k: string, i: number) => (userAnswer.includes(k) ? null : keywords[i]))
+            .filter(Boolean)
+            .join(', ');
+          feedbackParts.push(`❌ Câu ${question.question_id}: Chưa đạt (${matchInfo}) — còn thiếu ý: ${missingList}. ${question.detailed_rubric?.[0] || ''}`);
         }
       }
 
-      const score = maxPoints > 0 ? Math.round((earnedPoints / maxPoints) * 100) : 0;
+      const score = Math.round((correctCount / questions.length) * 100);
 
       let feedback = `BÀI LÀM CỦA BẠN - ${test.test_id.toUpperCase()}\n\n`;
-      feedback += `Điểm số: ${score}/100 — đạt ${matchedYTotal}/${totalY} ý barem (${correctCount}/${questions.length} câu đạt từ 50% ý)\n\n`;
+      feedback += `Điểm số: ${score}/100 (${correctCount}/${questions.length} câu đúng)\n\n`;
       feedback += feedbackParts.join('\n\n');
 
       if (score >= 80) {
@@ -342,10 +331,10 @@ export default function PracticePage({ poems, loading }: PracticePageProps) {
                   {gradingResult.score}%
                 </div>
                 <p className="text-lg mb-2">
-                  Số câu đạt (≥50% ý barem): {gradingResult.correct_count}/{gradingResult.total_questions}
+                  Số câu đúng: {gradingResult.correct_count}/{gradingResult.total_questions}
                 </p>
                 <p className="text-sm mb-6 opacity-70">
-                  🤖 Phương pháp chấm: barem theo ý — mỗi ý đúng được tính điểm tương ứng, không cần nguyên văn câu chữ (khử dấu tiếng Việt + nhận diện từ đồng nghĩa cơ bản), chấm tức thì, 100% offline
+                  🤖 Phương pháp chấm: so khớp barem từ khóa (khử dấu tiếng Việt) — chấm tức thì, hoạt động 100% offline
                 </p>
               </div>
 
